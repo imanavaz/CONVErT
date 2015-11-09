@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EvaluationDataPoint>
+  <Name>Q1</Name>
+  <CategoryName>Frequency</CategoryName>
+  <LikertPoint Name="1">
+    <Percentage>30</Percentage>
+	<Colour>Red</Colour>
+  </LikertPoint>
+  <LikertPoint Name="2">
+    <Percentage>30</Percentage>
+	<Colour>Orange</Colour>
+  </LikertPoint>
+  <LikertPoint Name="3">
+    <Percentage>30</Percentage>
+	<Colour>Yellow</Colour>
+  </LikertPoint>
+  <LikertPoint Name="4">
+    <Percentage>30</Percentage>
+	<Colour>LightGreen</Colour>
+  </LikertPoint>
+  <LikertPoint Name="5">
+    <Percentage>30</Percentage>
+	<Colour>Green</Colour>
+  </LikertPoint>
+</EvaluationDataPoint>

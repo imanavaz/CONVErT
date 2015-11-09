@@ -1,0 +1,45 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Vertical" Background="White">
+    <StackPanel Orientation="Horizontal">
+    <Label Foreground="Navy">
+		<Label.Content>public</Label.Content>
+    </Label>
+    <Label Content=" class " Foreground="Navy" />
+    <Label Foreground="LightBlue">
+        <Label.Content>MyClass</Label.Content>
+    </Label>
+    </StackPanel>
+    <Label>{</Label>
+    <StackPanel Orientation="Vertical">
+    </StackPanel>
+    <Label />
+	<StackPanel Orientation="Vertical">
+    </StackPanel>
+    <Label>}</Label>
+</StackPanel>
+
+<JavaClass>
+	<Access>public</Access>
+	<name>class</name>
+	<properties>props</properties>
+	<methods>methods</methods>
+</JavaClass>
+
+<StackPanel>
+    <StackPanel Orientation="Horizontal">
+    <Label Foreground="Navy">
+		<Label.Content linkto="Access">public</Label.Content>
+    </Label>
+    <Label Content=" class " Foreground="Navy" />
+    <Label Foreground="LightBlue">
+        <Label.Content linkto="name">MyClass</Label.Content>
+    </Label>
+    </StackPanel>
+    <Label>{</Label>
+    <StackPanel Orientation="Vertical" callfor="properties" />
+    <Label />
+	<StackPanel Orientation="Vertical" callfor="methods" />
+    <Label>}</Label>
+</StackPanel>
+
+
+

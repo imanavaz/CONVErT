@@ -1,0 +1,31 @@
+<CompetencyChartData>
+    <ChartName>Name</ChartName>
+    <ScaleName>Scale</ScaleName>
+    <CompetencyBars>
+		<CompetencyBarData>
+			<Target>50</Target>
+			<StudentAchievement>25</StudentAchievement>
+			<GroupAverage>20</GroupAverage>
+			<StudentName>Student 1</StudentName>
+		</CompetencyBarData>
+			<CompetencyBarData>
+			<Target>50</Target>
+			<StudentAchievement>50</StudentAchievement>
+			<GroupAverage>20</GroupAverage>
+			<StudentName>Student 2</StudentName>
+		</CompetencyBarData>
+		<CompetencyBarData>
+			<Target>50</Target>
+			<StudentAchievement>30</StudentAchievement>
+			<GroupAverage>20</GroupAverage>
+			<StudentName>Student 3258</StudentName>
+		</CompetencyBarData>
+		<CompetencyBarData>
+			<Target>50</Target>
+			<StudentAchievement>15</StudentAchievement>
+			<GroupAverage>20</GroupAverage>
+			<StudentName>Student 4</StudentName>
+		</CompetencyBarData>
+</CompetencyBars>
+</CompetencyChartData>
+

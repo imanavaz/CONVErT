@@ -1,0 +1,19 @@
+<local:MapPoint xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <local:MapPoint.PointX>10</local:MapPoint.PointX>
+  <local:MapPoint.PointY>10</local:MapPoint.PointY>
+  <local:MapPoint.PointValue>20000</local:MapPoint.PointValue>
+  <local:MapPoint.PointColour>Red</local:MapPoint.PointColour>
+  <local:MapPoint.PointName>Name</local:MapPoint.PointName>
+  <local:MapPoint.PointNormalisationFactor>1000</local:MapPoint.PointNormalisationFactor>
+</local:MapPoint>
+
+<!--MapPointData>
+<X>10</X>
+<Y>10</Y>
+<Value>20000</Value>
+<NormalisationFactor>10000</NormalisationFactor>
+<Name>Name</Name>
+<Colour>Green</Colour>
+</MapPointData>
+
+-->

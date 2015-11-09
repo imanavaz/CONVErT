@@ -1,0 +1,21 @@
+<HorizontalBarchart>
+  <Name>Sales Records</Name>
+  <ScaleName>Sales Records</ScaleName>
+  <HBars>
+    <HorizontalBar>
+      <Value>20</Value>
+      <Name>Europe</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+    <HorizontalBar>
+      <Value>50</Value>
+      <Name>Asia</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+    <HorizontalBar>
+      <Value>40</Value>
+      <Name>America</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+  </HBars>
+</HorizontalBarchart>

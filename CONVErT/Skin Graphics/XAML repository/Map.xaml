@@ -1,0 +1,32 @@
+<StackPanel Orientation="Vertical" Height="290" Width="716" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <TextBlock Height="27" TextAlignment="Center" Background="White">
+    <TextBlock.Text>Description of the map</TextBlock.Text>
+  </TextBlock>
+  <Canvas Height="263" Width="716">
+    <Canvas.Background>
+      <ImageBrush ImageSource="C:\Documents and Settings\iavazpour\My Documents\Iman_work\VL13\Pics\NapoleonMapStars2.bmp" />
+    </Canvas.Background>
+    <local:Minard Height="263" Width="716">
+    </local:Minard>
+  </Canvas>
+</StackPanel>
+ 
+ 
+<!--MapData>
+<Description>Discription goes here</Description>
+<Points>mapPoints</Points>
+</MapData-->
+
+<!--StackPanel Orientation="Vertical" Height="290" Width="716" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <TextBlock Height="27" TextAlignment="Center" Background="White">
+    <TextBlock.Text linkto="Description">Description of the map</TextBlock.Text>
+  </TextBlock>
+  <Canvas Height="263" Width="716">
+    <Canvas.Background>
+      <ImageBrush ImageSource="C:\Documents and Settings\iavazpour\My Documents\Iman_work\VL13\Pics\NapoleonMapStars2.bmp" />
+    </Canvas.Background>
+    <local:Minard Height="263" Width="716" callfor="Points">
+    </local:Minard>
+  </Canvas>
+</StackPanel-->
+

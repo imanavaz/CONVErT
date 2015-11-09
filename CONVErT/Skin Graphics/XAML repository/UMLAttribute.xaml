@@ -1,0 +1,22 @@
+<local:UMLAttribute Background="White" >
+	<local:UMLAttribute.AttributeName>attrname</local:UMLAttribute.AttributeName>
+	<local:UMLAttribute.AttrAccess>public</local:UMLAttribute.AttrAccess>
+ 	<local:UMLAttribute.AttributeType>int</local:UMLAttribute.AttributeType>
+</local:UMLAttribute>
+
+
+
+
+<UMLAttribute>
+	<Name>name</Name>
+	<Access>public</Access>
+	<Type>int</Type>
+</UMLAttribute>
+
+<local:UMLAttribute Background="White" >
+	<local:UMLAttribute.AttributeName linketo="Name">attrname</local:UMLAttribute.AttributeName>
+	<local:UMLAttribute.AttrAccess linkto="Access">public</local:UMLAttribute.AttrAccess>
+ 	<local:UMLAttribute.AttributeType linkto="Type">int</local:UMLAttribute.AttributeType>
+</local:UMLAttribute>
+
+

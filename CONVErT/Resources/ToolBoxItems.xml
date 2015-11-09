@@ -1,0 +1,1523 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<items>
+  <!--Java-->
+  <item name="ClassDeclaration" type="XAML">
+    <data>
+      <class-declaration>
+        <access>public</access>
+        <name>className</name>
+        <properties>properties</properties>
+        <methods>methods</methods>
+      </class-declaration>
+    </data>
+    <trans>
+      <xsl:template match="class-declaration" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="class-declaration">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/class-declaration" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <class-declaration xmlns="">
+                  <access>public</access>
+                  <name>className</name>
+                  <properties IsPlaceHolder="true">properties</properties>
+                  <methods IsPlaceHolder="true">methods</methods>
+                </class-declaration>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Vertical" Background="White">
+            <StackPanel Orientation="Horizontal">
+              <Label Foreground="Navy" ToolTip="access">
+                <Label.Content>
+                  <xsl:value-of select="access" />
+                </Label.Content>
+              </Label>
+              <Label Content=" class " Foreground="Navy" />
+              <Label Foreground="LightBlue" ToolTip="name">
+                <Label.Content>
+                  <xsl:value-of select="name" />
+                </Label.Content>
+              </Label>
+            </StackPanel>
+            <Label>{</Label>
+            <xsl:apply-templates select="properties" />
+            <Label />
+            <xsl:apply-templates select="methods" />
+            <Label>}</Label>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="properties" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Vertical" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+      <xsl:template match="methods" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Vertical" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="JavaSource" type="XAML">
+    <data>
+      <javasource>
+        <packageName>packageName</packageName>
+        <class-declarations>Classes</class-declarations>
+      </javasource>
+    </data>
+    <trans>
+      <xsl:template match="javasource" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="javasource">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/javasource" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <javasource xmlns="">
+                  <packageName>packageName</packageName>
+                  <class-declarations IsPlaceHolder="true">Classes</class-declarations>
+                </javasource>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Height="350" Width="350" Orientation="Vertical" Background="White" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Label Content="/* This is automatically generated code */" Foreground="Green" />
+            <StackPanel Orientation="Horizontal">
+              <Label Content="package " Foreground="Navy" />
+              <Label Foreground="LightBlue" ToolTip="packageName">
+                <Label.Content>
+                  <xsl:value-of select="packageName" />
+                </Label.Content>
+              </Label>
+              <Label Content=";" />
+            </StackPanel>
+            <ScrollViewer Height="300">
+              <xsl:apply-templates select="class-declarations" />
+            </ScrollViewer>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="class-declarations" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Vertical" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="JavaField" type="XAML">
+    <data>
+      <Field>
+        <Access>public</Access>
+        <Name>field</Name>
+        <Type>int</Type>
+        <Multiplicity>1</Multiplicity>
+      </Field>
+    </data>
+    <trans>
+      <xsl:template match="Field" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Field">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/Field" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <Field xmlns="">
+                  <Access>public</Access>
+                  <Name>field</Name>
+                  <Type>int</Type>
+                  <Multiplicity>1</Multiplicity>
+                </Field>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:JavaField Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Multiplicity">
+            <local:JavaField.FieldName>
+              <xsl:value-of select="Name" />
+            </local:JavaField.FieldName>
+            <local:JavaField.FieldAccess>
+              <xsl:value-of select="Access" />
+            </local:JavaField.FieldAccess>
+            <local:JavaField.FieldType>
+              <xsl:value-of select="Type" />
+            </local:JavaField.FieldType>
+            <local:JavaField.Multiplicity>
+              <xsl:value-of select="Multiplicity" />
+            </local:JavaField.Multiplicity>
+          </local:JavaField>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="NewJavaParameter" type="XAML">
+    <data>
+      <JavaParam>
+        <Name>ParamN</Name>
+        <Type>ParamT</Type>
+      </JavaParam>
+    </data>
+    <trans>
+      <xsl:template match="JavaParam" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="JavaParam">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/JavaParam" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <JavaParam xmlns="">
+                  <Name>ParamN</Name>
+                  <Type>ParamT</Type>
+                </JavaParam>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Horizontal" Background="White">
+            <Label Foreground="Navy" ToolTip="Type">
+              <Label.Content>
+                <xsl:value-of select="Type" />
+              </Label.Content>
+            </Label>
+            <Label Content=" " />
+            <Label ToolTip="Name">
+              <Label.Content>
+                <xsl:value-of select="Name" />
+              </Label.Content>
+            </Label>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="NewJavaMethod" type="XAML">
+    <data>
+      <JavaMethod>
+        <Name>MethodN</Name>
+        <ReturnType>int</ReturnType>
+        <Access>public</Access>
+        <Parameters>params</Parameters>
+      </JavaMethod>
+    </data>
+    <trans>
+      <xsl:template match="JavaMethod" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="JavaMethod">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/JavaMethod" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <JavaMethod xmlns="">
+                  <Name>MethodN</Name>
+                  <ReturnType>int</ReturnType>
+                  <Access>public</Access>
+                  <Parameters IsPlaceHolder="true">params</Parameters>
+                </JavaMethod>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Vertical" Background="White" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+            <StackPanel Orientation="Horizontal">
+              <Label Foreground="Navy" ToolTip="Access">
+                <Label.Content>
+                  <xsl:value-of select="Access" />
+                </Label.Content>
+              </Label>
+              <Label Content=" " />
+              <Label Foreground="LightBlue" ToolTip="ReturnType">
+                <Label.Content>
+                  <xsl:value-of select="ReturnType" />
+                </Label.Content>
+              </Label>
+              <Label Content=" " />
+              <Label Foreground="Navy" ToolTip="Name">
+                <Label.Content>
+                  <xsl:value-of select="Name" />
+                </Label.Content>
+              </Label>
+              <Label Content="(" />
+              <xsl:apply-templates select="Parameters" />
+              <Label Content=")" />
+            </StackPanel>
+            <Label>{</Label>
+            <Label>}</Label>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Parameters" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Horizontal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <StackPanel.Resources>
+            <Style TargetType="UserControl">
+              <Setter Property="ContentTemplate">
+                <Setter.Value>
+                  <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                      <ContentPresenter />
+                      <TextBlock x:Name="commaTB" Text="," xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" />
+                    </StackPanel>
+                  </DataTemplate>
+                </Setter.Value>
+              </Setter>
+            </Style>
+          </StackPanel.Resources>
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--ClassDiagram-->
+  <item name="UMLAttribute" type="XAML">
+    <data>
+      <UMLAttribute>
+        <Name>name</Name>
+        <Access>public</Access>
+        <Type>int</Type>
+      </UMLAttribute>
+    </data>
+    <trans>
+      <xsl:template match="UMLAttribute" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="UMLAttribute">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/UMLAttribute" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <UMLAttribute xmlns="">
+                  <Name>name</Name>
+                  <Access>public</Access>
+                  <Type>int</Type>
+                </UMLAttribute>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:UMLAttribute Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Type">
+            <local:UMLAttribute.AttributeName>
+              <xsl:value-of select="Name" />
+            </local:UMLAttribute.AttributeName>
+            <local:UMLAttribute.AttrAccess>
+              <xsl:value-of select="Access" />
+            </local:UMLAttribute.AttrAccess>
+            <local:UMLAttribute.AttributeType>
+              <xsl:value-of select="Type" />
+            </local:UMLAttribute.AttributeType>
+          </local:UMLAttribute>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="UMLOperation" type="XAML">
+    <data>
+      <UMLOperation>
+        <Name>name</Name>
+        <Access>public</Access>
+        <ReturnType>int</ReturnType>
+        <OPParameters>params</OPParameters>
+      </UMLOperation>
+    </data>
+    <trans>
+      <xsl:template match="UMLOperation" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="UMLOperation">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/UMLOperation" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <UMLOperation xmlns="">
+                  <Name>name</Name>
+                  <Access>public</Access>
+                  <ReturnType>int</ReturnType>
+                  <OPParameters IsPlaceHolder="true">params</OPParameters>
+                </UMLOperation>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:UMLOperation Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="ReturnType">
+            <local:UMLOperation.OperationName>
+              <xsl:value-of select="Name" />
+            </local:UMLOperation.OperationName>
+            <local:UMLOperation.Access>
+              <xsl:value-of select="Access" />
+            </local:UMLOperation.Access>
+            <local:UMLOperation.ReturnType>
+              <xsl:value-of select="ReturnType" />
+            </local:UMLOperation.ReturnType>
+            <xsl:apply-templates select="OPParameters" />
+          </local:UMLOperation>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="OPParameters" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Horizontal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="UMLFuncParameter" type="XAML">
+    <data>
+      <UMLParameter>
+        <Name>paramname</Name>
+        <Type>string</Type>
+      </UMLParameter>
+    </data>
+    <trans>
+      <xsl:template match="UMLParameter" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="UMLParameter">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/UMLParameter" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <UMLParameter xmlns="">
+                  <Name>paramname</Name>
+                  <Type>string</Type>
+                </UMLParameter>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:UMLParam Background="White" Orientation="Horizontal" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Label ToolTip="Name">
+              <Label.Content>
+                <xsl:value-of select="Name" />
+              </Label.Content>
+            </Label>
+            <Label>:</Label>
+            <Label Foreground="Navy" ToolTip="Type">
+              <Label.Content>
+                <xsl:value-of select="Type" />
+              </Label.Content>
+            </Label>
+          </local:UMLParam>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="UMLAssociation" type="XAML">
+    <data>
+      <UMLAssociation>
+        <Name>assocname</Name>
+        <EndClass>class2</EndClass>
+        <Multiplicity>*</Multiplicity>
+      </UMLAssociation>
+    </data>
+    <trans>
+      <xsl:template match="UMLAssociation" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="UMLAssociation">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/UMLAssociation" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <UMLAssociation xmlns="">
+                  <Name>assocname</Name>
+                  <EndClass>class2</EndClass>
+                  <Multiplicity>*</Multiplicity>
+                </UMLAssociation>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:UMLAssociation xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Multiplicity">
+            <local:UMLAssociation.AssociationName>
+              <xsl:value-of select="Name" />
+            </local:UMLAssociation.AssociationName>
+            <local:UMLAssociation.EndClass>
+              <xsl:value-of select="EndClass" />
+            </local:UMLAssociation.EndClass>
+            <local:UMLAssociation.EndCardinality>
+              <xsl:value-of select="Multiplicity" />
+            </local:UMLAssociation.EndCardinality>
+          </local:UMLAssociation>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="UMLClassDiagram" type="XAML">
+    <data>
+      <ClassDiagram>
+        <Name>Diagram Name</Name>
+        <Classes>classes</Classes>
+      </ClassDiagram>
+    </data>
+    <trans>
+      <xsl:template match="ClassDiagram" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="ClassDiagram">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/ClassDiagram" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <ClassDiagram xmlns="">
+                  <Name>Diagram Name</Name>
+                  <Classes IsPlaceHolder="true">classes</Classes>
+                </ClassDiagram>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:ClassDiagram xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Name">
+            <local:ClassDiagram.DiagramName>
+              <xsl:value-of select="Name" />
+            </local:ClassDiagram.DiagramName>
+            <xsl:apply-templates select="Classes" />
+          </local:ClassDiagram>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Classes" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </Canvas>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="UMLClass" type="XAML">
+    <data>
+      <UMLClass>
+        <Name>name</Name>
+        <Access>public</Access>
+        <Attributes>name</Attributes>
+        <Operations>name</Operations>
+        <Associations>associations</Associations>
+      </UMLClass>
+    </data>
+    <trans>
+      <xsl:template match="UMLClass" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="UMLClass">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/UMLClass" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <UMLClass xmlns="">
+                  <Name>name</Name>
+                  <Access>public</Access>
+                  <Attributes IsPlaceHolder="true">name</Attributes>
+                  <Operations IsPlaceHolder="true">name</Operations>
+                  <Associations IsPlaceHolder="true">associations</Associations>
+                </UMLClass>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:UMLClass MinHeight="75" MinWidth="20" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Access">
+            <local:UMLClass.ClassName>
+              <xsl:value-of select="Name" />
+            </local:UMLClass.ClassName>
+            <local:UMLClass.ClassAccess>
+              <xsl:value-of select="Access" />
+            </local:UMLClass.ClassAccess>
+            <StackPanel Orientation="Vertical" Background="White">
+              <xsl:apply-templates select="Associations" />
+              <Border BorderBrush="Black" BorderThickness="0,0,0,1" MinHeight="25">
+                <xsl:apply-templates select="Attributes" />
+              </Border>
+              <Border MinHeight="25">
+                <xsl:apply-templates select="Operations" />
+              </Border>
+            </StackPanel>
+          </local:UMLClass>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Attributes" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Vertical" Background="White" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+      <xsl:template match="Operations" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Vertical" Background="White" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+      <xsl:template match="Associations" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <Canvas Background="White" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </Canvas>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--Building-->
+  <item name="BuildingTree" type="XAML">
+    <data>
+      <BuidlingNode>
+        <Name>CityCouncil</Name>
+        <Floors>floors</Floors>
+      </BuidlingNode>
+    </data>
+    <trans>
+      <xsl:template match="BuidlingNode" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="BuidlingNode">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/BuidlingNode" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <BuidlingNode xmlns="">
+                  <Name>CityCouncil</Name>
+                  <Floors IsPlaceHolder="true">floors</Floors>
+                </BuidlingNode>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Border BorderBrush="Black" BorderThickness="1,1,1,1" CornerRadius="10,10,10,10">
+              <Label ToolTip="Name" HorizontalAlignment="Center">
+                <Label.Content>
+                  <xsl:value-of select="Name" />
+                </Label.Content>
+              </Label>
+            </Border>
+            <StackPanel Orientation="Vertical">
+              <Path Data="M0,0 L1,0 0.5,1Z" Width="10" Height="8" Stretch="Fill" Fill="Black" />
+              <Border BorderBrush="Black" BorderThickness="0,1,0,0">
+                <xsl:apply-templates select="Floors" />
+              </Border>
+            </StackPanel>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Floors" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Horizontal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="BuildingFloor" type="XAML">
+    <data>
+      <FloorNode>
+        <Name>floor1</Name>
+        <Rooms>rooms</Rooms>
+      </FloorNode>
+    </data>
+    <trans>
+      <xsl:template match="FloorNode" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="FloorNode">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/FloorNode" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <FloorNode xmlns="">
+                  <Name>floor1</Name>
+                  <Rooms IsPlaceHolder="true">rooms</Rooms>
+                </FloorNode>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Margin="10,0,10,0" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Path Data="M0,0 L1,0 0.5,1Z" Width="10" Height="8" Stretch="Fill" Fill="Black" />
+            <Border BorderBrush="Black" Background="LightBlue" BorderThickness="1,1,1,1" CornerRadius="5,5,5,5">
+              <Label ToolTip="Name">
+                <Label.Content>
+                  <xsl:value-of select="Name" />
+                </Label.Content>
+              </Label>
+            </Border>
+            <xsl:apply-templates select="Rooms" />
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Rooms" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="BuildingRoom" type="XAML">
+    <data>
+      <RoomNode>
+        <Name>room1</Name>
+        <Color>Yellow</Color>
+      </RoomNode>
+    </data>
+    <trans>
+      <xsl:template match="RoomNode" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="RoomNode">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/RoomNode" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <RoomNode xmlns="">
+                  <Name>room1</Name>
+                  <Color>Yellow</Color>
+                </RoomNode>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Path Data="M0,0 L1,0 0.5,1Z" Width="10" Height="8" Stretch="Fill" Fill="Black" />
+            <Border BorderBrush="Black" BorderThickness="1,1,1,1" ToolTip="Color">
+              <Border.Background>
+                <xsl:value-of select="Color" />
+              </Border.Background>
+              <Label ToolTip="Name">
+                <Label.Content>
+                  <xsl:value-of select="Name" />
+                </Label.Content>
+              </Label>
+            </Border>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--CAD-->
+  <item name="CADRoom" type="XAML">
+    <data>
+      <Room>
+        <Geometry>M 0,0 L 100,0 L 100,80 L 85,100 L 100,100 L 100,105 L 0,105 L 0,0</Geometry>
+        <Name>KKitchen</Name>
+        <Type>Kitchen</Type>
+      </Room>
+    </data>
+    <trans>
+      <xsl:template match="Room" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Room">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/Room" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <Room xmlns="">
+                  <Geometry>M 0,0 L 100,0 L 100,80 L 85,100 L 100,100 L 100,105 L 0,105 L 0,0</Geometry>
+                  <Name>KKitchen</Name>
+                  <Type>Kitchen</Type>
+                </Room>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <Canvas Width="120" Height="110" Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Path Stretch="Fill" Fill="White" Stroke="Black" Margin="2" ToolTip="Geometry" Canvas.Left="0" Canvas.Top="0" Canvas.ZIndex="1">
+              <Path.Data>
+                <xsl:value-of select="Geometry" />
+              </Path.Data>
+            </Path>
+            <Label Canvas.Top="30" Canvas.Left="20" Canvas.ZIndex="2" ToolTip="Name">
+              <Label.Content>
+                <xsl:value-of select="Name" />
+              </Label.Content>
+            </Label>
+            <Label Canvas.Top="50" Canvas.Left="20" Canvas.ZIndex="2" ToolTip="Type">
+              <Label.Content>
+                <xsl:value-of select="Type" />
+              </Label.Content>
+            </Label>
+          </Canvas>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="CADPlan" type="XAML">
+    <data>
+      <FloorPlan>
+        <Name>GroundFloor</Name>
+        <Rooms>rooms</Rooms>
+      </FloorPlan>
+    </data>
+    <trans>
+      <xsl:template match="FloorPlan" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="FloorPlan">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/FloorPlan" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <FloorPlan xmlns="">
+                  <Name>GroundFloor</Name>
+                  <Rooms IsPlaceHolder="true">rooms</Rooms>
+                </FloorPlan>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Margin="10" Background="White" Orientation="Vertical" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <Label HorizontalAlignment="Center" ToolTip="Name">
+              <Label.Content>
+                <xsl:value-of select="Name" />
+              </Label.Content>
+            </Label>
+            <Border BorderBrush="Black" BorderThickness="1,1,1,1" MinHeight="40">
+              <xsl:apply-templates select="Rooms" />
+            </Border>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Rooms" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Vertical" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="CADMap" type="XAML">
+    <data>
+      <Building>
+        <Name>Building</Name>
+        <FloorPlans>Floors</FloorPlans>
+      </Building>
+    </data>
+    <trans>
+      <xsl:template match="Building" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Building">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/Building" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <Building xmlns="">
+                  <Name>Building</Name>
+                  <FloorPlans IsPlaceHolder="true">Floors</FloorPlans>
+                </Building>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Background="LightBlue" Orientation="Vertical" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:sys="clr-namespace:System;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+            <Label HorizontalAlignment="Center" ToolTip="Name">
+              <Label.Content>
+                <xsl:value-of select="Name" />
+              </Label.Content>
+            </Label>
+            <ScrollViewer Height="450" MinWidth="150">
+              <xsl:apply-templates select="FloorPlans" />
+            </ScrollViewer>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="FloorPlans" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Orientation="Horizontal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--Barchart-->
+  <item name="NewBarChart" type="XAML">
+    <data>
+      <ChartData>
+        <Name>Chart Name</Name>
+        <YAxisLabel>YAxis</YAxisLabel>
+        <XAxisLabel>XAxis</XAxisLabel>
+        <Bars>bars</Bars>
+      </ChartData>
+    </data>
+    <trans>
+      <xsl:template match="ChartData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="ChartData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/ChartData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <ChartData xmlns="">
+                  <Name>Chart Name</Name>
+                  <YAxisLabel>YAxis</YAxisLabel>
+                  <XAxisLabel>XAxis</XAxisLabel>
+                  <Bars IsPlaceHolder="true">bars</Bars>
+                </ChartData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Margin="10" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+            <TextBlock DockPanel.Dock="Top" TextAlignment="Center" Background="White" ToolTip="Name">
+              <TextBlock.Text>
+                <xsl:value-of select="Name" />
+              </TextBlock.Text>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Bottom" TextAlignment="Center" Background="White" ToolTip="XAxisLabel">
+              <TextBlock.Text>
+                <xsl:value-of select="XAxisLabel" />
+              </TextBlock.Text>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Left" TextAlignment="Center" Background="White" ToolTip="YAxisLabel">
+              <TextBlock.LayoutTransform>
+                <RotateTransform Angle="270" />
+              </TextBlock.LayoutTransform>
+              <TextBlock.Text>
+                <xsl:value-of select="YAxisLabel" />
+              </TextBlock.Text>
+            </TextBlock>
+            <xsl:apply-templates select="Bars" />
+          </DockPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Bars" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:BarChart DockPanel.Dock="Right" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+          <xsl:apply-templates />
+        </local:BarChart>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="Bar" type="XAML">
+    <data>
+      <BarNode>
+        <Value>70</Value>
+        <Name>NewName</Name>
+        <Color>Green</Color>
+      </BarNode>
+    </data>
+    <trans>
+      <xsl:template match="BarNode" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="BarNode">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/BarNode" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <BarNode xmlns="">
+                  <Value>70</Value>
+                  <Name>NewName</Name>
+                  <Color>Green</Color>
+                </BarNode>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Label ToolTip="Value">
+              <Label.Background>White</Label.Background>
+              <Label.Content>
+                <xsl:value-of select="Value" />
+              </Label.Content>
+            </Label>
+            <Rectangle ToolTip="Value">
+              <Rectangle.Fill>
+                <xsl:value-of select="Color" />
+              </Rectangle.Fill>
+              <Rectangle.Width>10</Rectangle.Width>
+              <Rectangle.Height>
+                <xsl:value-of select="Value" />
+              </Rectangle.Height>
+            </Rectangle>
+            <Label ToolTip="Name">
+              <Label.Background>White</Label.Background>
+              <Label.Content>
+                <xsl:value-of select="Name" />
+              </Label.Content>
+            </Label>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--Named Pie chart-->
+  <item name="NPP" type="XAML">
+    <data>
+      <NPPData>
+        <Value>50</Value>
+        <Name>name</Name>
+        <Color>Black</Color>
+      </NPPData>
+    </data>
+    <trans>
+      <xsl:template match="NPPData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="NPPData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/NPPData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <NPPData xmlns="">
+                  <Value>50</Value>
+                  <Name>name</Name>
+                  <Color>Black</Color>
+                </NPPData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:NamedPiePiece xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" Radius="40" InnerRadius="10" CentreX="30" CentreY="30" ToolTip="Name">
+            <local:NamedPiePiece.WedgeAngle>
+              <xsl:value-of select="Value" />
+            </local:NamedPiePiece.WedgeAngle>
+            <local:NamedPiePiece.Fill>
+              <xsl:value-of select="Color" />
+            </local:NamedPiePiece.Fill>
+            <local:NamedPiePiece.NameLabel>
+              <xsl:value-of select="Name" />
+            </local:NamedPiePiece.NameLabel>
+            <local:NamedPiePiece.Stroke>Black</local:NamedPiePiece.Stroke>
+          </local:NamedPiePiece>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="NPC" type="XAML">
+    <data>
+      <NPCData>
+        <ChartName>Chart Name</ChartName>
+        <Pieces>pies</Pieces>
+      </NPCData>
+    </data>
+    <trans>
+      <xsl:template match="NPCData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="NPCData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/NPCData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <NPCData xmlns="">
+                  <ChartName>Chart Name</ChartName>
+                  <Pieces IsPlaceHolder="true">pies</Pieces>
+                </NPCData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+            <TextBlock DockPanel.Dock="Top" TextAlignment="Center" Background="White" ToolTip="ChartName">
+              <TextBlock.Text>
+                <xsl:value-of select="ChartName" />
+              </TextBlock.Text>
+            </TextBlock>
+            <xsl:apply-templates select="Pieces" />
+          </DockPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Pieces" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:NamedPieChart Height="320" Width="300" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+          <xsl:apply-templates />
+        </local:NamedPieChart>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--Horizontal Bar chart-->
+  <item name="HorizontalBar" type="XAML">
+    <data>
+      <HorizontalBar>
+        <Value>50</Value>
+        <BName>name</BName>
+        <Colour>Red</Colour>
+      </HorizontalBar>
+    </data>
+    <trans>
+      <xsl:template match="HorizontalBar" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="HorizontalBar">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/HorizontalBar" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <HorizontalBar xmlns="">
+                  <Value>50</Value>
+                  <BName>name</BName>
+                  <Colour>Red</Colour>
+                </HorizontalBar>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Horizontal" Background="White">
+            <Border BorderBrush="Black" BorderThickness="0,0,2,0">
+              <TextBlock Width="120" Margin="0,0,3,0" Height="18" TextAlignment="Right">
+                <TextBlock.Background>White</TextBlock.Background>
+                <TextBlock.Text>
+                  <xsl:value-of select="BName" />
+                </TextBlock.Text>
+              </TextBlock>
+            </Border>
+            <Rectangle ToolTip="Value">
+              <Rectangle.Fill>
+                <xsl:value-of select="Colour" />
+              </Rectangle.Fill>
+              <Rectangle.Width>
+                <xsl:value-of select="Value" />
+              </Rectangle.Width>
+              <Rectangle.Height>15</Rectangle.Height>
+            </Rectangle>
+            <TextBlock Height="18">
+              <TextBlock.Background>White</TextBlock.Background>
+              <TextBlock.Text>
+                <xsl:value-of select="Value" />
+              </TextBlock.Text>
+            </TextBlock>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="HorizontalBarChart" type="XAML">
+    <data>
+      <HorizontalBarchart>
+        <Name>chart name</Name>
+        <ScaleName>scale name</ScaleName>
+        <HBars>hbars</HBars>
+      </HorizontalBarchart>
+    </data>
+    <trans>
+      <xsl:template match="HorizontalBarchart" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="HorizontalBarchart">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/HorizontalBarchart" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <HorizontalBarchart xmlns="">
+                  <Name>chart name</Name>
+                  <ScaleName>scale name</ScaleName>
+                  <HBars IsPlaceHolder="true">hbars</HBars>
+                </HorizontalBarchart>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Background="White">
+            <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="5" ToolTip="Name">
+              <TextBlock.Text>
+                <xsl:value-of select="Name" />
+              </TextBlock.Text>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Bottom" Margin="5" ToolTip="ScaleName">
+              <TextBlock.Text>
+                <xsl:value-of select="ScaleName" />
+              </TextBlock.Text>
+            </TextBlock>
+            <StackPanel>
+              <StackPanel Orientation="Horizontal">
+                <Border BorderBrush="Black" BorderThickness="0,0,2,0">
+                  <Label Width="120" Margin="0,0,3,0" Height="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">
+                    <Label.Background>White</Label.Background>
+                  </Label>
+                </Border>
+                <Label Width="120" />
+              </StackPanel>
+              <xsl:apply-templates select="HBars" />
+              <StackPanel Orientation="Horizontal">
+                <Border BorderBrush="Black" BorderThickness="0,0,2,0">
+                  <Label Width="120" Margin="0,0,3,0" Height="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">
+                    <Label.Background>White</Label.Background>
+                  </Label>
+                </Border>
+                <Label Width="120" />
+              </StackPanel>
+            </StackPanel>
+          </DockPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="HBars" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--Minard map-->
+  <item name="troopsMovement" type="XAML">
+    <data>
+      <TroopsData>
+        <City1X>5</City1X>
+        <City1Y>5</City1Y>
+        <City1Name>FirstCity</City1Name>
+        <City2X>55</City2X>
+        <City2Y>55</City2Y>
+        <City2Name>SecondCity</City2Name>
+        <Color>Blue</Color>
+        <TroopsEntered>400000</TroopsEntered>
+        <TroopsLeft>200000</TroopsLeft>
+      </TroopsData>
+    </data>
+    <trans>
+      <xsl:template match="TroopsData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="TroopsData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/TroopsData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <TroopsData xmlns="">
+                  <City1X>5</City1X>
+                  <City1Y>5</City1Y>
+                  <City1Name>FirstCity</City1Name>
+                  <City2X>55</City2X>
+                  <City2Y>55</City2Y>
+                  <City2Name>SecondCity</City2Name>
+                  <Color>Blue</Color>
+                  <TroopsEntered>400000</TroopsEntered>
+                  <TroopsLeft>200000</TroopsLeft>
+                </TroopsData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:TroopsMovement xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" ToolTip="TroopsLeft">
+            <local:TroopsMovement.StartX>
+              <xsl:value-of select="City1X" />
+            </local:TroopsMovement.StartX>
+            <local:TroopsMovement.StartY>
+              <xsl:value-of select="City1Y" />
+            </local:TroopsMovement.StartY>
+            <local:TroopsMovement.EndX>
+              <xsl:value-of select="City2X" />
+            </local:TroopsMovement.EndX>
+            <local:TroopsMovement.EndY>
+              <xsl:value-of select="City2Y" />
+            </local:TroopsMovement.EndY>
+            <local:TroopsMovement.StartLocationName>
+              <xsl:value-of select="City1Name" />
+            </local:TroopsMovement.StartLocationName>
+            <local:TroopsMovement.EndLocationName>
+              <xsl:value-of select="City2Name" />
+            </local:TroopsMovement.EndLocationName>
+            <local:TroopsMovement.ShapeColor>
+              <xsl:value-of select="Color" />
+            </local:TroopsMovement.ShapeColor>
+            <local:TroopsMovement.TroopsStarting>
+              <xsl:value-of select="TroopsEntered" />
+            </local:TroopsMovement.TroopsStarting>
+            <local:TroopsMovement.TroopsEnding>
+              <xsl:value-of select="TroopsLeft" />
+            </local:TroopsMovement.TroopsEnding>
+          </local:TroopsMovement>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="Minard2" type="XAML">
+    <data>
+      <CData>
+        <Description>Description goes here</Description>
+        <Movements>movements</Movements>
+      </CData>
+    </data>
+    <trans>
+      <xsl:template match="CData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="CData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/CData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <CData xmlns="">
+                  <Description>Discription goes here</Description>
+                  <Movements IsPlaceHolder="true">movements</Movements>
+                </CData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Orientation="Vertical" Height="351" Width="920" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+            <TextBlock Height="27" TextAlignment="Center" Background="White" ToolTip="Description">
+              <TextBlock.Text>
+                <xsl:value-of select="Description" />
+              </TextBlock.Text>
+            </TextBlock>
+            <Canvas Height="334" Width="920">
+              <Canvas.Background>
+                <ImageBrush ImageSource="/Images/napoelonmap.bmp" />
+              </Canvas.Background>
+              <xsl:apply-templates select="Movements" />
+            </Canvas>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Movements" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:Minard2 Height="334" Width="920" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+          <xsl:apply-templates />
+        </local:Minard2>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--LGAProfile-->
+  <item name="LGAMap" type="XAML">
+    <data>
+      <LData>
+        <Description>Description goes here</Description>
+        <Trips>movements</Trips>
+      </LData>
+    </data>
+    <trans>
+      <xsl:template match="LData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="CData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/LData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <LData xmlns="">
+                  <Description>Discription goes here</Description>
+                  <Trips IsPlaceHolder="true">movements</Trips>
+                </LData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Orientation="Vertical" Height="755" Width="966" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+            <TextBlock Height="27" TextAlignment="Center" Background="White" ToolTip="Description">
+              <TextBlock.Text>
+                <xsl:value-of select="Description" />
+              </TextBlock.Text>
+            </TextBlock>
+            <Canvas Height="728" Width="966">
+              <Canvas.Background>
+                <ImageBrush ImageSource="/Images/VICLGAs.png" />
+              </Canvas.Background>
+              <xsl:apply-templates select="MapPoints" />
+            </Canvas>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="MapPoints" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:MapCanvas Height="728" Width="966" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+          <xsl:apply-templates />
+        </local:MapCanvas>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="MapPoint" type="XAML">
+    <data>
+      <MapPointData>
+        <X>10</X>
+        <Y>10</Y>
+        <Value>20000</Value>
+        <NormalisationFactor>1000</NormalisationFactor>
+        <Name>Name</Name>
+        <Colour>Green</Colour>
+      </MapPointData>
+    </data>
+    <trans>
+      <xsl:template match="MapPointData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="MapPointData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/MapPointData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <MapPointData xmlns="">
+                  <X>10</X>
+                  <Y>10</Y>
+                  <Value>20000</Value>
+                  <NormalisationFactor>1000</NormalisationFactor>
+                  <Name>Name</Name>
+                  <Colour>Green</Colour>
+                </MapPointData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <local:MapPoint xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" ToolTip="NormalisationFactor">
+            <local:MapPoint.PointX>
+              <xsl:value-of select="X" />
+            </local:MapPoint.PointX>
+            <local:MapPoint.PointY>
+              <xsl:value-of select="Y" />
+            </local:MapPoint.PointY>
+            <local:MapPoint.PointValue>
+              <xsl:value-of select="Value" />
+            </local:MapPoint.PointValue>
+            <local:MapPoint.PointColour>
+              <xsl:value-of select="Colour" />
+            </local:MapPoint.PointColour>
+            <local:MapPoint.PointName>
+              <xsl:value-of select="Name" />
+            </local:MapPoint.PointName>
+            <local:MapPoint.PointNormalisationFactor>
+              <xsl:value-of select="NormalisationFactor" />
+            </local:MapPoint.PointNormalisationFactor>
+          </local:MapPoint>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+  <!--MapChart-->
+  <item name="MapChart" type="XAML">
+    <data>
+      <MapChartData>
+        <Description>Discription goes here</Description>
+        <Charts>charts</Charts>
+      </MapChartData>
+    </data>
+    <trans>
+      <xsl:template match="MapChartData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="CData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/MapChartData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <MapChartData xmlns="">
+                  <Description>Discription goes here</Description>
+                  <Charts IsPlaceHolder="true">charts</Charts>
+                </MapChartData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <StackPanel Orientation="Vertical" Height="755" Width="966" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+            <TextBlock Height="27" TextAlignment="Center" ToolTip="Description">
+              <TextBlock.Text>
+                <xsl:value-of select="Description" />
+              </TextBlock.Text>
+            </TextBlock>
+            <Canvas Height="728" Width="966">
+              <Canvas.Background>
+                <ImageBrush ImageSource="/Images/VICLGAs.png" />
+              </Canvas.Background>
+              <xsl:apply-templates select="Charts" />
+            </Canvas>
+          </StackPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="Charts" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:MapCanvas Height="728" Width="966" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+          <xsl:apply-templates />
+        </local:MapCanvas>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="NPCMap" type="XAML">
+    <data>
+      <NPCMapData>
+        <Size>50</Size>
+        <X>10</X>
+        <Y>10</Y>
+        <PPieces>pies</PPieces>
+      </NPCMapData>
+    </data>
+    <trans>
+      <xsl:template match="NPCMapData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="Chart">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/NPCMapData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <NPCMapData xmlns="">
+                  <Size>50</Size>
+                  <X>10</X>
+                  <Y>10</Y>
+                  <PPieces IsPlaceHolder="true">pies</PPieces>
+                </NPCMapData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+            <local:MapPieChart xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+              <local:MapPieChart.ChartSize>
+                <xsl:value-of select="Size" />
+              </local:MapPieChart.ChartSize>
+              <local:MapPieChart.ChartX>
+                <xsl:value-of select="X" />
+              </local:MapPieChart.ChartX>
+              <local:MapPieChart.ChartY>
+                <xsl:value-of select="Y" />
+              </local:MapPieChart.ChartY>
+              <xsl:apply-templates select="PPieces" />
+            </local:MapPieChart>
+          </DockPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="PPieces" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <xsl:apply-templates />
+      </xsl:template>
+    </trans>
+  </item>
+  <!--Competency chart-->
+  <item name="CompetencyChart" type="XAML">
+    <data>
+      <CompetencyChartData>
+        <ChartName>Name</ChartName>
+        <ScaleName>Scale</ScaleName>
+        <CompetencyBars IsPlaceHolder="true">competencybars</CompetencyBars>
+      </CompetencyChartData>
+    </data>
+    <trans>
+      <xsl:template match="CompetencyChartData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="CompetencyChartData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/CompetencyChartData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <CompetencyChartData xmlns="">
+                  <ChartName>Name</ChartName>
+                  <ScaleName>Scale</ScaleName>
+                  <CompetencyBars IsPlaceHolder="true">competencybars</CompetencyBars>
+                </CompetencyChartData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Background="White">
+            <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="5" Height="20">
+              <TextBlock.Text>
+                <xsl:value-of select="ChartName" />
+              </TextBlock.Text>
+            </TextBlock>
+            <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Bottom" Margin="5" Height="20">
+              <TextBlock.Text>
+                <xsl:value-of select="ScaleName" />
+              </TextBlock.Text>
+            </TextBlock>
+            <xsl:apply-templates select="CompetencyBars" />
+          </DockPanel>
+        </local:VisualElement>
+      </xsl:template>
+      <xsl:template match="CompetencyBars" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <StackPanel Height="160" Orientation="Horizontal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+          <xsl:apply-templates />
+        </StackPanel>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="CompetencyBar" type="XAML">
+    <data>
+      <CompetencyBarData>
+        <Target>50</Target>
+        <StudentAchievement>30</StudentAchievement>
+        <GroupAverage>20</GroupAverage>
+        <StudentName>Name</StudentName>
+      </CompetencyBarData>
+    </data>
+    <trans>
+      <xsl:template match="CompetencyBarData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <local:VisualElement xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="CompetencyBarData">
+          <local:VisualElement.Resources>
+            <XmlDataProvider x:Key="sourceData" XPath="/CompetencyBarData" IsInitialLoadEnabled="True" IsAsynchronous="False">
+              <x:XData>
+                <CompetencyBarData xmlns="">
+                  <Target>50</Target>
+                  <StudentAchievement>30</StudentAchievement>
+                  <GroupAverage>20</GroupAverage>
+                  <StudentName>Name</StudentName>
+                </CompetencyBarData>
+              </x:XData>
+            </XmlDataProvider>
+          </local:VisualElement.Resources>
+          <Grid Height="150" MinWidth="50" MaxWidth="120" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="5*" />
+              <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+            <DockPanel Grid.Row="0" VerticalAlignment="Bottom" Canvas.ZIndex="2" LastChildFill="False">
+              <StackPanel Orientation="Vertical" DockPanel.Dock="Bottom">
+                <TextBlock Height="20" TextAlignment="Center" Background="White">
+                  <TextBlock.Text>
+                    <xsl:value-of select="Target" />
+                  </TextBlock.Text>
+                </TextBlock>
+                <Border BorderBrush="Black" BorderThickness="0,4,0,0" Width="40" Margin="0,5,0,0">
+                  <Rectangle Width="4" Fill="Black">
+                    <xsl:attribute name="Height">
+                      <xsl:value-of select="Target" />
+                    </xsl:attribute>
+                  </Rectangle>
+                </Border>
+              </StackPanel>
+            </DockPanel>
+            <DockPanel Grid.Row="0" VerticalAlignment="Bottom" Canvas.ZIndex="3" LastChildFill="False">
+              <Rectangle Width="10" Fill="Pink" DockPanel.Dock="Bottom">
+                <xsl:attribute name="Height">
+                  <xsl:value-of select="StudentAchievement" />
+                </xsl:attribute>
+              </Rectangle>
+            </DockPanel>
+            <DockPanel Grid.Row="0" VerticalAlignment="Bottom" LastChildFill="False" Canvas.ZIndex="1">
+              <Rectangle Width="20" Fill="Red" DockPanel.Dock="Bottom">
+                <xsl:attribute name="Height">
+                  <xsl:value-of select="GroupAverage" />
+                </xsl:attribute>
+              </Rectangle>
+            </DockPanel>
+            <Border BorderBrush="Black" Grid.Row="1" Canvas.ZIndex="0" BorderThickness="0,2,0,0" MinWidth="50">
+              <TextBlock Height="20" TextAlignment="Center" Background="White" MinWidth="50" Margin="3">
+                <TextBlock.Text>
+                  <xsl:value-of select="StudentName" />
+                </TextBlock.Text>
+              </TextBlock>
+            </Border>
+          </Grid>
+        </local:VisualElement>
+      </xsl:template>
+    </trans>
+  </item>
+</items>
+
+
+
+<!--SVG Barchart-->
+  <!--item name="SVGBar" type="SVG">
+    <data>
+      <SVGBarData>
+        <Name>Bar1</Name>
+        <Color>steelblue</Color>
+        <Value>50</Value>
+      </SVGBarData>
+    </data>
+    <trans>
+      <xsl:template match="SVGBarData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <svg onload="rect_load(evt)">
+          <text x="60" width="40" dy="0.6em" text-anchor="end">
+            <xsl:value-of select="Name" />
+          </text>
+          <rect height="20" x="65">
+            <xsl:attribute name="width">
+              <xsl:value-of select="Value" />
+            </xsl:attribute>
+            <xsl:attribute name="fill">
+              <xsl:value-of select="Color" />
+            </xsl:attribute>
+          </rect>
+        </svg>
+      </xsl:template>
+    </trans>
+  </item>
+  <item name="SVGBarchart" type="SVG">
+    <data>
+      <SVGBarchartData>
+        <ChartName>My bar chart</ChartName>
+        <SBars IsPlaceHolder="true">sbars</SBars>
+      </SVGBarchartData>
+    </data>
+    <trans>
+      <xsl:template match="SVGBarchartData" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <text x="5" Y="5" width="100" dy="1.2em" text-anchor="center">
+            <xsl:value-of select="ChartName" />
+          </text>
+          <xsl:apply-templates select="SBars" />
+        </svg>
+      </xsl:template>
+      <xsl:template match="SBars" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <script type="text/ecmascript"> 
+		   var yg = 10;
+		   function rect_load(evt) {
+		   yg = yg + 24;
+		   var mysvg = evt.target;
+		   var myrect = mysvg.getElementsByTagName("rect")[0];			 
+		   var mytext = mysvg.getElementsByTagName("text")[0];
+		   myrect.setAttribute("y", yg);
+		   mytext.setAttribute("y", yg+5);
+		   }     
+		</script>
+          <xsl:apply-templates />
+        </svg>
+      </xsl:template>
+    </trans>
+  </item-->

@@ -1,0 +1,6 @@
+<local:PiePiece xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" 
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform" Radius="40" InnerRadius="10" CentreX="30" CentreY="30" >
+	<local:PiePiece.WedgeAngle>10</local:PiePiece.WedgeAngle>
+	<local:PiePiece.Fill>Blue</local:PiePiece.Fill>
+	<local:PiePiece.Stroke>Black</local:PiePiece.Stroke>
+</local:PiePiece>

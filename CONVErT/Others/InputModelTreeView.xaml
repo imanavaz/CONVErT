@@ -1,0 +1,177 @@
+﻿<UserControl x:Class="CONVErT.InputModelTreeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:local="clr-namespace:CONVErT"             
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="342" d:DesignWidth="234">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto"
+                  Margin="0,0,2,0"
+                  CanContentScroll="True"
+                  VirtualizingStackPanel.IsVirtualizing="True"
+                  HorizontalScrollBarVisibility="Auto" 
+                  HorizontalAlignment="Stretch" 
+                  VerticalAlignment="Stretch" >
+        
+        <TreeView x:Name="ModelTreeView"
+                  VirtualizingStackPanel.IsVirtualizing="True"
+                  ItemsSource="{Binding FirstChild}" 
+                  AllowDrop="True"
+                  HorizontalAlignment="Stretch"
+                  VerticalAlignment="Stretch"
+                   >
+
+            <TreeView.Resources>
+
+                <!-- Uncomment for lazy -->
+                <!--HierarchicalDataTemplate DataType="{x:Type local:TreeNodeViewModel}" ItemsSource="{Binding Path=Children}" >
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock x:Name="EnameTB" Text="{Binding Path=Name}" />
+                        <TextBlock x:Name="ColonTB" Text=" : " />
+                        <TextBlock x:Name="EvalueTB" Text="{Binding Path=EValue}" />
+                    </StackPanel>
+                    <HierarchicalDataTemplate.Triggers>
+                        <DataTrigger Binding="{Binding Path=Type}" Value="0">
+                            <Setter TargetName="EvalueTB" Property="Visibility" Value="Hidden" />
+                            <Setter TargetName="ColonTB" Property="Visibility" Value="Hidden" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Path=Type}" Value="1">
+                            <Setter TargetName="EvalueTB" Property="Visibility" Value="Visible" />
+                            <Setter TargetName="ColonTB" Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Path=Type}" Value="2">
+                            <Setter TargetName="EvalueTB" Property="Visibility" Value="Hidden" />
+                            <Setter TargetName="ColonTB" Property="Visibility" Value="Hidden" />
+                        </DataTrigger>
+                    </HierarchicalDataTemplate.Triggers>
+                </HierarchicalDataTemplate-->
+
+                <Style x:Key="ExpandCollapseToggleStyle" TargetType="{x:Type ToggleButton}">
+                    <Setter Property="Focusable" Value="False"/>
+                    <Setter Property="Width" Value="16"/>
+                    <Setter Property="Height" Value="16"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ToggleButton}">
+                                <Border Width="16" Height="16" Background="Transparent" Padding="5,5,5,5">
+                                    <Path Fill="Transparent" Stroke="#FF989898" x:Name="ExpandPath" Data="M0,0 L0,6 L6,0 z">
+                                        <Path.RenderTransform>
+                                            <RotateTransform Angle="135" CenterX="3" CenterY="3"/>
+                                        </Path.RenderTransform>
+                                    </Path>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Stroke" TargetName="ExpandPath" Value="#FF1BBBFA"/>
+                                        <Setter Property="Fill" TargetName="ExpandPath" Value="Transparent"/>
+                                    </Trigger>
+                                    <Trigger Property="IsChecked" Value="True">
+                                        <Setter Property="RenderTransform" TargetName="ExpandPath">
+                                            <Setter.Value>
+                                                <RotateTransform Angle="180" CenterX="3" CenterY="3"/>
+                                            </Setter.Value>
+                                        </Setter>
+                                        <Setter Property="Fill" TargetName="ExpandPath" Value="#FF595959"/>
+                                        <Setter Property="Stroke" TargetName="ExpandPath" Value="#FF262626"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+                <!-- TreeView style for lazy loaders -->
+                <Style TargetType="{x:Type TreeViewItem}" x:Key="tvStyleLazy">
+                    <Setter Property="IsExpanded" Value= "{Binding  Path=IsExpanded}" />
+                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                    <EventSetter Event="TreeViewItem.MouseLeftButtonDown" Handler="ModelTreeView_MouseLeftButtonDown" />
+                    <!--EventSetter Event="TreeViewItem.Collapsed" Handler="TreeViewItem_Collapsed" /Was for Lazy Loaders -->
+                    <!--EventSetter Event="TreeViewItem.Expanded" Handler="TreeViewItem_Expanded" / Was for Lazy loaders-->
+                    <EventSetter Event="TreeViewItem.MouseMove" Handler="ModelTreeView_MouseMove" />
+                    <!--EventSetter Event="TreeViewItem.GotFocus" Handler="TreeViewItem_GotFocus"/-->
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type TreeViewItem}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition MinWidth="19" Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto"/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <ToggleButton x:Name="Expander" Style="{StaticResource ExpandCollapseToggleStyle}" ClickMode="Press" IsChecked="{Binding Path=IsExpanded, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                    <Border SnapsToDevicePixels="true" x:Name="Bd" Grid.Column="1" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}">
+                                        <ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" x:Name="PART_Header" ContentSource="Header"/>
+                                    </Border>
+                                    <ItemsPresenter x:Name="ItemsHost" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="1"/>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <DataTrigger Binding="{Binding Path=hasChildren}" Value="false">
+                                        <Setter Property="Visibility" TargetName="Expander" Value="Hidden"/>
+                                    </DataTrigger>
+                                    <Trigger Property="IsSelected" Value="true">
+                                        <Setter Property="Background" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.HighlightTextBrushKey}}"/>
+                                    </Trigger>
+
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+
+
+                <!-- treeView styles for normal operation -->
+                <Style TargetType="{x:Type TreeViewItem}" x:Key="tvContainerNormal">
+                    <Setter Property="IsExpanded" Value= "true" />
+                    <Setter Property="AllowDrop" Value="True" />
+                    <EventSetter Event="TreeViewItem.MouseLeftButtonDown" Handler="ModelTreeView_MouseLeftButtonDown" />
+                    <EventSetter Event="TreeViewItem.MouseMove" Handler="ModelTreeView_MouseMove" />
+                    <EventSetter Event="TreeViewItem.GotFocus" Handler="TreeViewItem_GotFocus"/>
+                    <EventSetter Event="TreeViewItem.LostFocus" Handler="TreeViewItem_LostFocus" />
+                </Style>
+                
+            </TreeView.Resources>
+
+            <TreeView.ItemContainerStyle>
+                <!--StaticResourceExtension ResourceKey="tvStyleLazy" /-->
+                <StaticResourceExtension ResourceKey="tvContainerNormal" />                
+            </TreeView.ItemContainerStyle>
+
+            <!-- Comment for lazy-->
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Children}" >
+                    <StackPanel Orientation="Horizontal" 
+                                    Margin="5"
+                                    Width="Auto"
+                                    Height="Auto">
+                        <TextBlock x:Name="EnameTB" Text="{Binding Path=Name}" />
+                        <TextBlock x:Name="ColonTB" Text=" : " />
+                        <TextBlock x:Name="EvalueTB" Text="{Binding Path=EValue}" />
+                    </StackPanel>
+                    <DataTemplate.Triggers>
+                        <DataTrigger Binding="{Binding Path=Type}" Value="0">
+                            <Setter TargetName="EvalueTB" Property="Visibility" Value="Hidden" />
+                            <Setter TargetName="ColonTB" Property="Visibility" Value="Hidden" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Path=Type}" Value="1">
+                            <Setter TargetName="EvalueTB" Property="Visibility" Value="Visible" />
+                            <Setter TargetName="ColonTB" Property="Visibility" Value="Visible" />
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding Path=Type}" Value="2">
+                            <Setter TargetName="EvalueTB" Property="Visibility" Value="Hidden" />
+                            <Setter TargetName="ColonTB" Property="Visibility" Value="Hidden" />
+                        </DataTrigger>
+                    </DataTemplate.Triggers>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+
+        </TreeView>
+
+    </ScrollViewer>
+</UserControl>

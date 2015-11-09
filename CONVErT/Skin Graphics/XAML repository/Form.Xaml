@@ -1,0 +1,21 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Vertical" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT">
+ <Label>
+  <Label.Content>FormName</Label.Content>
+ </Label>
+ <WrapPanel Orientation="Horizontal"  Background="Gray" MinHeight ="40" MinWidth="200">
+ </WrapPanel>
+</StackPanel>
+
+<!--FormData>
+<Name>New Form</Name>
+<Fields>fields</Fields>
+</FormData>
+
+<StackPanel Orientation="Vertical">
+ <Label>
+  <Label.Content linkto="Name">FormName</Label.Content>
+ </Label>
+ <WrapPanel Orientation="Horizontal" callfor="Fields">
+ </WrapPanel>
+</StackPanel-->
+

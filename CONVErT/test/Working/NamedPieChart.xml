@@ -1,0 +1,20 @@
+<NPCData>
+  <ChartName>Stocks today</ChartName>
+  <Pieces>
+	<NPPData>
+		<Value>50</Value>
+		<Name>Stock A</Name>
+		<Color>Red</Color>
+		</NPPData>
+    <NPPData>
+      <Value>100</Value>
+		<Name>Stock B</Name>
+		<Color>Blue</Color>
+    </NPPData>
+    <NPPData>
+      <Value>120</Value>
+		<Name>Stock C</Name>
+		<Color>Green</Color>
+    </NPPData>
+  </Pieces>
+</NPCData>

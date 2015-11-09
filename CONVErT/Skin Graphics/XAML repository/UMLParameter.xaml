@@ -1,0 +1,39 @@
+<local:UMLParam Background="White" Orientation="Horizontal" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Label>  
+<Label.Content>pName</Label.Content>
+</Label>
+<Label>:</Label>
+<Label Foreground="Navy">
+<Label.Content>int</Label.Content>
+</Label>
+</local:UMLParam>
+
+
+
+<!--
+<local:UMLParam Background="White" Orientation="Horizontal" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Label>  
+<Label.Content linkto="Name">pName</Label.Content>
+</Label>
+<Label>:</Label>
+<Label Foreground="Navy">
+<Label.Content linkto="Type">int</Label.Content>
+</Label>
+</local:UMLParam>
+
+<local:UMLParam Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<local:UMLParam.ParameterName>pname</local:UMLParam.ParameterName>
+	<local:UMLParam.ParameterType>int</local:UMLParam.ParameterType>
+</local:UMLParam>
+
+<UMLParameter>
+<Name>paramname</Name>
+<Type>string</Type>
+</UMLParameter>
+
+<local:UMLParam Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<local:UMLParam.ParameterName linkto="Name">pname</local:UMLParam.ParameterName>
+	<local:UMLParam.ParameterType linkto="Type">int</local:UMLParam.ParameterType>
+</local:UMLParam>
+
+-->

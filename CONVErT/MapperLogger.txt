@@ -1,0 +1,194 @@
+
+*************** New logging session ***************
+4/08/2014 10:00:45 AM -> Source model "Barchart.xml" opened.
+4/08/2014 10:00:51 AM -> Target model "ASEJavaVis.xml" opened.
+4/08/2014 10:00:54 AM -> "BarNode" was dropped on "Field"
+
+*************** New logging session ***************
+26/09/2014 10:08:18 AM -> Source model "ASEClassDiagramComplete.xml" opened.
+26/09/2014 10:08:30 AM -> Target model "ASEJavaVis.xml" opened.
+26/09/2014 10:12:34 AM -> Source model "ClassDiagram.xml" opened.
+26/09/2014 10:13:13 AM -> "UMLClass" was dropped on "class-declaration"
+26/09/2014 10:13:22 AM -> Rule "" <-> "" created.
+26/09/2014 10:21:15 AM -> Target model "ASEjavavis2.xml" opened.
+26/09/2014 10:21:32 AM -> Target model "JavaVis.xml" opened.
+26/09/2014 10:22:11 AM -> Target model "javatest.xml" opened.
+26/09/2014 10:22:31 AM -> Target model "ASEJavaVis.xml" opened.
+26/09/2014 10:22:39 AM -> Target model "JavaVis.xml" opened.
+26/09/2014 10:22:47 AM -> Target model "ASEJavaVis.xml" opened.
+26/09/2014 10:22:54 AM -> Target model "ASEjavavis2.xml" opened.
+26/09/2014 10:26:37 AM -> Target model "ASEjavavis2.xml" opened.
+26/09/2014 10:37:49 AM -> "UMLClass" was dropped on "class-declaration"
+
+*************** New logging session ***************
+29/09/2014 10:17:51 AM -> Source model "CADVisualisation.xml" opened.
+29/09/2014 10:18:02 AM -> Target model "BuildingTree.xml" opened.
+
+*************** New logging session ***************
+29/09/2014 12:50:25 PM -> Source model "ASEClassDiagramComplete.xml" opened.
+29/09/2014 12:50:31 PM -> Target model "ASEJavaVis.xml" opened.
+
+*************** New logging session ***************
+14/10/2014 12:42:51 PM -> Source model "BuildingTree.xml" opened.
+
+*************** New logging session ***************
+20/11/2014 3:51:57 PM -> Source model "Barchart.xml" opened.
+20/11/2014 3:52:02 PM -> Target model "NamedPieChart.xml" opened.
+20/11/2014 3:52:59 PM -> "BarNode" was dropped on "NPPData"
+20/11/2014 3:53:17 PM -> Element "BarNode/Value" was dropped on Element "NPPData/Value".
+20/11/2014 3:53:24 PM -> Element "BarNode/Name" was dropped on Element "NPPData/Name".
+20/11/2014 3:53:28 PM -> Element "BarNode/Color" was dropped on Element "NPPData/Color".
+20/11/2014 3:53:32 PM -> Rule "" <-> "" created.
+20/11/2014 3:54:22 PM -> "ChartData" was dropped on "NPCData"
+20/11/2014 3:54:40 PM -> Rule "" <-> "" created.
+20/11/2014 3:55:01 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\forward.xsl" created.
+20/11/2014 3:55:01 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\forwardR.xsl" created.
+20/11/2014 3:55:06 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\forward.xsl" was applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Barchart.xml" and result is saved in "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\result.xml".
+20/11/2014 3:55:06 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\forwardR.xsl" was applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\result.xml" and result is saved in "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\resultR.xml".
+20/11/2014 3:55:06 PM -> Transforamtion Complete!
+20/11/2014 3:55:11 PM -> Target model "result.xml" opened.
+20/11/2014 3:56:14 PM -> "ChartData" was dropped on "NPPData"
+20/11/2014 3:56:53 PM -> Source model "Minard.xml" opened.
+20/11/2014 3:56:59 PM -> Target model "result.xml" opened.
+20/11/2014 3:57:17 PM -> Target model "ASEJavaVis.xml" opened.
+20/11/2014 3:57:48 PM -> "TroopsData" was dropped on "Field"
+
+*************** New logging session ***************
+16/12/2014 2:28:48 PM -> Source model "Barchart.xml" opened.
+16/12/2014 2:29:00 PM -> Target model "NamedPieChart.xml" opened.
+16/12/2014 2:29:03 PM -> "BarNode" was dropped on "NPPData"
+16/12/2014 2:29:06 PM -> Rule "" <-> "" created.
+
+*************** New logging session ***************
+18/12/2014 4:27:01 PM -> Source model "mypie.xml" opened.
+18/12/2014 4:27:11 PM -> Target model "ASEClassDiagramComplete.xml" opened.
+
+*************** New logging session ***************
+15/01/2015 2:27:25 PM -> Source model "Minard.xml" opened.
+15/01/2015 2:28:02 PM -> Target model "manualvis.xml" opened.
+
+*************** New logging session ***************
+15/01/2015 2:54:36 PM -> Source model "Minard.xml" opened.
+15/01/2015 2:54:44 PM -> Target model "manualvis.xml" opened.
+15/01/2015 3:07:43 PM -> Source model "ClassDiagram.xml" opened.
+15/01/2015 3:07:49 PM -> Target model "javatest.xml" opened.
+15/01/2015 3:08:32 PM -> Source model "NamedPieChart.xml" opened.
+15/01/2015 3:45:46 PM -> Source model "Minard.xml" opened.
+15/01/2015 3:45:52 PM -> Target model "manualvis.xml" opened.
+15/01/2015 3:55:45 PM -> "CData" was dropped on "HorizontalBarchart"
+15/01/2015 4:03:54 PM -> Element "CData/Description" was dropped on Element "HorizontalBarchart/Name".
+15/01/2015 4:03:59 PM -> Element "CData/Movements" was dropped on Element "HorizontalBarchart/HBars".
+15/01/2015 4:25:16 PM -> Source model "ASEClassDiagramComplete.xml" opened.
+15/01/2015 4:25:20 PM -> Target model "ASEjavavis2.xml" opened.
+15/01/2015 4:25:29 PM -> "UMLAttribute" was dropped on "Field"
+15/01/2015 4:25:38 PM -> Element "UMLAttribute/Name" was dropped on Element "Field/Name".
+15/01/2015 4:25:41 PM -> Element "UMLAttribute/Access" was dropped on Element "Field/Access".
+15/01/2015 4:25:43 PM -> Element "UMLAttribute/Type" was dropped on Element "Field/Type".
+15/01/2015 4:25:45 PM -> Rule "" <-> "" created.
+15/01/2015 4:26:12 PM -> "ClassDiagram" was dropped on "javasource"
+15/01/2015 4:26:24 PM -> Rule "ClassDiagram" <-> "javasource" created.
+15/01/2015 4:46:48 PM -> Source model "Minard.xml" opened.
+15/01/2015 4:46:54 PM -> Target model "manualvis.xml" opened.
+15/01/2015 4:46:58 PM -> "CData" was dropped on "HorizontalBarchart"
+15/01/2015 4:47:02 PM -> Element "CData/Description" was dropped on Element "HorizontalBarchart/Name".
+15/01/2015 4:47:07 PM -> Element "CData/Movements" was dropped on Element "HorizontalBarchart/HBars".
+15/01/2015 4:47:09 PM -> Rule "" <-> "" created.
+15/01/2015 4:49:36 PM -> "TroopsData" was dropped on "HorizontalBar"
+15/01/2015 4:49:48 PM -> Element "TroopsData/Color" was dropped on Element "HorizontalBar/Colour".
+15/01/2015 4:52:34 PM -> Visual Function dropped on Ruledesigner canvas
+15/01/2015 4:52:46 PM -> Function element "args/outputs/output40" was dropped on "BName" of Visual Element "HorizontalBar".
+15/01/2015 4:52:56 PM -> Visual Function dropped on Ruledesigner canvas
+15/01/2015 4:53:08 PM -> Function element "args/outputs/output43" was dropped on "Value" of Visual Element "HorizontalBar".
+15/01/2015 4:53:37 PM -> Rule "" <-> "" created.
+15/01/2015 4:59:33 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\forward.xsl" created.
+15/01/2015 4:59:33 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\forwardR.xsl" created.
+15/01/2015 4:59:39 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\forward.xsl" was applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard.xml" and result is saved in "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\results.xml".
+15/01/2015 4:59:39 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\forwardR.xsl" was applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\results.xml" and result is saved in "c:\users\iavazpour\documents\svn_ia\convert\convert\resultsR.xml".
+15/01/2015 4:59:39 PM -> Transforamtion Complete!
+15/01/2015 4:59:50 PM -> Source model "results.xml" opened.
+15/01/2015 5:04:55 PM -> Source model "Minard.xml" opened.
+15/01/2015 5:05:01 PM -> "TroopsData" was dropped on "HorizontalBar"
+15/01/2015 5:05:30 PM -> Rule "" <-> "" created.
+15/01/2015 5:05:40 PM -> "TroopsData" was dropped on "HorizontalBar"
+15/01/2015 5:07:07 PM -> "TroopsData" was dropped on "HorizontalBar"
+
+*************** New logging session ***************
+16/01/2015 11:21:55 AM -> Source model "Minard.xml" opened.
+16/01/2015 11:22:06 AM -> Target model "manualvis.xml" opened.
+
+*************** New logging session ***************
+16/01/2015 1:50:51 PM -> Source model "test.xml" opened.
+
+*************** New logging session ***************
+16/01/2015 1:53:35 PM -> Source model "target.xml" opened.
+16/01/2015 1:53:55 PM -> Source model "manualvis.xml" opened.
+16/01/2015 1:53:59 PM -> Target model "manualvis.xml" opened.
+16/01/2015 1:54:31 PM -> Source model "results.xml" opened.
+
+*************** New logging session ***************
+16/01/2015 1:55:42 PM -> Source model "results.xml" opened.
+
+*************** New logging session ***************
+16/01/2015 1:59:49 PM -> Source model "results.xml" opened.
+16/01/2015 2:00:46 PM -> Target model "manualvis.xml" opened.
+16/01/2015 2:00:56 PM -> Source model "results.xml" opened.
+16/01/2015 2:06:53 PM -> Source model "test.xml" opened.
+16/01/2015 2:08:12 PM -> Source model "results.xml" opened.
+16/01/2015 2:12:38 PM -> Source model "test.xml" opened.
+
+*************** New logging session ***************
+19/01/2015 3:17:49 PM -> Target model "barchart.xml" opened.
+19/01/2015 3:17:59 PM -> Source model "ASEClassDiagramComplete.xml" opened.
+
+*************** New logging session ***************
+19/01/2015 3:24:41 PM -> Source model "ASEjavavis2.xml" opened.
+19/01/2015 3:24:49 PM -> Target model "ASEClassDiagramComplete.xml" opened.
+
+*************** New logging session ***************
+19/01/2015 3:29:29 PM -> Target model "ASEjavavis2.xml" opened.
+19/01/2015 3:29:34 PM -> Source model "ASEClassDiagramComplete.xml" opened.
+
+*************** New logging session ***************
+19/01/2015 3:31:09 PM -> Source model "ASEClassDiagramComplete.xml" opened.
+19/01/2015 3:31:15 PM -> Target model "ASEjavavis2.xml" opened.
+
+*************** New logging session ***************
+4/02/2015 2:03:38 PM -> Source model "Minard.xml" opened.
+4/02/2015 2:04:49 PM -> Target model "NamedPieChart.xml" opened.
+4/02/2015 2:05:20 PM -> "TroopsData" was dropped on "NPPData"
+4/02/2015 2:05:31 PM -> Element "TroopsData/TroopsLeft" was dropped on Element "NPPData/Value".
+4/02/2015 2:05:36 PM -> Element "TroopsData/City2Name" was dropped on Element "NPPData/Name".
+4/02/2015 2:05:38 PM -> Element "TroopsData/Color" was dropped on Element "NPPData/Color".
+4/02/2015 2:05:40 PM -> Rule "" <-> "" created.
+4/02/2015 2:06:36 PM -> "CData" was dropped on "NPCData"
+4/02/2015 2:07:03 PM -> Rule "CData" <-> "NPCData" created.
+4/02/2015 2:07:19 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\test.xsl" created.
+4/02/2015 2:07:19 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\testR.xsl" created.
+4/02/2015 2:07:24 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\test.xsl" was applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard.xml" and result is saved in "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\target.xml".
+4/02/2015 2:07:25 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\testR.xsl" was applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\target.xml" and result is saved in "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\targetR.xml".
+4/02/2015 2:07:25 PM -> Transforamtion Complete!
+4/02/2015 2:07:31 PM -> Target model "target.xml" opened.
+4/02/2015 2:07:56 PM -> Source model "ASEClassDiagramComplete.xml" opened.
+4/02/2015 2:08:03 PM -> Target model "ASEjavavis2.xml" opened.
+4/02/2015 2:08:15 PM -> "UMLOperation" was dropped on "JavaMethod"
+4/02/2015 2:08:27 PM -> Rule "" <-> "" created.
+4/02/2015 2:11:09 PM -> "UMLAttribute" was dropped on "Field"
+4/02/2015 2:11:15 PM -> Visual Condition dropped on Ruledesigner canvas
+4/02/2015 2:11:19 PM -> Visual Function dropped on Ruledesigner canvas
+
+*************** New logging session ***************
+11/03/2015 3:51:21 PM -> Source model "javatest.xml" opened.
+11/03/2015 3:51:39 PM -> Source model "barchart.xml" opened.
+11/03/2015 3:51:55 PM -> Target model "BuildingTree.xml" opened.
+
+*************** New logging session ***************
+29/06/2015 2:52:38 PM -> Source model "Minard.xml" opened.
+29/06/2015 2:54:38 PM -> Target model "NamedPieChart.xml" opened.
+29/06/2015 2:55:07 PM -> "TroopsData" was dropped on "NPPData"
+29/06/2015 2:55:19 PM -> Element "TroopsData/Color" was dropped on Element "NPPData/Color".
+29/06/2015 2:58:41 PM -> Source model "testN.xml" opened.
+29/06/2015 2:58:45 PM -> "HorizontalBar" was dropped on "NPPData"
+
+*************** New logging session ***************
+09-Nov-15 3:44:10 PM -> Source model "ClassDiagram.xml" opened.
+09-Nov-15 3:44:20 PM -> Target model "javatest.xml" opened.

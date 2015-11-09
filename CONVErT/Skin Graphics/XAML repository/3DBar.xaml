@@ -1,0 +1,20 @@
+ <local:Cube3D xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" >
+    <local:Cube3D.CubeColor>Red</local:Cube3D.CubeColor>
+    <local:Cube3D.X>-30</local:Cube3D.X>
+    <local:Cube3D.Y>10</local:Cube3D.Y>
+    <local:Cube3D.Z>-30</local:Cube3D.Z>
+ </local:Cube3D>
+  
+ <!--CubeData>
+ <Colour>Blue</Colour>
+ <Longitude>-30</Longitude>
+ <Latitude>-30</Latitude>
+ <Value>10</Value>
+ </CubeData-->
+ 
+ <!--local:Cube3D xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" >
+    <local:Cube3D.CubeColor linkto="Colour">Red</local:Cube3D.CubeColor>
+    <local:Cube3D.X linkto="Longitude">-30</local:Cube3D.X>
+    <local:Cube3D.Y linkto="Value">10</local:Cube3D.Y>
+    <local:Cube3D.Z linkto="Latitude">-30</local:Cube3D.Z>
+ </local:Cube3D-->

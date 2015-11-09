@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Model>
+	<Name>MyClassDiagram</Name>
+	<Class>
+		<Identifier>public</Identifier>
+		<Name>myClass1</Name>
+		<Attribute>
+			<Identifier>public</Identifier>
+			<Name>attr1</Name>
+			<Type>String</Type>
+		</Attribute>
+		<Attribute>
+			<Identifier>private</Identifier>
+			<Name>attr2</Name>
+			<Type>Integer</Type>
+		</Attribute>
+	</Class>
+	<Class>
+		<Identifier>public</Identifier>
+		<Name>class2</Name>
+		<Attribute>
+			<Identifier>public</Identifier>
+			<Name>attr1</Name>
+			<Type>Double</Type>
+		</Attribute>
+    <Function>
+      <Identifier>public</Identifier>
+      <Name>function1</Name>
+      <returnType>void</returnType>
+      <parameters>
+        <Param>
+          <Name>P1</Name>
+          <Type>String</Type>
+        </Param>
+      </parameters>
+    </Function>
+	</Class>
+  <Association Start="myClass1" end="class2"/>
+</Model>
+	

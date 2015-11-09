@@ -1,0 +1,16 @@
+﻿<Application x:Class="CONVErT.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Toolbox/Toolbox.xaml"/>
+                <ResourceDictionary Source="Resources/BitsNOthers.xaml"/>
+                <ResourceDictionary Source="Resources/ItemStyles.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

@@ -1,0 +1,39 @@
+<local:UMLClass MinHeight="75"  MinWidth="20" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+ <local:UMLClass.ClassName>CName</local:UMLClass.ClassName>
+ <local:UMLClass.ClassAccess >public</local:UMLClass.ClassAccess>
+  <StackPanel Orientation="Vertical" Background="White">
+   <Canvas Background="White" />
+   <Border BorderBrush="Black" BorderThickness="0,0,0,1" MinHeight="25" >
+	<StackPanel Orientation="Vertical" Background="White"/>
+   </Border>
+   <Border MinHeight="25" >
+	<StackPanel Orientation="Vertical" Background="White"/>
+   </Border>
+  </StackPanel>
+</local:UMLClass>
+
+<!--
+
+<UMLClass>
+	<Name>name</Name>
+	<Access>public</Access>
+	<Attributes>name</Attributes>
+	<Operations>name</Operations>
+	<Associations>associations</Associations>
+</UMLClass>
+
+<local:UMLClass MinHeight="75"  MinWidth="20">
+	<local:UMLClass.ClassName linkto="Name" >CName</local:UMLClass.ClassName>
+	<local:UMLClass.ClassAccess linkto="Access">public</local:UMLClass.ClassAccess>
+	<StackPanel Orientation="Vertical" Background="White">
+		<Canvas Background="White" callfor="Associations" />
+		<Border BorderBrush="Black" BorderThickness="0,0,0,1" MinHeight="25" >
+			<StackPanel Orientation="Vertical" Background="White" callfor="Attributes" />
+		</Border>
+		<Border MinHeight="25" >
+			<StackPanel Orientation="Vertical" Background="White" callfor="Operations" />
+		</Border>
+	</StackPanel>
+</local:UMLClass>
+
+-->

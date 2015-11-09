@@ -1,0 +1,36 @@
+<StackPanel Orientation="Horizontal" Background="White"xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Label Foreground="Navy">
+      <Label.Content>ParamType</Label.Content>
+  </Label>
+  <Label Content=" "></Label>
+  <Label >
+      <Label.Content>ParamName</Label.Content>
+  </Label>
+</StackPanel>
+
+<!--
+
+<JavaParam>
+  <Name>ParamN</Name>
+  <Type>ParamT</Type>
+</JavaParam>
+
+<xsl:template match="JavaParam" xmlns:xsl="http://...">      www.w3.org/1999/XSL/Transform">
+  <local:VisualElement xmlns:x="http://schemas.microsof...">   com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" ToolTip="JavaParam">
+    <StackPanel Orientation="Horizontal" Background="White">
+      <Label Foreground="Navy">
+        <Label.Content>
+          <xsl:value-of select="Type" />
+        </Label.Content>
+      </Label>
+      <Label Content=" " />
+      <Label>
+        <Label.Content>
+          <xsl:value-of select="Name" />
+        </Label.Content>
+      </Label>
+    </StackPanel>
+  </local:VisualElement>
+</xsl:template>	  
+	  
+	  -->

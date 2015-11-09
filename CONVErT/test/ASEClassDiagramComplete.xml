@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClassDiagram>
+  <Name>XYZ Airline</Name>
+  <Classes>
+    <UMLClass>
+      <Name>Flight</Name>
+      <Access>public</Access>
+      <Attributes>
+        <UMLAttribute>
+          <Name>FlightNo</Name>
+          <Access>public</Access>
+          <Type>int</Type>
+        </UMLAttribute>
+        <UMLAttribute>
+          <Name>DepartTime</Name>
+          <Access>public</Access>
+          <Type>date</Type>
+        </UMLAttribute>
+        <UMLAttribute>
+          <Name>Duration</Name>
+          <Access>public</Access>
+          <Type>Minutes</Type>
+        </UMLAttribute>
+      </Attributes>
+      <Operations>
+        <UMLOperation>
+          <Name>delayFlight</Name>
+          <Access>public</Access>
+          <ReturnType>void</ReturnType>
+          <OPParameters>
+            <UMLParameter>
+              <Name>delay</Name>
+              <Type>minutes</Type>
+            </UMLParameter>
+          </OPParameters>
+        </UMLOperation>
+        <UMLOperation>
+          <Name>getArrivalTime</Name>
+          <Access>public</Access>
+          <ReturnType>time</ReturnType>
+          <OPParameters />
+        </UMLOperation>
+      </Operations>
+      <Associations>
+        <UMLAssociation>
+          <Name>Passengers</Name>
+          <EndClass>FrequentFlyer</EndClass>
+          <Multiplicity>*</Multiplicity>
+        </UMLAssociation>
+        <UMLAssociation>
+          <Name>AssignedPlane</Name>
+          <EndClass>Plane</EndClass>
+          <Multiplicity>1</Multiplicity>
+        </UMLAssociation>
+      </Associations>
+    </UMLClass>
+    <UMLClass>
+      <Name>Plane</Name>
+      <Access>public</Access>
+      <Attributes>
+        <UMLAttribute>
+          <Name>planeType</Name>
+          <Access>public</Access>
+          <Type>string</Type>
+        </UMLAttribute>
+        <UMLAttribute>
+          <Name>tailID</Name>
+          <Access>public</Access>
+          <Type>string</Type>
+        </UMLAttribute>
+      </Attributes>
+      <Operations />
+      <Associations />
+    </UMLClass>
+    <UMLClass>
+      <Name>FrequentFlyer</Name>
+      <Access>public</Access>
+      <Attributes>
+        <UMLAttribute>
+          <Name>firstName</Name>
+          <Access>public</Access>
+          <Type>string</Type>
+        </UMLAttribute>
+        <UMLAttribute>
+          <Name>lastName</Name>
+          <Access>public</Access>
+          <Type>string</Type>
+        </UMLAttribute>
+        <UMLAttribute>
+          <Name>No</Name>
+          <Access>public</Access>
+          <Type>int</Type>
+        </UMLAttribute>
+      </Attributes>
+      <Operations>
+        <UMLOperation>
+          <Name>getMileage</Name>
+          <Access>public</Access>
+          <ReturnType>int</ReturnType>
+          <OPParameters />
+        </UMLOperation>
+      </Operations>
+      <Associations />
+    </UMLClass>
+  </Classes>
+</ClassDiagram>

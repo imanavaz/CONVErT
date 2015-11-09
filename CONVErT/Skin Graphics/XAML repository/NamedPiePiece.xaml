@@ -1,0 +1,19 @@
+<local:NamedPiePiece xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" Radius="40" InnerRadius="10" CentreX="30" CentreY="30">
+  <local:NamedPiePiece.WedgeAngle>30</local:NamedPiePiece.WedgeAngle>
+  <local:NamedPiePiece.Fill>Blue</local:NamedPiePiece.Fill>
+  <local:NamedPiePiece.NameLabel>Pie Name</local:NamedPiePiece.NameLabel>
+  <local:NamedPiePiece.Stroke>Black</local:NamedPiePiece.Stroke>
+</local:NamedPiePiece>
+
+<!--NPPData>
+<Value>50</Value>
+<Name>name</Name>
+<Color>Black</Color>
+</NPPData-->
+
+<!--local:NamedPiePiece xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" Radius="40" InnerRadius="10" CentreX="30" CentreY="30">
+  <local:NamedPiePiece.WedgeAngle linkto="Value">30</local:NamedPiePiece.WedgeAngle>
+  <local:NamedPiePiece.Fill linkto="Color">Blue</local:NamedPiePiece.Fill>
+  <local:NamedPiePiece.NameLabel linkto="Name">Pie Name</local:NamedPiePiece.NameLabel>
+  <local:NamedPiePiece.Stroke>Black</local:NamedPiePiece.Stroke>
+</local:NamedPiePiece-->

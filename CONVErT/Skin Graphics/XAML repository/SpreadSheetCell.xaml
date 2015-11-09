@@ -1,0 +1,31 @@
+<Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
+  <Grid.RowDefinitions>
+    <RowDefinition Height="*" />
+    <RowDefinition Height="*" />
+  </Grid.RowDefinitions>
+<Label Grid.Row="0" BorderBrush="Black" BorderThickness="1" Background="LightGray">
+  <Label.Content>Header</Label.Content>
+</Label>
+<Label Grid.Row="1" BorderBrush="Black" BorderThickness="1" Background="White">
+      <Label.Content>Value</Label.Content>
+</Label>
+</Grid>
+
+<!--CellData>
+<Header>Header</Header>
+<Value>50</Value>
+</CellData-->
+
+<!--Grid xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" >
+  <Grid.RowDefinitions>
+    <RowDefinition Height="*" />
+    <RowDefinition Height="*" />
+  </Grid.RowDefinitions>
+<Label Grid.Row="0" BorderBrush="Black" BorderThickness="1" Background="LightGray">
+  <Label.Content linkto="Header">Header</Label.Content>
+</Label>
+<Label Grid.Row="1" BorderBrush="Black" BorderThickness="1" Background="White">
+      <Label.Content linkto="Value">Value</Label.Content>
+</Label>
+</Grid-->
+

@@ -1,0 +1,10 @@
+<SVGBarchartData>
+  <ChartName>This is a barchart</ChartName>
+  <SBars>
+    <SVGBarData>
+      <Name>Name1</Name>
+      <Value>50</Value>
+      <Color>red</Color>
+    </SVGBarData>
+  </SBars>
+</SVGBarchartData>

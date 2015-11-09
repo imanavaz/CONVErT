@@ -1,0 +1,580 @@
+
+*************** New logging session ***************
+10/06/2014 3:42:55 PM -> Data for Notation 'myTestNotation' is generated.
+10/06/2014 3:43:22 PM -> Notation 'myTestNotation' saved in notation repository.
+10/06/2014 3:46:04 PM -> Data for Notation 'test2' is generated.
+10/06/2014 3:46:28 PM -> Notation 'test2' saved in notation repository.
+
+*************** New logging session ***************
+27/06/2014 11:32:19 AM -> SVG graphic: "C:\Users\iavazpour\Dropbox\SwinMosaic-Projects\Test_Transformation\target.html loaded.
+
+*************** New logging session ***************
+27/06/2014 11:36:26 AM -> SVG graphic: "C:\Users\iavazpour\Dropbox\SwinMosaic-Projects\Test_Transformation\test.svg loaded.
+
+*************** New logging session ***************
+27/06/2014 1:25:10 PM -> SVG graphic: "C:\Users\iavazpour\Dropbox\SwinMosaic-Projects\Test_Transformation\test.svg loaded.
+
+*************** New logging session ***************
+27/06/2014 1:26:10 PM -> SVG graphic: "C:\Users\iavazpour\Dropbox\SwinMosaic-Projects\Test_Transformation\test.svg loaded.
+
+*************** New logging session ***************
+27/06/2014 1:30:48 PM -> Render SVG error -> See exception.
+27/06/2014 1:30:48 PM -> SVG graphic: "C:\Users\iavazpour\Dropbox\SwinMosaic-Projects\Test_Transformation\test.svg loaded.
+
+*************** New logging session ***************
+27/06/2014 2:36:19 PM -> Graphics file: "C:\Users\iavazpour\Dropbox\SwinMosaic-Projects\Test_Transformation\test.svg loaded.
+27/06/2014 2:36:43 PM -> Notation rendered successfully.
+27/06/2014 2:36:43 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\3DBar.xaml loaded.
+
+*************** New logging session ***************
+8/07/2014 3:13:57 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 3:22:38 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 3:24:26 PM -> Render SVG error -> See exception.
+8/07/2014 3:24:26 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 3:27:25 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 3:28:44 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 3:37:51 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 3:38:31 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 5:11:18 PM -> Notation rendered successfully.
+8/07/2014 5:11:18 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\rectBar.xaml loaded.
+
+*************** New logging session ***************
+8/07/2014 5:39:26 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+8/07/2014 5:46:02 PM -> Notation rendered successfully.
+8/07/2014 5:46:02 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\ellipseBar.xaml loaded.
+8/07/2014 5:46:15 PM -> Graphics file: "C:\Users\iavazpour\Desktop\testSVG.svg loaded.
+
+*************** New logging session ***************
+9/07/2014 10:58:51 AM -> SVG notation rendered successfully.
+9/07/2014 10:58:51 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+9/07/2014 10:59:59 AM -> SVG notation rendered successfully.
+9/07/2014 11:00:19 AM -> SVG notation rendered successfully.
+9/07/2014 11:00:51 AM -> SVG notation rendered successfully.
+9/07/2014 11:01:08 AM -> SVG notation rendered successfully.
+9/07/2014 11:01:21 AM -> SVG notation rendered successfully.
+9/07/2014 11:01:51 AM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+9/07/2014 11:32:07 AM -> XAML notation rendered successfully.
+9/07/2014 11:32:07 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\NewRectBar.xaml loaded.
+9/07/2014 11:33:46 AM -> Data for Notation 'Test' is generated.
+9/07/2014 11:34:01 AM -> Notation 'Test' created.
+
+*************** New logging session ***************
+9/07/2014 11:35:35 AM -> XAML notation rendered successfully.
+9/07/2014 11:35:35 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\rectBar.xaml loaded.
+9/07/2014 11:38:52 AM -> Data for Notation 'test' is generated.
+9/07/2014 11:39:03 AM -> Notation 'test' created.
+
+*************** New logging session ***************
+9/07/2014 11:51:36 AM -> XAML notation rendered successfully.
+9/07/2014 11:51:36 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\NewRectBar.xaml loaded.
+9/07/2014 11:53:47 AM -> Notation 'test' created.
+
+*************** New logging session ***************
+9/07/2014 11:58:30 AM -> Notation 'test' created.
+
+*************** New logging session ***************
+9/07/2014 12:00:54 PM -> Notation 'tets' created.
+
+*************** New logging session ***************
+9/07/2014 12:03:52 PM -> Notation 'test' created.
+
+*************** New logging session ***************
+9/07/2014 12:05:55 PM -> Notation 't' created.
+
+*************** New logging session ***************
+9/07/2014 12:11:08 PM -> Data for Notation 't' is generated.
+9/07/2014 12:11:10 PM -> Notation 't' created.
+
+*************** New logging session ***************
+9/07/2014 12:13:15 PM -> Data for Notation 't' is generated.
+9/07/2014 12:13:20 PM -> Notation 't' created.
+
+*************** New logging session ***************
+9/07/2014 12:38:23 PM -> Data for Notation 'r' is generated.
+
+*************** New logging session ***************
+9/07/2014 12:41:04 PM -> Data for Notation 't' is generated.
+
+*************** New logging session ***************
+9/07/2014 12:43:43 PM -> Data for Notation 'p' is generated.
+
+*************** New logging session ***************
+9/07/2014 12:46:20 PM -> Data for Notation 'op' is generated.
+
+*************** New logging session ***************
+9/07/2014 12:48:53 PM -> Data for Notation 'y' is generated.
+9/07/2014 12:49:29 PM -> Notation 'y' created.
+
+*************** New logging session ***************
+9/07/2014 1:20:39 PM -> Data for Notation 'BarTest' is generated.
+9/07/2014 1:20:39 PM -> Notation 'BarTest' created.
+9/07/2014 1:20:54 PM -> Notation 'BarTest' saved in notation repository.
+
+*************** New logging session ***************
+9/07/2014 1:42:47 PM -> Error in use of callfor: Call for does not support attribute generation
+9/07/2014 1:42:47 PM -> Notation 'test' created.
+
+*************** New logging session ***************
+9/07/2014 1:52:06 PM -> Error in use of callfor: Call for does not support attribute generation
+
+*************** New logging session ***************
+9/07/2014 4:39:07 PM -> Data for Notation 'test' is generated.
+9/07/2014 4:39:07 PM -> Notation 'test' created.
+
+*************** New logging session ***************
+9/07/2014 4:51:15 PM -> XAML notation rendered successfully.
+9/07/2014 4:51:15 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\rectBar.xaml loaded.
+9/07/2014 4:51:58 PM -> Data for Notation 'p' is generated.
+9/07/2014 4:52:30 PM -> Notation 'p' created.
+
+*************** New logging session ***************
+9/07/2014 5:18:23 PM -> Data for Notation 'p' is generated.
+9/07/2014 5:21:16 PM -> Notation 'p' created.
+
+*************** New logging session ***************
+9/07/2014 5:24:19 PM -> Data for Notation 'f' is generated.
+9/07/2014 5:24:21 PM -> Notation 'f' created.
+9/07/2014 5:25:22 PM -> Data for Notation 'f' is generated.
+9/07/2014 5:25:43 PM -> Notation 'f' created.
+9/07/2014 5:26:37 PM -> Data for Notation 'f' is generated.
+9/07/2014 5:27:12 PM -> Notation 'f' created.
+9/07/2014 5:29:24 PM -> Data for Notation 'f' is generated.
+9/07/2014 5:29:34 PM -> Notation 'f' created.
+
+*************** New logging session ***************
+9/07/2014 5:34:50 PM -> Data for Notation 't' is generated.
+9/07/2014 5:34:50 PM -> Notation 't' created.
+
+*************** New logging session ***************
+10/07/2014 10:32:25 AM -> Data for Notation 'p' is generated.
+10/07/2014 10:32:25 AM -> Notation 'p' created.
+10/07/2014 10:33:04 AM -> Data for Notation 'p' is generated.
+10/07/2014 10:33:04 AM -> Notation 'p' created.
+
+*************** New logging session ***************
+10/07/2014 10:48:18 AM -> Data for Notation 'p' is generated.
+
+*************** New logging session ***************
+10/07/2014 10:50:11 AM -> Data for Notation 'p' is generated.
+10/07/2014 10:50:43 AM -> Data for Notation 'p' is generated.
+
+*************** New logging session ***************
+10/07/2014 10:53:09 AM -> Data for Notation 'r' is generated.
+
+*************** New logging session ***************
+10/07/2014 10:53:45 AM -> Data for Notation 'e' is generated.
+
+*************** New logging session ***************
+10/07/2014 12:01:32 PM -> XAML notation rendered successfully.
+10/07/2014 12:01:32 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarColoured.xaml loaded.
+10/07/2014 12:05:10 PM -> Data for Notation 'TestBar' is generated.
+10/07/2014 12:05:21 PM -> Data for Notation 'TestBar' is generated.
+10/07/2014 12:05:21 PM -> Notation 'TestBar' created.
+10/07/2014 12:05:42 PM -> Notation 'TestBar' saved in notation repository.
+10/07/2014 12:06:11 PM -> XAML notation rendered successfully.
+10/07/2014 12:06:11 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarchart.xaml loaded.
+10/07/2014 12:09:22 PM -> Data for Notation 'TestBarchart' is generated.
+10/07/2014 12:09:31 PM -> Data for Notation 'TestBarchart' is generated.
+10/07/2014 12:09:49 PM -> Data for Notation 'TestBarchart' is generated.
+10/07/2014 12:09:49 PM -> Notation 'TestBarchart' created.
+10/07/2014 12:09:57 PM -> Notation 'TestBarchart' saved in notation repository.
+
+*************** New logging session ***************
+10/07/2014 12:34:49 PM -> XAML notation rendered successfully.
+10/07/2014 12:34:49 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarchart.xaml loaded.
+10/07/2014 12:35:38 PM -> Data for Notation 'HHHBarchart' is generated.
+10/07/2014 12:35:45 PM -> Data for Notation 'HHHBarchart' is generated.
+10/07/2014 12:35:45 PM -> Notation 'HHHBarchart' created.
+10/07/2014 12:35:48 PM -> Notation 'HHHBarchart' saved in notation repository.
+
+*************** New logging session ***************
+10/07/2014 2:38:30 PM -> SVG notation rendered successfully.
+10/07/2014 2:38:30 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+10/07/2014 2:38:43 PM -> SVG notation rendered successfully.
+10/07/2014 2:38:43 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+10/07/2014 2:40:15 PM -> Data for Notation 'svgRect' is generated.
+10/07/2014 2:41:48 PM -> SVG notation rendered successfully.
+10/07/2014 2:42:10 PM -> SVG notation rendered successfully.
+10/07/2014 2:42:23 PM -> SVG notation rendered successfully.
+10/07/2014 2:42:36 PM -> SVG notation rendered successfully.
+10/07/2014 2:42:55 PM -> SVG notation rendered successfully.
+10/07/2014 2:43:07 PM -> SVG notation rendered successfully.
+10/07/2014 2:43:26 PM -> SVG notation rendered successfully.
+10/07/2014 2:44:18 PM -> SVG notation rendered successfully.
+10/07/2014 2:44:31 PM -> SVG notation rendered successfully.
+10/07/2014 2:44:34 PM -> SVG notation rendered successfully.
+10/07/2014 2:45:49 PM -> SVG notation rendered successfully.
+10/07/2014 2:46:14 PM -> SVG notation rendered successfully.
+10/07/2014 2:49:27 PM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+10/07/2014 3:12:27 PM -> SVG notation rendered successfully.
+10/07/2014 3:12:27 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+
+*************** New logging session ***************
+10/07/2014 3:13:04 PM -> SVG notation rendered successfully.
+10/07/2014 3:13:04 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+
+*************** New logging session ***************
+10/07/2014 3:15:35 PM -> SVG notation rendered successfully.
+10/07/2014 3:15:35 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+
+*************** New logging session ***************
+10/07/2014 3:21:06 PM -> SVG notation rendered successfully.
+10/07/2014 3:21:22 PM -> SVG notation rendered successfully.
+10/07/2014 3:21:53 PM -> SVG notation rendered successfully.
+10/07/2014 3:22:27 PM -> SVG notation rendered successfully.
+10/07/2014 3:23:24 PM -> SVG notation rendered successfully.
+10/07/2014 3:23:43 PM -> SVG notation rendered successfully.
+10/07/2014 3:24:07 PM -> Render SVG error -> See exception.
+10/07/2014 3:24:09 PM -> Render SVG error -> See exception.
+10/07/2014 3:24:16 PM -> SVG notation rendered successfully.
+10/07/2014 3:24:31 PM -> SVG notation rendered successfully.
+10/07/2014 3:24:48 PM -> Render SVG error -> See exception.
+10/07/2014 3:24:54 PM -> SVG notation rendered successfully.
+10/07/2014 3:25:03 PM -> SVG notation rendered successfully.
+10/07/2014 3:25:17 PM -> SVG notation rendered successfully.
+10/07/2014 3:25:33 PM -> SVG notation rendered successfully.
+10/07/2014 3:25:45 PM -> SVG notation rendered successfully.
+10/07/2014 3:25:53 PM -> SVG notation rendered successfully.
+10/07/2014 3:26:01 PM -> SVG notation rendered successfully.
+10/07/2014 3:26:12 PM -> SVG notation rendered successfully.
+10/07/2014 3:26:19 PM -> SVG notation rendered successfully.
+10/07/2014 3:26:53 PM -> SVG notation rendered successfully.
+10/07/2014 3:26:59 PM -> SVG notation rendered successfully.
+10/07/2014 3:27:05 PM -> SVG notation rendered successfully.
+10/07/2014 3:27:13 PM -> SVG notation rendered successfully.
+10/07/2014 3:27:21 PM -> SVG notation rendered successfully.
+10/07/2014 3:28:01 PM -> SVG notation rendered successfully.
+10/07/2014 3:28:14 PM -> SVG notation rendered successfully.
+10/07/2014 3:30:02 PM -> SVG notation rendered successfully.
+10/07/2014 3:30:12 PM -> SVG notation rendered successfully.
+10/07/2014 3:30:24 PM -> SVG notation rendered successfully.
+10/07/2014 3:30:39 PM -> SVG notation rendered successfully.
+10/07/2014 3:30:46 PM -> SVG notation rendered successfully.
+10/07/2014 3:31:31 PM -> SVG notation rendered successfully.
+10/07/2014 3:31:48 PM -> SVG notation rendered successfully.
+10/07/2014 3:33:30 PM -> SVG notation rendered successfully.
+10/07/2014 3:33:42 PM -> SVG notation rendered successfully.
+10/07/2014 3:33:50 PM -> SVG notation rendered successfully.
+10/07/2014 3:34:03 PM -> SVG notation rendered successfully.
+10/07/2014 3:36:21 PM -> Data for Notation 'svgBar' is generated.
+10/07/2014 3:36:55 PM -> Data for Notation 'svgBar' is generated.
+10/07/2014 3:36:55 PM -> Notation 'svgBar' is built.
+
+*************** New logging session ***************
+10/07/2014 4:35:32 PM -> Data for Notation 'test' is generated.
+10/07/2014 4:35:32 PM -> Notation 'test' is built.
+
+*************** New logging session ***************
+10/07/2014 4:47:14 PM -> Load graphics failed: System.Xml.XmlException: There are multiple root elements. Line 9, position 2.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.Load(String filename)
+   at CONVErT.Skin.OpenGraphics_Click(Object sender, RoutedEventArgs e) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin.xaml.cs:line 628
+10/07/2014 4:47:32 PM -> SVG notation rendered successfully.
+10/07/2014 4:47:32 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+10/07/2014 4:47:46 PM -> XAML notation rendered successfully.
+10/07/2014 4:47:46 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\Barchart.xaml loaded.
+10/07/2014 4:48:09 PM -> SVG notation rendered successfully.
+10/07/2014 4:48:44 PM -> XAML notation rendered successfully.
+10/07/2014 4:48:55 PM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+11/07/2014 10:29:20 AM -> Data for Notation 'test' is generated.
+
+*************** New logging session ***************
+11/07/2014 10:30:29 AM -> Data for Notation 'test' is generated.
+11/07/2014 10:30:29 AM -> Notation 'test' is built.
+
+*************** New logging session ***************
+11/07/2014 10:48:32 AM -> Data for Notation 'test' is generated.
+11/07/2014 10:49:37 AM -> Notation 'test' is built.
+
+*************** New logging session ***************
+11/07/2014 10:53:45 AM -> Data for Notation 'yretyr' is generated.
+11/07/2014 10:53:45 AM -> Notation 'yretyr' is built.
+11/07/2014 10:54:00 AM -> Render input graphics error -> Modified graphic has to be processed first
+11/07/2014 10:54:14 AM -> Render input graphics error -> Modified graphic has to be processed first
+
+*************** New logging session ***************
+11/07/2014 10:59:55 AM -> SVG notation rendered successfully.
+11/07/2014 10:59:55 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+11/07/2014 11:00:07 AM -> Data for Notation 'test' is generated.
+11/07/2014 11:00:07 AM -> Notation 'test' is built.
+11/07/2014 11:00:25 AM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+11/07/2014 11:14:45 AM -> Data for Notation 'test' is generated.
+11/07/2014 11:14:45 AM -> Notation 'test' is built.
+11/07/2014 11:14:49 AM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+4/08/2014 10:24:08 AM -> SVG notation rendered successfully.
+4/08/2014 10:24:08 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+4/08/2014 10:25:28 AM -> SVG notation rendered successfully.
+4/08/2014 10:25:28 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Barchart.svg loaded.
+4/08/2014 10:26:00 AM -> SVG notation rendered successfully.
+4/08/2014 10:26:33 AM -> SVG notation rendered successfully.
+4/08/2014 10:26:56 AM -> SVG notation rendered successfully.
+4/08/2014 10:27:17 AM -> SVG notation rendered successfully.
+4/08/2014 10:27:42 AM -> SVG notation rendered successfully.
+4/08/2014 10:28:38 AM -> SVG notation rendered successfully.
+4/08/2014 10:29:46 AM -> SVG notation rendered successfully.
+4/08/2014 10:31:58 AM -> SVG notation rendered successfully.
+4/08/2014 10:32:05 AM -> SVG notation rendered successfully.
+4/08/2014 10:32:15 AM -> Building '' failed -> Notation name is not provided!
+4/08/2014 10:32:23 AM -> SVG notation rendered successfully.
+4/08/2014 10:34:44 AM -> SVG notation rendered successfully.
+4/08/2014 10:36:28 AM -> SVG notation rendered successfully.
+4/08/2014 10:36:48 AM -> SVG notation rendered successfully.
+4/08/2014 10:36:48 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Barchart.svg loaded.
+4/08/2014 10:37:10 AM -> SVG notation rendered successfully.
+4/08/2014 10:37:56 AM -> SVG notation rendered successfully.
+4/08/2014 10:38:23 AM -> SVG notation rendered successfully.
+4/08/2014 10:43:21 AM -> SVG notation rendered successfully.
+4/08/2014 10:46:52 AM -> SVG notation rendered successfully.
+4/08/2014 10:46:52 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Barchart.svg loaded.
+4/08/2014 10:54:06 AM -> Render SVG error -> See exception.
+
+*************** New logging session ***************
+18/08/2014 10:05:43 AM -> SVG notation rendered successfully.
+18/08/2014 10:05:43 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\Rectangle.svg loaded.
+
+*************** New logging session ***************
+2/09/2014 2:50:12 PM -> XAML notation rendered successfully.
+2/09/2014 2:50:12 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarColoured.xaml loaded.
+2/09/2014 2:50:32 PM -> XAML notation rendered successfully.
+2/09/2014 2:51:04 PM -> XAML notation rendered successfully.
+2/09/2014 2:51:59 PM -> XAML notation rendered successfully.
+2/09/2014 2:52:39 PM -> XAML notation rendered successfully.
+2/09/2014 2:52:51 PM -> XAML notation rendered successfully.
+2/09/2014 2:53:13 PM -> Render notation error -> See exception.
+2/09/2014 2:53:32 PM -> XAML notation rendered successfully.
+2/09/2014 2:55:23 PM -> Render notation error -> See exception.
+2/09/2014 2:55:38 PM -> XAML notation rendered successfully.
+2/09/2014 2:56:04 PM -> XAML notation rendered successfully.
+2/09/2014 2:56:44 PM -> XAML notation rendered successfully.
+2/09/2014 2:57:14 PM -> XAML notation rendered successfully.
+2/09/2014 2:57:52 PM -> XAML notation rendered successfully.
+2/09/2014 3:03:09 PM -> XAML notation rendered successfully.
+2/09/2014 3:04:14 PM -> XAML notation rendered successfully.
+2/09/2014 3:06:16 PM -> XAML notation rendered successfully.
+2/09/2014 3:06:47 PM -> XAML notation rendered successfully.
+2/09/2014 3:07:38 PM -> XAML notation rendered successfully.
+2/09/2014 3:09:45 PM -> Render notation error -> See exception.
+2/09/2014 3:09:59 PM -> XAML notation rendered successfully.
+2/09/2014 3:10:18 PM -> XAML notation rendered successfully.
+2/09/2014 3:12:57 PM -> XAML notation rendered successfully.
+2/09/2014 3:31:12 PM -> XAML notation rendered successfully.
+2/09/2014 3:34:44 PM -> XAML notation rendered successfully.
+2/09/2014 3:35:35 PM -> XAML notation rendered successfully.
+2/09/2014 3:35:56 PM -> XAML notation rendered successfully.
+2/09/2014 3:36:19 PM -> XAML notation rendered successfully.
+2/09/2014 3:40:08 PM -> XAML notation rendered successfully.
+2/09/2014 3:41:38 PM -> Render notation error -> See exception.
+2/09/2014 3:43:07 PM -> XAML notation rendered successfully.
+2/09/2014 3:43:58 PM -> XAML notation rendered successfully.
+2/09/2014 3:45:12 PM -> XAML notation rendered successfully.
+2/09/2014 3:47:58 PM -> XAML notation rendered successfully.
+2/09/2014 3:48:27 PM -> XAML notation rendered successfully.
+2/09/2014 3:58:46 PM -> XAML notation rendered successfully.
+2/09/2014 3:59:08 PM -> XAML notation rendered successfully.
+2/09/2014 3:59:21 PM -> XAML notation rendered successfully.
+2/09/2014 3:59:32 PM -> XAML notation rendered successfully.
+2/09/2014 4:17:14 PM -> XAML notation rendered successfully.
+2/09/2014 4:18:03 PM -> XAML notation rendered successfully.
+2/09/2014 4:19:15 PM -> XAML notation rendered successfully.
+2/09/2014 4:21:28 PM -> XAML notation rendered successfully.
+2/09/2014 4:22:02 PM -> XAML notation rendered successfully.
+2/09/2014 4:22:52 PM -> XAML notation rendered successfully.
+2/09/2014 4:23:33 PM -> XAML notation rendered successfully.
+2/09/2014 4:25:13 PM -> XAML notation rendered successfully.
+2/09/2014 4:25:52 PM -> XAML notation rendered successfully.
+2/09/2014 4:26:16 PM -> XAML notation rendered successfully.
+2/09/2014 4:26:29 PM -> XAML notation rendered successfully.
+2/09/2014 4:26:56 PM -> XAML notation rendered successfully.
+2/09/2014 4:28:37 PM -> XAML notation rendered successfully.
+
+*************** New logging session ***************
+3/09/2014 3:38:56 PM -> XAML notation rendered successfully.
+3/09/2014 3:38:56 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\LawBar.XAML loaded.
+
+*************** New logging session ***************
+3/09/2014 4:34:11 PM -> XAML notation rendered successfully.
+3/09/2014 4:34:11 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarchart.xaml loaded.
+3/09/2014 4:37:19 PM -> XAML notation rendered successfully.
+3/09/2014 4:38:47 PM -> XAML notation rendered successfully.
+3/09/2014 4:39:52 PM -> XAML notation rendered successfully.
+3/09/2014 4:41:02 PM -> XAML notation rendered successfully.
+3/09/2014 4:41:45 PM -> XAML notation rendered successfully.
+3/09/2014 4:43:23 PM -> XAML notation rendered successfully.
+3/09/2014 4:50:40 PM -> XAML notation rendered successfully.
+3/09/2014 4:52:25 PM -> XAML notation rendered successfully.
+3/09/2014 4:53:24 PM -> XAML notation rendered successfully.
+3/09/2014 4:54:39 PM -> XAML notation rendered successfully.
+3/09/2014 4:55:21 PM -> XAML notation rendered successfully.
+3/09/2014 4:56:07 PM -> XAML notation rendered successfully.
+3/09/2014 4:57:42 PM -> XAML notation rendered successfully.
+3/09/2014 4:58:56 PM -> XAML notation rendered successfully.
+3/09/2014 5:00:14 PM -> XAML notation rendered successfully.
+3/09/2014 5:00:36 PM -> XAML notation rendered successfully.
+3/09/2014 5:01:04 PM -> XAML notation rendered successfully.
+3/09/2014 5:01:25 PM -> XAML notation rendered successfully.
+3/09/2014 5:01:54 PM -> XAML notation rendered successfully.
+3/09/2014 5:02:10 PM -> XAML notation rendered successfully.
+3/09/2014 5:39:48 PM -> XAML notation rendered successfully.
+3/09/2014 5:39:59 PM -> XAML notation rendered successfully.
+3/09/2014 5:41:39 PM -> XAML notation rendered successfully.
+3/09/2014 5:41:45 PM -> XAML notation rendered successfully.
+
+*************** New logging session ***************
+4/09/2014 4:22:20 PM -> Data for Notation 'test' is generated.
+4/09/2014 4:22:20 PM -> Notation 'test' is built.
+4/09/2014 4:23:29 PM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+4/09/2014 4:29:06 PM -> Data for Notation 'svgtest' is generated.
+4/09/2014 4:29:06 PM -> Notation 'svgtest' is built.
+4/09/2014 4:29:11 PM -> SVG Notation 'svgtest' saved in notation repository.
+
+*************** New logging session ***************
+22/09/2014 3:56:50 PM -> XAML notation rendered successfully.
+22/09/2014 3:56:50 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\LawChart.XAML loaded.
+22/09/2014 3:59:36 PM -> Data for Notation 'CompetencyChart' is generated.
+22/09/2014 3:59:36 PM -> Notation 'CompetencyChart' is built.
+22/09/2014 3:59:43 PM -> XAML Notation 'CompetencyChart' saved in notation repository.
+22/09/2014 3:59:54 PM -> XAML notation rendered successfully.
+22/09/2014 3:59:54 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\LawBar.XAML loaded.
+22/09/2014 4:00:50 PM -> XAML notation rendered successfully.
+22/09/2014 4:05:56 PM -> Data for Notation 'CompetencyBar' is generated.
+22/09/2014 4:05:56 PM -> Notation 'CompetencyBar' is built.
+22/09/2014 4:07:25 PM -> Data for Notation 'CompetencyBar' is generated.
+22/09/2014 4:07:25 PM -> Notation 'CompetencyBar' is built.
+22/09/2014 4:07:45 PM -> Data for Notation 'CompetencyBar' is generated.
+22/09/2014 4:07:45 PM -> Notation 'CompetencyBar' is built.
+22/09/2014 4:07:52 PM -> XAML Notation 'CompetencyBar' saved in notation repository.
+
+*************** New logging session ***************
+23/09/2014 11:00:36 AM -> XAML notation rendered successfully.
+23/09/2014 11:00:36 AM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\LawBar.XAML loaded.
+
+*************** New logging session ***************
+2/10/2014 11:36:40 AM -> Render SVG error -> See exception.
+2/10/2014 11:37:01 AM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+3/10/2014 4:32:16 PM -> SVG notation rendered successfully.
+3/10/2014 4:32:33 PM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+28/10/2014 2:03:16 PM -> Loading graphics canceled!
+28/10/2014 2:03:51 PM -> XAML notation rendered successfully.
+28/10/2014 2:03:51 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarColoured.xaml loaded.
+28/10/2014 2:05:34 PM -> Data for Notation 'TestHBar' is generated.
+28/10/2014 2:05:34 PM -> Notation 'TestHBar' is built.
+28/10/2014 2:06:28 PM -> XAML Notation 'TestHBar' saved in notation repository.
+28/10/2014 2:06:57 PM -> XAML notation rendered successfully.
+28/10/2014 2:06:57 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarchart.xaml loaded.
+28/10/2014 2:11:58 PM -> Data for Notation 'TestHBarchart2' is generated.
+28/10/2014 2:11:58 PM -> Notation 'TestHBarchart2' is built.
+28/10/2014 2:12:50 PM -> XAML Notation 'TestHBarchart2' saved in notation repository.
+
+*************** New logging session ***************
+31/10/2014 2:33:52 PM -> XAML notation rendered successfully.
+31/10/2014 2:33:52 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\XAML repository\horizontalBarColoured.xaml loaded.
+31/10/2014 2:34:23 PM -> XAML notation rendered successfully.
+31/10/2014 2:34:39 PM -> XAML notation rendered successfully.
+31/10/2014 2:34:51 PM -> XAML notation rendered successfully.
+31/10/2014 2:35:03 PM -> XAML notation rendered successfully.
+31/10/2014 2:35:22 PM -> XAML notation rendered successfully.
+31/10/2014 2:35:29 PM -> XAML notation rendered successfully.
+31/10/2014 2:35:46 PM -> XAML notation rendered successfully.
+31/10/2014 2:36:13 PM -> XAML notation rendered successfully.
+31/10/2014 3:04:03 PM -> Render notation error -> See exception.
+31/10/2014 3:04:58 PM -> XAML notation rendered successfully.
+31/10/2014 3:05:10 PM -> XAML notation rendered successfully.
+31/10/2014 3:05:26 PM -> XAML notation rendered successfully.
+31/10/2014 3:05:46 PM -> XAML notation rendered successfully.
+31/10/2014 4:25:43 PM -> Render notation error -> See exception.
+31/10/2014 4:26:34 PM -> XAML notation rendered successfully.
+31/10/2014 4:27:00 PM -> XAML notation rendered successfully.
+31/10/2014 4:31:47 PM -> XAML notation rendered successfully.
+31/10/2014 4:32:19 PM -> XAML notation rendered successfully.
+31/10/2014 4:33:17 PM -> XAML notation rendered successfully.
+31/10/2014 4:33:33 PM -> XAML notation rendered successfully.
+
+*************** New logging session ***************
+31/10/2014 4:41:56 PM -> Loading graphics canceled!
+
+*************** New logging session ***************
+6/11/2014 6:47:20 PM -> SVG notation rendered successfully.
+6/11/2014 6:48:56 PM -> Data for Notation 'HBar' is generated.
+6/11/2014 6:48:56 PM -> Notation 'HBar' is built.
+6/11/2014 6:52:32 PM -> Data for Notation 'HBarchart' is generated.
+6/11/2014 6:52:32 PM -> Notation 'HBarchart' is built.
+
+*************** New logging session ***************
+6/11/2014 7:01:34 PM -> Data for Notation 'HBarchart' is generated.
+6/11/2014 7:01:34 PM -> Notation 'HBarchart' is built.
+6/11/2014 7:02:14 PM -> Data for Notation 'HBarchart' is generated.
+6/11/2014 7:02:14 PM -> Notation 'HBarchart' is built.
+6/11/2014 7:02:38 PM -> Data for Notation 'HBarchart' is generated.
+6/11/2014 7:02:38 PM -> Notation 'HBarchart' is built.
+6/11/2014 7:03:18 PM -> Data for Notation 'HBarchart' is generated.
+6/11/2014 7:03:18 PM -> Notation 'HBarchart' is built.
+6/11/2014 7:03:37 PM -> SVG Notation 'HBarchart' saved in notation repository.
+
+*************** New logging session ***************
+7/11/2014 1:59:16 PM -> SVG notation rendered successfully.
+7/11/2014 1:59:16 PM -> Graphics file: "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Skin Graphics\SVG repository\barchart1.svg loaded.
+7/11/2014 1:59:30 PM -> SVG notation rendered successfully.
+7/11/2014 2:00:14 PM -> SVG notation rendered successfully.
+7/11/2014 2:02:53 PM -> SVG notation rendered successfully.
+7/11/2014 2:03:47 PM -> SVG notation rendered successfully.
+7/11/2014 2:04:04 PM -> SVG notation rendered successfully.
+7/11/2014 2:04:12 PM -> SVG notation rendered successfully.
+7/11/2014 2:04:18 PM -> SVG notation rendered successfully.
+7/11/2014 2:04:25 PM -> SVG notation rendered successfully.
+7/11/2014 2:04:32 PM -> SVG notation rendered successfully.
+7/11/2014 2:05:05 PM -> SVG notation rendered successfully.
+7/11/2014 2:05:23 PM -> SVG notation rendered successfully.
+
+*************** New logging session ***************
+1/12/2014 1:49:48 PM -> Data for Notation 'SVGBar' is generated.
+1/12/2014 1:49:48 PM -> Notation 'SVGBar' is built.
+1/12/2014 1:50:02 PM -> Data for Notation 'SVGBar' is generated.
+1/12/2014 1:50:02 PM -> Notation 'SVGBar' is built.
+1/12/2014 1:50:21 PM -> SVG Notation 'SVGBar' saved in notation repository.
+1/12/2014 1:56:56 PM -> SVG notation rendered successfully.
+1/12/2014 1:57:15 PM -> SVG notation rendered successfully.
+1/12/2014 1:58:00 PM -> Data for Notation 'SVGBarchart' is generated.
+1/12/2014 1:58:00 PM -> Notation 'SVGBarchart' is built.
+1/12/2014 1:58:31 PM -> SVG Notation 'SVGBarchart' saved in notation repository.
+
+*************** New logging session ***************
+8/12/2014 4:42:55 PM -> SVG notation rendered successfully.

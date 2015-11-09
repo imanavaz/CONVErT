@@ -1,0 +1,23 @@
+<local:MinardMapPoint xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <local:MinardMapPoint.PointX>5</local:MinardMapPoint.PointX>
+  <local:MinardMapPoint.PointY>5</local:MinardMapPoint.PointY>
+  <local:MinardMapPoint.Value>20000</local:MinardMapPoint.Value>
+  <local:MinardMapPoint.MapPointColor>Blue</local:MinardMapPoint.MapPointColor>
+  <local:MinardMapPoint.PointName>Name</local:MinardMapPoint.PointName>
+</local:MinardMapPoint>
+
+<!--MapPointData>
+<X>10</X>
+<Y>10</Y>
+<Value>50000</Value>
+<City>CityName</City>
+<Color>Green</Color>
+</MapPointData>
+
+<local:MinardMapPoint xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <local:MinardMapPoint.PointX linkto="X">5</local:MinardMapPoint.PointX>
+  <local:MinardMapPoint.PointY linkto="Y">5</local:MinardMapPoint.PointY>
+  <local:MinardMapPoint.Value linkto="Value">20000</local:MinardMapPoint.Value>
+  <local:MinardMapPoint.MapPointColor linkto="Color">Blue</local:MinardMapPoint.MapPointColor>
+  <local:MinardMapPoint.PointName linkto="City">Name</local:MinardMapPoint.PointName>
+</local:MinardMapPoint-->

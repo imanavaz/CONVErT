@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="ClassDiagram">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name" type="xs:string"/>
+				<xs:element name="Classes">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="UMLClass" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="xs:string"/>
+										<xs:element name="Access" type="xs:string"/>
+										<xs:element name="Attributes">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="UMLAttribute" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"/>
+																<xs:element name="Access" type="xs:string"/>
+																<xs:element name="Type" type="xs:string"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Operations">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="UMLOperation" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"/>
+																<xs:element name="Access" type="xs:string"/>
+																<xs:element name="ReturnType" type="xs:string"/>
+																<xs:element name="OPParameters">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="UMLParameter" minOccurs="0">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="Name" type="xs:string"/>
+																						<xs:element name="Type" type="xs:string"/>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Associations">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="UMLAssociation" minOccurs="0" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name" type="xs:string"/>
+																<xs:element name="EndClass" type="xs:string"/>
+																<xs:element name="Multiplicity" type="xs:string"/>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

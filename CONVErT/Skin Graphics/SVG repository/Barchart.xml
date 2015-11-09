@@ -1,0 +1,17 @@
+
+<svg class="barchart">
+	<svg class="bar">
+		<g transform="translate(0,0)">
+			<text x ="60" y="0" width="-60" dy="0.46em" text-anchor="end">Name</text>    
+			<rect x="65" y="-8" width="50" height="20" fill="steelblue" />
+			<text x="70" y="0" dy="0.46em" fill="white" >50</text>
+		</g>
+	</svg>
+	<svg class="bar">
+		<g transform="translate(0,0)">
+			<text x ="60" y="0" width="-60" dy="0.46em" text-anchor="end">Name</text>    
+			<rect x="65" y="-8" width="50" height="20" fill="steelblue" />
+			<text x="70" y="0" dy="0.46em" fill="white" >50</text>
+		</g>
+	</svg>
+</svg>

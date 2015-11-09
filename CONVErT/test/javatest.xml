@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><javasource><packageName>XYZ Airline</packageName><class-declarations>
+    <class-declaration><access>public</access><name>Flight</name><properties>
+        <Field><Access>public</Access><Name>FlightNo</Name><Type>int</Type><Multiplicity>1</Multiplicity></Field>
+        <Field><Access>public</Access><Name>DepartTime</Name><Type>date</Type><Multiplicity>1</Multiplicity></Field>
+        <Field><Access>public</Access><Name>Duration</Name><Type>Minutes</Type><Multiplicity>1</Multiplicity></Field>
+      </properties><methods>
+        <JavaMethod><Name>delayFlight</Name><ReturnType>void</ReturnType><Access>public</Access><Parameters>
+            <JavaParam><Name>delay</Name><Type>minutes</Type></JavaParam>
+          </Parameters></JavaMethod>
+        <JavaMethod><Name>getArrivalTime</Name><ReturnType>time</ReturnType><Access>public</Access><Parameters /></JavaMethod>
+      </methods></class-declaration>
+    <class-declaration><access>public</access><name>Plane</name><properties>
+        <Field><Access>public</Access><Name>planeType</Name><Type>string</Type><Multiplicity>1</Multiplicity></Field>
+        <Field><Access>public</Access><Name>tailID</Name><Type>string</Type><Multiplicity>1</Multiplicity></Field>
+      </properties><methods /></class-declaration>
+    <class-declaration><access>public</access><name>FrequentFlyer</name><properties>
+        <Field><Access>public</Access><Name>firstName</Name><Type>string</Type><Multiplicity>1</Multiplicity></Field>
+        <Field><Access>public</Access><Name>lastName</Name><Type>string</Type><Multiplicity>1</Multiplicity></Field>
+        <Field><Access>public</Access><Name>No</Name><Type>int</Type><Multiplicity>1</Multiplicity></Field>
+      </properties><methods>
+        <JavaMethod><Name>getMileage</Name><ReturnType>int</ReturnType><Access>public</Access><Parameters /></JavaMethod>
+      </methods></class-declaration>
+  </class-declarations></javasource>

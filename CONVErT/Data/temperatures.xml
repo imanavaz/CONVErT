@@ -1,0 +1,47 @@
+<temperatures>
+	<rec>
+		<lon>37.6</lon>
+		<temp>0</temp>
+		<date>18 Oct 1812</date>
+	</rec>
+	<rec>
+		<lon>36.0</lon>
+		<temp>0</temp>
+		<date>24 Oct 1812</date>
+	</rec>
+	<rec>
+		<lon>33.2</lon>
+		<temp>-9</temp>
+		<date>09 Nov 1812</date>
+	</rec>
+	<rec>
+		<lon>32.0</lon>
+		<temp>-21</temp>
+		<date>24 Nov 1812</date>
+	</rec>
+	<rec>
+		<lon>29.2</lon>
+		<temp>-11</temp>
+		<date>24 Nov 1812</date>
+	</rec>
+	<rec>
+		<lon>28.5</lon>
+		<temp>-20</temp>
+		<date>28 Nov 1812</date>
+	</rec>
+	<rec>
+		<lon>27.2</lon>
+		<temp>-24</temp>
+		<date>01 Dec 1812</date>
+	</rec>
+	<rec>
+		<lon>26.7</lon>
+		<temp>-30</temp>
+		<date>06 Dec 1812</date>
+	</rec>
+	<rec>
+		<lon>25.3</lon>
+		<temp>-26</temp>
+		<date>07 Dec 1812</date>
+	</rec>
+</temperatures>

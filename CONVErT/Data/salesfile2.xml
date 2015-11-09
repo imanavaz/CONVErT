@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spreadsheet>
+  <SpreadSheetName>My Company Records</SpreadSheetName>
+  <ElementsPresented>Sales</ElementsPresented>
+  <Categories>Geographical Areas</Categories>
+  <sales Region="Europe">
+    <Amount1>30</Amount1>
+	  <Amount2>10</Amount2>
+  </sales>
+  <sales Region="Australia">
+    <Amount1>25</Amount1>
+    <Amount2>25</Amount2>
+  </sales>
+  <sales Region="Asia">
+    <Amount1>20</Amount1>
+	  <Amount2>30</Amount2>
+  </sales>
+  <sales Region="America">
+    <Amount1>40</Amount1>
+	  <Amount2>50</Amount2>
+  </sales>
+</Spreadsheet>

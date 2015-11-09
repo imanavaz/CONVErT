@@ -1,0 +1,60 @@
+<Building>
+  <Name>New Green Building</Name>
+  <FloorPlans>
+    <FloorPlan>
+      <Name>Living Area</Name>
+      <Rooms>
+        <Room>
+          <Geometry>M 0,0 L 115,0 L 115,105 L 110,105 M 60,105 L 0,105 L 0,0</Geometry>
+          <Name>Open Kitchen</Name>
+          <Type>Kitchen</Type>
+        </Room>
+        <Room>
+          <Geometry>M 0,0 L 60,0 L 60,80 L 45,95 L 60,95 L 60,105 L 0,105 L 0,0</Geometry>
+          <Name>Washing Area</Name>
+          <Type>Toilet</Type>
+        </Room>
+        <Room>
+          <Geometry>M 0,0 L 75,0 L 100,15 L 100,0 L 115,0 L 115,105 L 0,105 L 0,0</Geometry>
+          <Name>Room 1</Name>
+          <Type>BedRoom</Type>
+        </Room>
+      </Rooms>
+    </FloorPlan>
+    <FloorPlan>
+      <Name>Upper Rooms</Name>
+      <Rooms>
+        <Room>
+          <Geometry>M 0,0 L 100,0 L 100,80 L 85,100 M 100,105 L 0,105 L 0,0</Geometry>
+          <Name>Room 2</Name>
+          <Type>BedRoom</Type>
+        </Room>
+        <Room>
+          <Geometry>M 0,0 L 100,0 L 100,80 L 85,100 M 100,105 L 0,105 L 0,0</Geometry>
+          <Name>Room 3</Name>
+          <Type>BedRoom</Type>
+        </Room>
+        <Room>
+          <Geometry>M 0,0 L 100,0 L 100,80 L 85,100 M 100,105 L 0,105 L 0,0</Geometry>
+          <Name>Room 4</Name>
+          <Type>BedRoom</Type>
+        </Room>
+      </Rooms>
+    </FloorPlan>
+	 <FloorPlan>
+      <Name>Third Floor Rooms</Name>
+      <Rooms>
+        <Room>
+          <Geometry>M 0,0 L 100,0 L 100,80 L 85,100 M 100,105 L 0,105 L 0,0</Geometry>
+          <Name>Room 5</Name>
+          <Type>BedRoom</Type>
+        </Room>
+        <Room>
+          <Geometry>M 0,0 L 100,0 L 100,80 L 85,100 M 100,105 L 0,105 L 0,0</Geometry>
+          <Name>Room 6</Name>
+          <Type>BedRoom</Type>
+        </Room>
+      </Rooms>
+    </FloorPlan>
+  </FloorPlans>
+</Building>

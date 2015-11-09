@@ -1,0 +1,12 @@
+<Canvas xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' Background='White' Width='200' Height='250'>
+    <TextBlock Canvas.Left='60'>
+		<TextBlock.Text>Chart Name</TextBlock.Text>
+    </TextBlock>
+    <Path Fill='Black' Canvas.Left='10' Canvas.Top='10' Data='M 0 6 L 12 6 L 6 0 Z'/>
+    <Line X1='16' X2='16' Y1='10' Y2='195' Stroke='Black'/>
+    <Path Fill='Black' Canvas.Left='180' Canvas.Top='180' Data='M 6 12 L 12 6 L 6 0 Z' />
+    <Line X1='8' X2='190' Y1='186' Y2='186' Stroke='Black' />
+    <StackPanel Canvas.Left='18' Canvas.Top='15' Height='230' Orientation='Horizontal' >
+        <Grid></Grid>
+    </StackPanel>
+</Canvas>

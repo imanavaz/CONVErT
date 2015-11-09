@@ -1,0 +1,37 @@
+<StackPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'>
+  <Label>
+    <Label.Background>White</Label.Background>
+    <!--Label.Content linkto='Value'>50</Label.Content-->
+  </Label>
+  <Rectangle>
+    <Rectangle.Fill>Green</Rectangle.Fill>
+    <Rectangle.Width>10</Rectangle.Width>
+    <!--Rectangle.Height linkto='Value' >50</Rectangle.Height-->
+  </Rectangle>  
+  <Label>
+    <Label.Background>White</Label.Background>
+    <!--Label.Content linkto='Name' >barName</Label.Content-->
+  </Label>
+</StackPanel>
+
+<!--BarNode>
+<Value>70</Value>
+<Name>NewName</Name>
+</BarNode-->
+
+<!--StackPanel xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'>
+  <Label>
+    <Label.Background>White</Label.Background>
+    <Label.Content>50</Label.Content>
+  </Label>
+  <Rectangle>
+    <Rectangle.Fill>Green</Rectangle.Fill>
+    <Rectangle.Width>10</Rectangle.Width>
+    <Rectangle.Height>50</Rectangle.Height>
+  </Rectangle>  
+  <Label>
+    <Label.Background>White</Label.Background>
+    <Label.Content>barName</Label.Content>
+  </Label>
+</StackPanel-->
+

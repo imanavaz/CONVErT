@@ -1,0 +1,26 @@
+<HorizontalBarchart>
+  <Name>My Company Records</Name>
+  <ScaleName>Geographical Areas</ScaleName>
+  <HBars>
+    <HorizontalBar>
+      <Value>40</Value>
+      <BName>Europe</BName>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+    <HorizontalBar>
+      <Value>50</Value>
+      <BName>Australia</BName>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+    <HorizontalBar>
+      <Value>50</Value>
+      <BName>Asia</BName>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+    <HorizontalBar>
+      <Value>90</Value>
+      <BName>America</BName>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+  </HBars>
+</HorizontalBarchart>

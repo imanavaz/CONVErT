@@ -1,0 +1,64 @@
+<DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Background="White">
+  <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="5">
+    <TextBlock.Text>Name</TextBlock.Text>
+  </TextBlock>
+  <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Bottom" Margin="5">
+    <TextBlock.Text>Scale</TextBlock.Text>
+  </TextBlock>
+	<StackPanel>
+		<StackPanel Orientation="Horizontal">
+			<Border BorderBrush="Black" BorderThickness="0,0,2,0">
+				<Label Width="50" Margin="0,0,3,0" Height="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">
+					<Label.Background>White</Label.Background>
+				</Label>
+			</Border>
+			<Label Width="50"/>
+		</StackPanel>
+		<StackPanel>
+		</StackPanel>
+		<StackPanel Orientation="Horizontal">
+			<Border BorderBrush="Black" BorderThickness="0,0,2,0">
+				<Label Width="50" Margin="0,0,3,0" Height="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">
+					<Label.Background>White</Label.Background>
+				</Label>
+			</Border>
+			<Label Width="50"/>
+		</StackPanel>
+	</StackPanel>
+</DockPanel>
+
+
+<!--HorizontalBarchart>
+<Name>chart name</Name>
+<ScaleName>scale name</ScaleName>
+<Bars>bars</Bars>
+</HorizontalBarchart-->
+
+<!--DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Background="White">
+  <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="5">
+    <TextBlock.Text linkto="Name">Name</TextBlock.Text>
+  </TextBlock>
+  <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Bottom" Margin="5">
+    <TextBlock.Text linkto="ScaleName">Scale</TextBlock.Text>
+  </TextBlock>
+<StackPanel>
+<StackPanel Orientation="Horizontal">
+<Border BorderBrush="Black" BorderThickness="0,0,2,0">
+<Label Width="50" Margin="0,0,3,0" Height="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">
+    <Label.Background>White</Label.Background>
+  </Label>
+</Border>
+<Label Width="50"/>
+</StackPanel>
+<StackPanel callfor="Bars">
+</StackPanel>
+<StackPanel Orientation="Horizontal">
+<Border BorderBrush="Black" BorderThickness="0,0,2,0">
+<Label Width="50" Margin="0,0,3,0" Height="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">
+    <Label.Background>White</Label.Background>
+  </Label>
+</Border>
+<Label Width="50"/>
+</StackPanel>
+</StackPanel>
+</DockPanel-->

@@ -1,0 +1,270 @@
+﻿<ContentControl x:Class="CONVErT.Visualiser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                xmlns:local="clr-namespace:CONVErT"
+        Height="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type TabItem}}, Path=ActualHeight}" 
+        Width="{Binding RelativeSource={RelativeSource FindAncestor, AncestorType={x:Type TabItem}}, Path=ActualWidth}"
+        Background="#7f8c8d" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" d:DesignHeight="459" d:DesignWidth="906">
+
+    <!--xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"-->
+
+    <DockPanel HorizontalAlignment="Stretch" 
+               VerticalAlignment="Stretch"
+               Background="#7f8c8d">
+
+        <!--Menu-->
+        <Menu DockPanel.Dock="Top"
+              Width="Auto"
+              >
+            <MenuItem Height="Auto" Header="File">
+                <MenuItem Header="Open input file ..." Click="OpenModel_Click"/>
+                <Separator/>
+                <MenuItem Header="Open visualisation (Interactive) ..." Click="RenderElements_Click" />
+                <MenuItem Header="Open visualsiation (Still) ..." Click="RenderStillVisualisation_Click" />
+                <Separator/>
+                <MenuItem Header="Close" Click="CloseProgram_Click"/>
+            </MenuItem>
+            <MenuItem Height="Auto" Header="Tools">
+                <!--MenuItem Header="Show Correspondence" Click="ShowCorrespondence_Click"/-->
+                <MenuItem Header="Save Notation" Click="SaveVisualElementTemplate_Click"/>
+                <Separator/>
+                <MenuItem Header="Generate Composition" Click="schedulingRunMenu_Click"/>
+                <MenuItem Header="Clear Composition Canvas" Click="schedulingClearMenu_Click" />
+                <MenuItem Header="Export visualisation">
+                    <MenuItem Header="to *.png" Click="ExportToPNG_Click"/>
+                    <MenuItem Header="to *.xaml" Click="ExportToXAML_Click"/>
+                    <MenuItem Header="to *.html" Click="ExportToHTML_Click"/>
+                    <MenuItem Header="Data visualiser ..." Click="ExportToDataVisualiser_Click" IsEnabled="False"/>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Test transformation" Click="TestXSLT_Click"/>
+                <MenuItem Header="Options">
+                    <MenuItem Header="Load Toolbox Items" Click="Load_ToolBox_Click"/>
+                    <MenuItem Header="Clear Logs" Click="ClearLogs_Click"/>
+                </MenuItem>
+            </MenuItem>
+            <!--MenuItem Height="Auto" Header="View" Visibility="Hidden"/-->
+            <MenuItem Header="Other" >
+                <MenuItem Header="TesT" Click="Test_Click" Visibility="Visible"/>
+            </MenuItem>
+
+        </Menu>
+
+        <local:ReporterStatusBar x:Name="ReportStatusBar" 
+                                 DockPanel.Dock="Bottom"
+                                 Height="30"
+                                 Background="#7f8c8d"
+                                 BorderBrush="#7f8c8d"/>
+        <!---->
+        <Grid DockPanel.Dock="Left" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="4*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            
+            
+            
+        <!-- XML Input Model in TreeView -->
+        <TabControl x:Name="ModelTab" 
+                    HorizontalAlignment="Stretch" 
+                    Background="#ecf0f1"
+                    VerticalAlignment="Stretch" 
+                    TabStripPlacement="Bottom"
+                    AllowDrop="False">
+            <!--TabItem Header="Model Test">
+                <ScrollViewer VerticalScrollBarVisibility="Auto"
+                          Margin="2"
+                      HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <TreeView x:Name="ModelTreeView"
+                      ItemsSource="{Binding FirstChild}" 
+                      AllowDrop="True"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch"-->
+            <!--="ModelTreeView_Drop" Omited 22/05/2012 So code generation will only be performed in scheduler-->
+            <!--TreeView.ItemContainerStyle-->
+            <!-- This Style binds a TreeViewItem to a PersonViewModel. -->
+            <!--Style TargetType="{x:Type TreeViewItem}">
+                                <Setter Property="IsExpanded" Value= "true" />
+                                <Setter Property="AllowDrop" Value="True" />
+                                <EventSetter Event="TreeViewItem.MouseLeftButtonDown" Handler="ModelTreeView_MouseLeftButtonDown" />
+                                <EventSetter Event="TreeViewItem.MouseMove" Handler="ModelTreeView_MouseMove" />
+                                <EventSetter Event="TreeViewItem.GotFocus" Handler="TreeViewItem_GotFocus"/>
+                            </Style>
+                        </TreeView.ItemContainerStyle>
+                        <TreeView.ItemTemplate>
+                            <HierarchicalDataTemplate ItemsSource="{Binding Children}" >
+                                <StackPanel Orientation="Horizontal" 
+                                    Margin="5"
+                                    Width="Auto"
+                                    Height="Auto">
+                                    <TextBlock x:Name="EnameTB" Text="{Binding Path=Name}" />
+                                    <TextBlock x:Name="ColonTB" Text=" : " />
+                                    <TextBlock x:Name="EvalueTB" Text="{Binding Path=EValue}" />
+                                </StackPanel>
+                                <DataTemplate.Triggers>
+                                    <DataTrigger Binding="{Binding Path=Type}" Value="0">
+                                        <Setter TargetName="EvalueTB" Property="Visibility" Value="Hidden" />
+                                        <Setter TargetName="ColonTB" Property="Visibility" Value="Hidden" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding Path=Type}" Value="1">
+                                        <Setter TargetName="EvalueTB" Property="Visibility" Value="Visible" />
+                                        <Setter TargetName="ColonTB" Property="Visibility" Value="Visible" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding Path=Type}" Value="2">
+                                        <Setter TargetName="EvalueTB" Property="Visibility" Value="Hidden" />
+                                        <Setter TargetName="ColonTB" Property="Visibility" Value="Hidden" />
+                                    </DataTrigger>
+                                </DataTemplate.Triggers>
+                            </HierarchicalDataTemplate>
+                        </TreeView.ItemTemplate>
+                    </TreeView>
+
+                </ScrollViewer>
+                </TabItem-->
+
+        </TabControl>
+
+
+        <!-- Visual part -->
+        <Grid Grid.Column="1" Background="#95A5A6">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO" MinHeight="450"/>
+                <RowDefinition Height="4"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Visual Part and Rendering -->
+            <DockPanel Grid.Row="0">
+                <TabControl Name="DesignerTabControl" 
+                            TabStripPlacement="Bottom" 
+                            >
+                    <TabItem Header="Visual Designer" Name="visualisationTab" RequestBringIntoView="visualisationTab_RequestBringIntoView">
+                        <!--Drop Zone-->
+                        <Canvas Name="VisElementCanvas"
+                                Background="LightGray" 
+                                AllowDrop="True" 
+                                Drop="VisElementCanvas_Drop">
+                            <!--m:Map CredentialsProvider="AifmCIN-zLz3ZdaALGM5ebqrXx5WFNEmTcwEtTZmEnDwNDHoAZar0tGdTMpwNJCW" Height="280" Width="441" Center="-37.825664,145.044447" ZoomLevel="12" 
+                                  MouseLeftButtonDown=""/-->
+                        </Canvas>
+                    </TabItem>
+                    <TabItem Header="Composition" Name="schedulingTab" RequestBringIntoView="schedulingTab_RequestBringIntoView">
+                        <!--Drop Zone-->
+                        <Canvas Name="schedulingCanvas"
+                                Background="#ecf0f1" 
+                                AllowDrop="True" 
+                                Drop="SchedulingCanvas_Drop">
+                            <Popup x:Name="samplePopup" 
+                                   PopupAnimation="Fade" 
+                                   IsOpen="{Binding Path=ShowSample}"
+                                   />
+                        </Canvas>
+                    </TabItem>
+                    <TabItem Header="XAML Visualisation" Name="renderingTab" RequestBringIntoView="renderingTab_RequestBringIntoView">
+                        <!--Model rendered-->
+                        <ScrollViewer >
+                            <Canvas x:Name="RenderCanvas"
+                                    Background="LightGray">
+                            </Canvas>
+                        </ScrollViewer>
+                    </TabItem>
+                    <TabItem Header="SVG Visualisation" 
+                             Name="htmlRenderingTab" 
+                             RequestBringIntoView="htmlRenderingTab_RequestBringIntoView">
+                        <!--Label>SVG files are temporarily opened in Web Browser...!</-->
+                        <WebBrowser x:Name="htmlRenderBrowser" />
+                    </TabItem>
+                </TabControl>
+            </DockPanel>
+
+            <GridSplitter Grid.Row="1" 
+                          Height="4" 
+                          Background="#7f8c8d"
+                          HorizontalAlignment="Stretch" />
+
+            <TabControl TabStripPlacement="Bottom"
+
+                        Grid.Row="2"
+                        MinHeight="100"
+                        VerticalAlignment="Stretch">
+                    <TabItem Header="Recommendations" Name="suggestionsTab" >
+                        <!-- Suggestions-->
+                        <ListBox Name="suggestionsListBox" 
+                             Background="#ecf0f1"
+                         DockPanel.Dock="Bottom"
+                         />
+                    </TabItem>
+                    <TabItem Header="Logs" Name="logsTab">
+                        <!-- Logger -->
+                    </TabItem>
+                </TabControl>
+
+        </Grid>
+
+        <!--Designer part-->
+        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Disabled"
+                      Grid.Column="2">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Stretch"
+                        >
+                <!--Popup Name="checkPopUp">
+                    <Border Background="Red">
+                        <TextBlock>Test Popup Content</TextBlock>
+                    </Border>
+                </Popup-->
+                <Expander Header="Predefined Shapes"
+                      x:Name="ItemsExpander"
+                      IsExpanded="True" 
+                      Background="#ecf0f1"
+                      Margin="1"
+                      HorizontalAlignment="Stretch">
+                </Expander>
+                <Expander Header="Designed Visual Elements"
+                      x:Name="CustomVisualisationExpander"
+                      IsExpanded="True"
+                      Background="#ecf0f1"
+                          HorizontalAlignment="Stretch"
+                      Margin="1">
+                </Expander>
+                <Expander Header="Mapping Functions"
+                      x:Name="FunctionsExpander"
+                      IsExpanded="True"
+                      Background="#ecf0f1"
+                          HorizontalAlignment="Stretch"
+                      Margin="1">
+                </Expander>
+                <!--Expander Header="Colours">
+                <ListBox x:Name="ColorsListBox" 
+                     Grid.Column="1"
+                     Height="100"
+                     Width="Auto"
+                     Margin="5"
+                     ItemsSource="{Binding}"
+                     >
+                    <ListBox.ItemContainerStyle>
+                        <Style>
+                            <EventSetter Event="ListBoxItem.MouseMove" Handler="ListBoxItem_MouseMove"/>
+                            <EventSetter Event="ListBoxItem.MouseLeftButtonDown" Handler="ListBoxItem_MouseLeftButtonDown"/>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <Border Height="25" 
+                                Width="48" 
+                                Background="{Binding}"
+                                Margin="2">
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Expander-->
+            </StackPanel>
+        </ScrollViewer>
+
+        </Grid>
+
+
+    </DockPanel>
+
+</ContentControl>

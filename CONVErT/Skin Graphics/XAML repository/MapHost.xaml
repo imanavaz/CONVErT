@@ -1,0 +1,125 @@
+ <DockPanel xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+				Width="733"
+				Height="430"
+				Background="White"
+				VerticalAlignment="Stretch"
+				HorizontalAlignment="Stretch"
+				Margin="0,0,0,0">
+        
+        <TextBlock DockPanel.Dock="Top" Width="733" TextAlignment="Center">
+            <TextBlock.Text>Figurative map describing traffic conditions</TextBlock.Text>
+        </TextBlock>
+        
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="145"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Column="0" TextAlignment="Left">
+                <TextBlock.Text>Slide to alter visualization :</TextBlock.Text>
+            </TextBlock>
+
+            <Slider Grid.Column="1" Name="sldValue" Minimum="0" Height="23" >
+                <Slider.Maximum>
+                    <Binding ElementName="lbItems" Path="Items.Count" />
+                </Slider.Maximum>
+            </Slider>
+        </Grid>
+
+        <ListBox Name="lbItems" Visibility="Hidden">
+            <ListBox.SelectedIndex>
+                <Binding ElementName="sldValue" Path="Value" />
+            </ListBox.SelectedIndex>
+            <ListBox.Items><!--Where bars will be hosted-->
+			</ListBox.Items>
+			</ListBox>
+
+         <ContentControl DockPanel.Dock="Right"  
+			>
+            <ContentControl.Content>
+                <Binding ElementName="lbItems" Path="SelectedItem" />
+            </ContentControl.Content>
+            <ContentControl.Resources>
+                <DataTemplate>
+                    <DataTemplate.DataType>ImageSource</DataTemplate.DataType>
+                    <Grid>
+                        <Image StretchDirection="DownOnly" >
+                            <Image.Source>
+                                <Binding/>
+                            </Image.Source>
+                        </Image>
+                        
+                    </Grid>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+    </DockPanel>
+
+
+<VisualizationHost>
+	<Description>description</Description>
+	<Visuals>maps</Visuals>
+</VisualizationHost>
+
+
+ <DockPanel xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+				Width="733"
+				Height="430"
+				Background="White"
+				VerticalAlignment="Stretch"
+				HorizontalAlignment="Stretch"
+				Margin="0,0,0,0">
+        
+        <TextBlock DockPanel.Dock="Top" Width="733" TextAlignment="Center">
+            <TextBlock.Text linkto="Description">Figurative map describing traffic conditions</TextBlock.Text>
+        </TextBlock>
+        
+        <Grid DockPanel.Dock="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="145"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Grid.Column="0" TextAlignment="Left">
+                <TextBlock.Text>Slide to alter visualization :</TextBlock.Text>
+            </TextBlock>
+
+            <Slider Grid.Column="1" Name="sldValue" Minimum="0" Height="23" >
+                <Slider.Maximum>
+                    <Binding ElementName="lbItems" Path="Items.Count" />
+                </Slider.Maximum>
+            </Slider>
+        </Grid>
+
+        <ListBox Name="lbItems" Visibility="Hidden">
+            <ListBox.SelectedIndex>
+                <Binding ElementName="sldValue" Path="Value" />
+            </ListBox.SelectedIndex>
+
+            <ListBox.Items callfor="Visuals"><!--Where bars will be hosted-->
+			</ListBox.Items>
+		</ListBox>
+         <ContentControl DockPanel.Dock="Right">
+            <ContentControl.Content>
+                <Binding ElementName="lbItems" Path="SelectedItem" />
+            </ContentControl.Content>
+            <ContentControl.Resources>
+                <DataTemplate>
+                    <DataTemplate.DataType>ImageSource</DataTemplate.DataType>
+                    <Grid>
+                        <Image StretchDirection="DownOnly" >
+                            <Image.Source>
+                                <Binding/>
+                            </Image.Source>
+                        </Image>
+                        
+                    </Grid>
+                </DataTemplate>
+            </ContentControl.Resources>
+        </ContentControl>
+
+
+    </DockPanel>
+
+

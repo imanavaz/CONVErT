@@ -1,0 +1,11 @@
+<DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Background="White">
+  <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Top" Margin="5" Height="20">
+    <TextBlock.Text>Name</TextBlock.Text>
+  </TextBlock>
+  <TextBlock HorizontalAlignment="Center" DockPanel.Dock="Bottom" Margin="5" Height="20">
+    <TextBlock.Text>Scale</TextBlock.Text>
+  </TextBlock>
+  <StackPanel Height="160" Orientation="Horizontal" >
+
+  </StackPanel>
+</DockPanel>

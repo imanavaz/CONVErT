@@ -1,0 +1,26 @@
+ <svg xmlns="http://www.w3.org/2000/svg">
+    <script type="text/ecmascript">
+		<![CDATA[ 
+			var yg = 10;
+			function rect_load(evt) {
+				yg = yg + 40;
+				var mysvg = evt.target;
+				var myrect = mysvg.getElementsByTagName("rect")[0];			 
+				var mytext = mysvg.getElementsByTagName("text")[0];
+				myrect.setAttribute("y", yg);
+				mytext.setAttribute("y", yg+5);
+			}
+		]]>
+	</script>
+	<svg onload="rect_load(evt)">
+		<text x ="35" width="40" dy="0.6em" text-anchor="end">Bar1</text>    
+        <rect fill="steelblue" height="20" width="59" x="40" />
+    </svg>
+	<svg onload="rect_load(evt)">
+		<text x ="35" width="40" dy="0.6em" text-anchor="end">Bar2</text>    
+		<rect fill="steelblue" height="20" width="83" x="40" />
+	</svg>
+</svg>
+
+
+

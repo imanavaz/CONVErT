@@ -1,0 +1,35 @@
+<StackPanel  xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' Orientation='Vertical' Background='White' xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" >
+<StackPanel Orientation='Horizontal'>
+<Label Foreground='Navy'>
+<Label.Content >public</Label.Content>
+</Label>
+<Label Content=" "></Label>
+<Label Foreground='LightBlue'>
+<Label.Content>void</Label.Content>
+</Label>
+<Label Content=" "></Label>
+<Label Foreground='Navy'> 
+<Label.Content>MethodName</Label.Content> 
+</Label>
+<Label Content="("></Label>
+  <StackPanel Orientation="Horizontal">
+    <StackPanel.Resources>
+      <Style TargetType="ContentControl">
+        <Setter Property="ContentTemplate" >
+          <Setter.Value>
+            <DataTemplate>
+              <StackPanel Orientation="Horizontal">
+                <ContentPresenter Content="{Binding}"/>
+                <TextBlock x:Name="commaTB" Text="," />
+              </StackPanel>
+            </DataTemplate>
+          </Setter.Value>
+        </Setter>
+      </Style>
+    </StackPanel.Resources>
+  </StackPanel>
+<Label Content=")"></Label>
+</StackPanel>
+<Label>{</Label> 
+<Label>}</Label> 
+</StackPanel>

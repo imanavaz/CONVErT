@@ -1,0 +1,36 @@
+<local:TroopsMovement xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<local:TroopsMovement.StartX>5</local:TroopsMovement.StartX>
+	<local:TroopsMovement.StartY>5</local:TroopsMovement.StartY>
+	<local:TroopsMovement.EndX>55</local:TroopsMovement.EndX>
+	<local:TroopsMovement.EndY>55</local:TroopsMovement.EndY>
+	<local:TroopsMovement.StartLocationName>First</local:TroopsMovement.StartLocationName>
+	<local:TroopsMovement.EndLocationName>Second</local:TroopsMovement.EndLocationName>
+	<local:TroopsMovement.ShapeColor>Blue</local:TroopsMovement.ShapeColor>
+	<local:TroopsMovement.TroopsStarting>400000</local:TroopsMovement.TroopsStarting>
+	<local:TroopsMovement.TroopsEnding>200000</local:TroopsMovement.TroopsEnding>
+</local:TroopsMovement>
+
+
+<!--TroopsData>
+	<City1X>5</City1X>
+	<City1Y>5</City1Y>
+	<City1Name>First</City1Name>
+	<City2X>55</City2X>
+	<City2Y>55</City2Y>
+	<City2Name>Second</City2Name>
+	<Color>Blue</Color>
+	<TroopsEntered>400000</TroopsEntered>
+	<TroopsLeft>200000</TroopsLeft>
+</TroopsData-->
+
+<!--local:TroopsMovement xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<local:TroopsMovement.StartX linkto="City1X">5</local:TroopsMovement.StartX>
+	<local:TroopsMovement.StartY linkto="City1Y">5</local:TroopsMovement.StartY>
+	<local:TroopsMovement.EndX linkto="City2X">55</local:TroopsMovement.EndX>
+	<local:TroopsMovement.EndY linkto="City2Y">55</local:TroopsMovement.EndY>
+	<local:TroopsMovement.StartLocationName linkto="City1Name">First</local:TroopsMovement.StartLocationName>
+	<local:TroopsMovement.EndLocationName linkto="City2Name">Second</local:TroopsMovement.EndLocationName>
+	<local:TroopsMovement.ShapeColor linkto="Color">Blue</local:TroopsMovement.ShapeColor>
+	<local:TroopsMovement.TroopsStarting linkto="TroopsEntered">400000</local:TroopsMovement.TroopsStarting>
+	<local:TroopsMovement.TroopsEnding linkto="TroopsLeft">200000</local:TroopsMovement.TroopsEnding>
+</local:TroopsMovement-->

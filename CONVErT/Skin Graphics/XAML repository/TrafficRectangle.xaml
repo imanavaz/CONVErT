@@ -1,0 +1,16 @@
+<Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Background="Transparent">
+  <Rectangle>
+    <Rectangle.Fill>Green</Rectangle.Fill>
+    <Rectangle.Width>50</Rectangle.Width>
+    <Rectangle.Height>15</Rectangle.Height>
+<Rectangle.LayoutTransform>
+    <RotateTransform CenterX="0" CenterY="0" Angle="45"/>
+  </Rectangle.LayoutTransform>
+  </Rectangle>
+  <TextBlock Height="20" TextAlignment="Left" Background="Transparent">
+    <TextBlock.Text> 50</TextBlock.Text>
+  </TextBlock>
+<Canvas.RenderTransform>
+    <TranslateTransform X="50" Y="50" />
+  </Canvas.RenderTransform>
+</Canvas>

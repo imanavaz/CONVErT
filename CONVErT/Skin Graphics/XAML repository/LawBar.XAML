@@ -1,0 +1,59 @@
+<Grid Height="150" Width="50" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" >
+	<Grid.RowDefinitions>
+        <RowDefinition Height="5*"/>
+        <RowDefinition Height="1*"/>
+    </Grid.RowDefinitions>
+		<DockPanel Grid.Row="0" VerticalAlignment="Bottom" Canvas.ZIndex="2" LastChildFill="False">
+			<StackPanel Orientation="Vertical" DockPanel.Dock="Bottom">
+				<TextBlock Height="20" TextAlignment="Center" Background="White" >
+					<TextBlock.Text>50</TextBlock.Text>
+				</TextBlock>
+				<Border BorderBrush="Black"  BorderThickness="0,4,0,0" Width="40" Margin="0,5,0,0">
+					<Rectangle Width="4" Height ="50" Fill="Black" />
+				</Border>
+			</StackPanel>
+		</DockPanel>
+		<DockPanel Grid.Row="0" VerticalAlignment="Bottom" Canvas.ZIndex="3" LastChildFill="False">
+			<Rectangle Width="10" Height ="30" Fill="Pink" DockPanel.Dock="Bottom" />
+		</DockPanel>
+		<DockPanel Grid.Row="0" VerticalAlignment="Bottom" LastChildFill="False" Canvas.ZIndex="1">
+			<Rectangle Width="20" Height ="40" Fill="Red" DockPanel.Dock="Bottom" />
+		</DockPanel>
+		<Border BorderBrush="Black" Grid.Row="1" Canvas.ZIndex="0" BorderThickness="0,2,0,0" Width="50">
+			<TextBlock Height="20" TextAlignment="Center" Background="White" Width="50">
+				<TextBlock.Text>Name</TextBlock.Text>
+			</TextBlock>
+		</Border>
+
+</Grid>
+
+
+
+<!--Grid Height="150" Width="50" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Grid.RowDefinitions>
+    <RowDefinition Height="5*" />
+    <RowDefinition Height="1*" />
+  </Grid.RowDefinitions>
+  <DockPanel Grid.Row="0" VerticalAlignment="Bottom" Canvas.ZIndex="2" LastChildFill="False">
+    <StackPanel Orientation="Vertical" DockPanel.Dock="Bottom">
+      <TextBlock Height="20" TextAlignment="Center" Background="White">
+        <TextBlock.Text linkto="Target">50</TextBlock.Text>
+      </TextBlock>
+      <Border BorderBrush="Black" BorderThickness="0,4,0,0" Width="40" Margin="0,5,0,0">
+        <Rectangle Width="4" Height="@linkto=Target|50" Fill="Black" />
+      </Border>
+    </StackPanel>
+  </DockPanel>
+  <DockPanel Grid.Row="0" VerticalAlignment="Bottom" Canvas.ZIndex="3" LastChildFill="False">
+    <Rectangle Width="10" Height="@linkto=StudentAchievement|30" Fill="Pink" DockPanel.Dock="Bottom" />
+  </DockPanel>
+  <DockPanel Grid.Row="0" VerticalAlignment="Bottom" LastChildFill="False" Canvas.ZIndex="1">
+    <Rectangle Width="20" Height="@linkto=GroupAverage|30" Fill="Red" DockPanel.Dock="Bottom" />
+  </DockPanel>
+  <Border BorderBrush="Black" Grid.Row="1" Canvas.ZIndex="0" BorderThickness="0,2,0,0" Width="50">
+    <TextBlock Height="20" TextAlignment="Center" Background="White" Width="50">
+      <TextBlock.Text linkto="StudentName">Name</TextBlock.Text>
+    </TextBlock>
+  </Border>
+</Grid-->
+

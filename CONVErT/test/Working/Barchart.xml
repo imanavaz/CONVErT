@@ -1,0 +1,27 @@
+<ChartData>
+  <Name>Sales Records</Name>
+  <YAxisLabel>YAxis</YAxisLabel>
+  <XAxisLabel>XAxis</XAxisLabel>
+  <Bars>
+	<BarNode>
+        <Value>40</Value>
+		<Name>Europe</Name>
+		<Color>Blue</Color>
+	</BarNode>
+    <BarNode>
+        <Value>50</Value>
+		<Name>Australia</Name>
+		<Color>Black</Color>
+    </BarNode>
+	<BarNode>
+        <Value>50</Value>
+		<Name>Asia</Name>
+		<Color>Red</Color>
+	</BarNode>
+	<BarNode>
+        <Value>90</Value>
+		<Name>America</Name>
+		<Color>Red</Color>
+    </BarNode>
+  </Bars>
+</ChartData>

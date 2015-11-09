@@ -1,0 +1,48 @@
+    <svg width="1024" height="250" xmlns="http://www.w3.org/2000/svg">
+
+
+        <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+        <g>
+            <title>Layer 1</title>
+            <line fill="none" stroke="#000000" stroke-width="2" x1="37" y1="229.99999" x2="37" y2="22.00002" id="line_0" />
+            <line fill="none" stroke="#000000" stroke-width="2" x1="18" y1="200" x2="795" y2="200" id="line_6" marker-end="url(#se_marker_end_svg_2)" />
+            <line fill="none" stroke="#000000" x1="37" y1="81" x2="791" y2="81" id="line_7" stroke-dasharray="2,2" />
+            <line fill="none" stroke="#000000" x1="37" y1="121" x2="791" y2="121" id="line_8" stroke-dasharray="2,2" />
+            <line fill="none" stroke="#000000" x1="37" y1="161" x2="791" y2="161" id="line_9" stroke-dasharray="2,2" />
+            <line fill="none" stroke="#000000" x1="37" y1="41" x2="791" y2="41" id="line_10" stroke-dasharray="2,2" />
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" x="96" y="230" id="text_1" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">1984</text>
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" x="206" y="230" id="text_2" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">1989</text>
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" x="316" y="230" id="text_3" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">1994</text>
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" x="426" y="230" id="text_4" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">1999</text>
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" x="536" y="230" id="text_5" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">2004</text>
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" x="646" y="230" id="text_6" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">2009</text>
+            <text fill="#000000" stroke="#000000" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" x="756" y="230" id="text_7" font-size="24" font-family="serif" text-anchor="middle" xml:space="preserve">2014</text>
+            <line id="line_1" y2="209" x2="96" y1="192" x1="96" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" fill="none" />
+            <line id="line_2" y2="209" x2="206" y1="192" x1="206" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" fill="none" />
+            <line id="line_3" y2="209" x2="316" y1="192" x1="316" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" fill="none" />
+            <line id="line_4" y2="209" x2="426" y1="192" x1="426" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" fill="none" />
+            <line id="line_5" y2="209" x2="536" y1="192" x1="536" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" fill="none" />
+            <line id="line_5" y2="209" x2="646" y1="192" x1="646" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" fill="none" />
+            <line id="line_5" y2="209" x2="756" y1="192" x1="756" stroke-linecap="null" stroke-linejoin="null" stroke-width="2" stroke="#000000" fill="none" />
+            <rect id="life_line_1" fill="red" stroke="black" opacity="0.5" height="32" width="136" ry="5" rx="5" y="164" x="40" />
+            <rect id="life_line_2" fill="#00ff00" stroke="black" opacity="0.5" height="32" width="119" ry="5" rx="5" y="124" x="177" />
+            <rect id="life_line_3" fill="#00ff00" stroke="black" opacity="0.5" height="32" width="125" ry="5" rx="5" y="124" x="299" />
+            <rect id="life_line_4" fill="#003f7f" stroke="black" opacity="0.5" height="32" width="59" ry="5" rx="5" y="85" x="537" />
+            <rect id="life_line_5" fill="#00ff00" stroke="black" opacity="0.5" height="32" width="83" ry="5" rx="5" y="124" x="453" />
+            <rect id="life_line_6" fill="#00ff00" stroke="black" opacity="0.5" height="32" width="22" ry="5" rx="5" y="124" x="427" />
+            <rect id="life_line_7" fill="#3f007f" stroke="black" opacity="0.5" height="32" width="10" ry="5" rx="5" y="44" x="697" />
+            <rect id="life_line_8" fill="#00ff00" stroke="black" opacity="0.5" height="32" width="105" ry="5" rx="5" y="124" x="664" />
+            <rect id="life_line_9" fill="#00ff00" stroke="black" opacity="0.5" height="32" width="64" ry="5" rx="5" y="124" x="597" />
+            <rect id="life_line_10" fill="#3f007f" stroke="black" opacity="0.5" height="32" width="12" ry="5" rx="5" y="44" x="781" />
+            <rect id="life_line_11" fill="#3f007f" stroke="black" opacity="0.5" height="32" width="20" ry="5" rx="5" y="44" x="758" />
+            <rect id="Legend_1" fill="red" stroke="black" opacity="0.5" height="32" width="20" ry="5" rx="5" y="164" x="829" />
+            <rect id="Legend_2" fill="#00ff00" stroke="black" opacity="0.5" height="32" width="20" ry="5" rx="5" y="124" x="829" />
+            <rect id="Legend_3" fill="#003f7f" stroke="black" opacity="0.5" height="32" width="20" ry="5" rx="5" y="85" x="829" />
+            <rect id="Legend_4" fill="#3f007f" stroke="black" opacity="0.5" height="32" width="20" ry="5" rx="5" y="44" x="829" />
+            <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_38" y="68" x="897" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="black" fill="#000000">Working</text>
+            <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_38" y="109" x="935" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="black" fill="#000000">National Service</text>
+            <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_38" y="148" x="882" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="black" fill="#000000">Study</text>
+            <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_38" y="188" x="904" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" stroke="black" fill="#000000">Baby time</text>
+        </g>
+    </svg>
+  

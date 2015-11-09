@@ -1,0 +1,196 @@
+﻿<ContentControl x:Class="CONVErT.Skin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CONVErT"
+      mc:Ignorable="d" 
+      d:DesignHeight="451" d:DesignWidth="962"
+      Background="#7F8C8D"
+	  >
+
+    <DockPanel HorizontalAlignment="Stretch" 
+               VerticalAlignment="Stretch"
+               Background="#7F8C8D">
+
+        <!--Menu-->
+        <Menu DockPanel.Dock="Top" Width="Auto">
+            <MenuItem Height="Auto" Header="File">
+                <MenuItem Header="Open Graphics ..." Click="OpenGraphics_Click"/>
+                <Separator/>
+                <MenuItem Header="Close" Click="CloseProgram_Click" />
+            </MenuItem>
+            <MenuItem Height="Auto" Header="Tools">
+                <MenuItem Header="Clear all" Click="ClearAll_Click"/>
+                <MenuItem Header="Render input graphics" Click="RenderInputGraphics_Click"/>
+                <Separator/>
+                <MenuItem Header="Build notation" Click="BuildNotation_Click"/>
+                <MenuItem Header="Build notation data" Click="BuildNotationData_Click"/>
+                <MenuItem Header="Save notation" Click="SaveNotation_Click"/>
+                <MenuItem Header="Render output noation" Click="RenderOutputNotation_Click"/>
+            </MenuItem>
+            <MenuItem Header="Test Panel" Visibility="Visible">
+                <MenuItem Header="TesT" Click="Test_Click"/>
+            </MenuItem>
+
+        </Menu>
+
+        <!--Status bar-->
+        <local:ReporterStatusBar x:Name="ReportStatusBar" 
+                   DockPanel.Dock="Bottom"
+                   Height="30"
+                   Background="#7F8C8D" BorderBrush="Gray">
+        </local:ReporterStatusBar>
+
+        <!--Content-->
+        <Grid DockPanel.Dock="Left" Margin="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="3*" />
+                <!--ColumnDefinition Width="*" /-->
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!--Input XAML-->
+            <Grid Grid.Column="0"
+                  Grid.Row="0"
+                  Grid.RowSpan="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <DockPanel>
+                    <Label Content="Notation Name:" 
+                           DockPanel.Dock="Left"
+                           Height="25" 
+                           Foreground="White"
+                           Margin="2"/>
+                    <TextBox x:Name="NotationNameTextBox" 
+                             Height="20" 
+                             Margin="2"
+                             Background="#ecf0f1"
+                             DockPanel.Dock="Right"></TextBox>
+                </DockPanel>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label Content="Graphics source :" 
+                           Grid.Column="0"
+                           Foreground="White"
+                           Height="28" 
+                           Margin="2"/>
+                    <StackPanel Orientation="Horizontal" 
+                                Grid.Column="1">
+                        <Label Height="28" Foreground="white">Type: </Label>
+                        <!--ComboBox x:Name="VisTypeComboBox"
+                                  Height="25"
+                                  SelectedIndex="0"
+                                  SelectionChanged="VisComboBox_SelectionChanged">
+                            <ComboBoxItem Tag="X">XAML</ComboBoxItem>
+                            <ComboBoxItem Tag="S">SVG</ComboBoxItem>
+                        </ComboBox-->
+                        <RadioButton x:Name="XAMLRadio" 
+                                     GroupName="VisTypeGroup" 
+                                     Content="XAML" 
+                                     Margin="5 8 5 5" 
+                                     Foreground="white"
+                                     Checked="XAMLRadio_Checked"/>
+                        <RadioButton x:Name="SVGRadio"  
+                                     GroupName="VisTypeGroup" 
+                                     Content="SVG" 
+                                     Foreground="white"
+                                     Margin="5 8 5 5" 
+                                     Checked="SVGRadio_Checked"/>
+                    </StackPanel>
+                </Grid>
+                <RichTextBox x:Name="GraphicsInput"
+                       Margin="2"
+                       Grid.Row="2"
+                       Background="#ecf0f1" 
+                       ScrollViewer.VerticalScrollBarVisibility="Visible"
+                       >
+                    <FlowDocument>
+                        <Paragraph FontSize="10pt" LineHeight="4.5pt" ></Paragraph>
+                    </FlowDocument>
+                </RichTextBox>
+            </Grid>
+
+            <TabControl x:Name="SkinOutputTabControl" Grid.Column="1" TabStripPlacement="Bottom">
+
+                <!--Rendered Notation-->
+                <TabItem Header="XAML">
+                    <Canvas x:Name="XAMLRenderCanvas" 
+                        Background="#ecf0f1" 
+                        ToolTip="Xaml rendering area">
+                    </Canvas>
+                </TabItem>
+
+                <!--Rendered Notation-->
+                <TabItem Header="SVG">
+                    <!--Label>SVG files are temporarily opened in Web Browser...!</-->
+                    <WebBrowser x:Name="HtmlRenderer" />
+                </TabItem>
+
+                <!--Notation Data-->
+                <TabItem Header="Data">
+                    <RichTextBox x:Name="XMLDataInput"
+                       Margin="2"
+                       Background="#ecf0f1">
+                        <FlowDocument>
+                            <Paragraph FontSize="10pt" LineHeight="4.5pt" ></Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </TabItem>
+
+                <!--Notation Transformation-->
+                <TabItem Header="Transformation">
+                    <RichTextBox x:Name="GeneratedTransformationTextBox"
+                       Margin="2"
+                       Background="#ecf0f1">
+                        <FlowDocument>
+                            <Paragraph FontSize="10pt" LineHeight="4.5pt" ></Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </TabItem>
+                
+                <!--Notation transformation output-->
+                <TabItem Header="Output">
+                    <RichTextBox x:Name="GraphicsOutput"
+                       Margin="2"
+                       Background="#ecf0f1">
+                        <FlowDocument>
+                            <Paragraph FontSize="10pt" LineHeight="4.5pt" ></Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+                </TabItem>
+
+            </TabControl>
+
+            <!--Logs output-->
+            <DockPanel Margin="2"
+                       Grid.Row="1"
+                       Grid.Column="2"
+                       x:Name="SkinLogPanel">
+
+                <Label Content="Logs :" 
+                       DockPanel.Dock="Top"
+                       Height="30" 
+                       Foreground="White"
+                       Margin="2"/>
+
+            </DockPanel>
+        </Grid>
+
+
+    </DockPanel>
+</ContentControl>

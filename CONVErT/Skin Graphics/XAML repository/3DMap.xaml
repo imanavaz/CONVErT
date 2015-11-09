@@ -1,0 +1,116 @@
+<DockPanel xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    Width="Auto"
+    VerticalAlignment="Stretch"
+    Height="Auto"
+    HorizontalAlignment="Stretch"
+    Margin="0,0,0,0">
+    <TextBlock DockPanel.Dock="Top" TextAlignment="Center" Width="733">
+		<TextBlock.Text >Description</TextBlock.Text>
+	</TextBlock>
+	<Canvas DockPanel.Dock="Bottom">
+        <Viewport3D 
+            Canvas.Left="0"
+            Canvas.Top="0"
+            Width="733"
+            Height="400"
+            ClipToBounds="True">
+            <Viewport3D.Camera>
+                <PerspectiveCamera
+                FarPlaneDistance="200"
+                LookDirection="0,-20,-90"
+                UpDirection="0,1,0"
+                NearPlaneDistance="1"
+                Position="0,30,90"
+                FieldOfView="80" />
+            </Viewport3D.Camera>
+            <ModelVisual3D>
+                                <ModelVisual3D.Content>
+                                    <DirectionalLight Color="White" Direction="-2,-3,-1" />
+                                </ModelVisual3D.Content>
+                            </ModelVisual3D>
+                            <Viewport2DVisual3D>
+                                <Viewport2DVisual3D.Material>
+                                    <DiffuseMaterial>
+                                        <DiffuseMaterial.Brush>
+                                            <ImageBrush>
+                                                <ImageBrush.ImageSource>C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Images\MelbourneBing.bmp</ImageBrush.ImageSource>
+                                            </ImageBrush>
+                                        </DiffuseMaterial.Brush>
+                                    </DiffuseMaterial>
+                                </Viewport2DVisual3D.Material>
+                                <Viewport2DVisual3D.Geometry>
+                                    <MeshGeometry3D Positions="-55,0,-30 -55,0,30 55,0,30 55,0,-30" TextureCoordinates="0,0 0,1 1,1 1,0" TriangleIndices="0 1 2 2 3 0"/>
+                                </Viewport2DVisual3D.Geometry>
+                            </Viewport2DVisual3D>
+                        </Viewport3D>
+
+                        <Canvas>
+                            <!--Where bars will be hosted-->
+                            
+                        </Canvas>
+                    </Canvas>
+                </DockPanel>
+
+
+
+
+<MapData>
+<MapDescription>Desc</MapDescription>
+<TDBars>bars</TDBars>
+</MapData>
+
+
+<DockPanel xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    Width="Auto"
+    VerticalAlignment="Stretch"
+                    Height="Auto"
+                    HorizontalAlignment="Stretch"
+                    Margin="0,0,0,0">
+                    <TextBlock DockPanel.Dock="Top" TextAlignment="Center" Width="733">
+						<TextBlock.Text linkto="MapDescription">Description</TextBlock.Text>
+					</TextBlock>
+					<Canvas DockPanel.Dock="Bottom">
+                        <Viewport3D 
+                    Canvas.Left="0"
+                    Canvas.Top="0"
+                    Width="733"
+                    Height="400"
+                    
+                    ClipToBounds="True">
+                            <Viewport3D.Camera>
+                                <PerspectiveCamera
+                            FarPlaneDistance="200"
+                            LookDirection="0,-20,-90"
+                            UpDirection="0,1,0"
+                            NearPlaneDistance="1"
+                            Position="0,30,90"
+                            FieldOfView="80" />
+                            </Viewport3D.Camera>
+                            <ModelVisual3D>
+                                <ModelVisual3D.Content>
+                                    <DirectionalLight Color="White" Direction="-2,-3,-1" />
+                                </ModelVisual3D.Content>
+                            </ModelVisual3D>
+                            <Viewport2DVisual3D>
+                                <Viewport2DVisual3D.Material>
+                                    <DiffuseMaterial>
+                                        <DiffuseMaterial.Brush>
+                                            <ImageBrush>
+                                                <ImageBrush.ImageSource>C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Images\MelbourneBing.bmp</ImageBrush.ImageSource>
+                                            </ImageBrush>
+                                        </DiffuseMaterial.Brush>
+                                    </DiffuseMaterial>
+                                </Viewport2DVisual3D.Material>
+                                <Viewport2DVisual3D.Geometry>
+                                    <MeshGeometry3D Positions="-55,0,-30 -55,0,30 55,0,30 55,0,-30" TextureCoordinates="0,0 0,1 1,1 1,0" TriangleIndices="0 1 2 2 3 0"/>
+                                </Viewport2DVisual3D.Geometry>
+                            </Viewport2DVisual3D>
+                        </Viewport3D>
+
+                        <Canvas callfor="TDBars">
+                            <!--Where bars will be hosted-->
+                        </Canvas>
+                    </Canvas>
+                </DockPanel>
+
+

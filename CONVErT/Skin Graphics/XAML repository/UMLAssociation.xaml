@@ -1,0 +1,44 @@
+<local:UMLAssociation xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<local:UMLAssociation.AssociationName>has</local:UMLAssociation.AssociationName>
+<local:UMLAssociation.EndClass>Class2</local:UMLAssociation.EndClass>
+<local:UMLAssociation.EndCardinality>*</local:UMLAssociation.EndCardinality>
+</local:UMLAssociation>
+
+
+<!--
+
+<UMLAssociation>
+<Name>assocname</Name>
+<EndClass>class2</EndClass>
+<Multiplicity>*</Multiplicity>
+</UMLAssociation>
+
+<local:UMLAssociation xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<local:UMLAssociation.AssociationName linkto="Name">has</local:UMLAssociation.AssociationName>
+<local:UMLAssociation.EndClass linkto="EndClass">Class2</local:UMLAssociation.EndClass>
+<local:UMLAssociation.EndCardinality linkto="Multiplicity" >*</local:UMLAssociation.EndCardinality>
+</local:UMLAssociation>
+
+
+-->
+
+<!-- old version
+
+<local:UMLAssociation xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<local:UMLAssociation.AssociationName>has</local:UMLAssociation.AssociationName>
+<local:UMLAssociation.OwnerClass>Class1</local:UMLAssociation.OwnerClass>
+<local:UMLAssociation.OwnerCardinality>1</local:UMLAssociation.OwnerCardinality>
+<local:UMLAssociation.EndClass>Class2</local:UMLAssociation.EndClass>
+<local:UMLAssociation.EndCardinality>*</local:UMLAssociation.EndCardinality>
+</local:UMLAssociation>
+
+
+<UMLAssociation>
+<Name>assocname</Name>
+<OwnerClass>class1</OwnerClass>
+<EndClass>class2</EndClass>
+<OwnerCardinality>1</OwnerCardinality>
+<EndCardinality>*</EndCardinality>
+</UMLAssociation>
+
+-->

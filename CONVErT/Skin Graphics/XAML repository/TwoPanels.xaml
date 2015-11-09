@@ -1,0 +1,12 @@
+<DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+Height="400" Width="600" Background="White" >
+  <Grid DockPanel.Dock="Left">
+  </Grid>
+  <Grid DockPanel.Dock="Right">
+  </Grid>
+</DockPanel>
+
+<!--DoubleVisual>
+<Visual1Data>Data1</Visual1Data>
+<Visual2Data>Data2</Visual2Data>
+</DoubleVisual-->

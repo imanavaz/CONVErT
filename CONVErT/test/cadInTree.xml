@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><BuidlingNode><Name>New Green Building</Name><Floors>
+    <FloorNode><Name>Living Area</Name><Rooms>
+        <RoomNode><Name>Open Kitchen</Name><Color>Green</Color></RoomNode>
+        <RoomNode><Name>Washing Area</Name><Color>Yellow</Color></RoomNode>
+        <RoomNode><Name>Room 1</Name><Color>Yellow</Color></RoomNode>
+      </Rooms></FloorNode>
+    <FloorNode><Name>Upper Rooms</Name><Rooms>
+        <RoomNode><Name>Room 2</Name><Color>Yellow</Color></RoomNode>
+        <RoomNode><Name>Room 3</Name><Color>Yellow</Color></RoomNode>
+        <RoomNode><Name>Room 4</Name><Color>Yellow</Color></RoomNode>
+      </Rooms></FloorNode>
+	 <FloorNode><Name>Third Floor Rooms</Name><Rooms>
+        <RoomNode><Name>Room 5</Name><Color>Yellow</Color></RoomNode>
+        <RoomNode><Name>Room 6</Name><Color>Yellow</Color></RoomNode>
+      </Rooms></FloorNode>
+  </Floors></BuidlingNode>

@@ -1,0 +1,40 @@
+<StackPanel Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Border BorderBrush="Black" BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" >
+  <Label HorizontalAlignment="Center">
+	<Label.Content>BuildingName</Label.Content>
+  </Label>
+</Border>
+<StackPanel Orientation="Vertical" >
+<Path Data="M0,0 L1,0 0.5,1Z" Width="10" Height="8"
+  Stretch="Fill" Fill="Black" />
+  <Border BorderBrush="Black" BorderThickness="0,1,0,0">
+    <StackPanel Orientation="Horizontal" >
+    </StackPanel>
+  </Border>
+</StackPanel>
+</StackPanel>
+
+<!--
+<BuidlingNode>
+<Name>CityCouncil</Name>
+<Floors>floors</Floors>
+</BuidlingNode>
+
+<StackPanel Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Border BorderBrush="Black" BorderThickness="1,1,1,1" CornerRadius="10,10,10,10" >
+  <Label HorizontalAlignment="Center">
+	<Label.Content linkto="Name">BuildingName</Label.Content>
+  </Label>
+</Border>
+<StackPanel Orientation="Vertical" >
+<Path Data="M0,0 L1,0 0.5,1Z" Width="10" Height="8"
+  Stretch="Fill" Fill="Black" />
+  <Border BorderBrush="Black" BorderThickness="0,1,0,0">
+    <StackPanel Orientation="Horizontal" callfor="Floors">
+    </StackPanel>
+  </Border>
+</StackPanel>
+</StackPanel>
+
+
+-->

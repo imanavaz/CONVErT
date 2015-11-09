@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="CDiagram">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="CDClass">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="access" type="xs:string"/>
+							<xs:element name="CDAttribute">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="type" type="xs:string"/>
+										<xs:element name="access" type="xs:string"/>
+									</xs:sequence>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CDOperation">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="access" type="xs:string"/>
+										<xs:element name="returntype" type="xs:string"/>
+										<xs:element name="CDOPParams">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="CDParameter">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="type" type="xs:string"/>
+															</xs:sequence>
+															<xs:attribute name="name" use="required" type="xs:string"/>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="link">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="toClass" type="xs:string"/>
+										<xs:element name="Multiplicity" type="xs:string"/>
+									</xs:sequence>
+									<xs:attribute name="label" use="required" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="name" use="required" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="name" use="required" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

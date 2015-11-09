@@ -1,0 +1,36 @@
+<ClassDiagram>
+  <Name>XYZ Airline</Name>
+  <Classes>
+    <UMLClass>
+      <Name>Flight</Name>
+      <Access>public</Access>
+      <Attributes>
+        <UMLAttribute>
+          <Name>FlightNo</Name>
+          <Access>public</Access>
+          <Type>Int</Type>
+        </UMLAttribute>
+      </Attributes>
+      <Operations>
+        <UMLOperation>
+          <Name>delayFlight</Name>
+          <Access>public</Access>
+          <ReturnType>Void</ReturnType>
+          <OPParameters>
+            <UMLParameter>
+              <Name>delay</Name>
+              <Type>Minutes</Type>
+            </UMLParameter>
+          </OPParameters>
+        </UMLOperation>
+      </Operations>
+      <Associations>
+        <UMLAssociation>
+          <Name>Passengers</Name>
+          <EndClass>FrequentFlyer</EndClass>
+          <Multiplicity>*</Multiplicity>
+        </UMLAssociation>
+      </Associations>
+    </UMLClass>
+  </Classes>
+</ClassDiagram>

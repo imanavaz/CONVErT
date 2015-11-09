@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<java>
+  <packageName>BankSystem</packageName>
+  <class>
+    <name>Account</name>
+    <access>public</access>
+    <field>
+      <name>owner</name>
+      <type>string</type>
+      <access>public</access>
+	  <multiplicity>1</multiplicity>
+    </field>
+    <method>
+      <access>private</access>
+      <returntype>bool</returntype>
+      <name>deposit</name>
+	  <params>
+        <parameter>
+          <type>double</type>
+          <name>amount</name>
+        </parameter>
+      </params>
+    </method>
+  </class>
+</java>

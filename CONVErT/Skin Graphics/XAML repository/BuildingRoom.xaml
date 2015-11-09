@@ -1,0 +1,31 @@
+<StackPanel  xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Path Data="M0,0 L1,0 0.5,1Z" Width="10" Height="8"
+  Stretch="Fill" Fill="Black" />
+  <Border BorderBrush="Black" BorderThickness="1,1,1,1" >
+    <Border.Background>White</Border.Background>
+	<Label>
+	  <Label.Content>FloorName</Label.Content>
+    </Label>
+  </Border>
+</StackPanel>
+
+<!--
+<RoomNode>
+<Name>room1</Name>
+<Color>Yellow</Color>
+</RoomNode>
+
+<StackPanel  xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<Path Data="M0,0 L1,0 0.5,1Z" Width="10" Height="8"
+  Stretch="Fill" Fill="Black" />
+  <Border BorderBrush="Black" Background="LightBlue" BorderThickness="1,1,1,1" CornerRadius="5,5,5,5" >
+    <Label>
+	  <Label.Content linkto="Name">FloorName</Label.Content>
+    </Label>
+  </Border>
+  <StackPanel callfor="Rooms">
+  </StackPanel>
+</StackPanel>
+
+
+-->

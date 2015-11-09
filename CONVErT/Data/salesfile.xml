@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Spreadsheet>
+  <name>Sales Records</name>
+  <sales Region="Europe">
+    <Amount>20</Amount>
+  </sales>
+  <sales Region="Asia">
+    <Amount>50</Amount>
+  </sales>
+  <sales Region="America">
+    <Amount>40</Amount>
+  </sales>
+</Spreadsheet>

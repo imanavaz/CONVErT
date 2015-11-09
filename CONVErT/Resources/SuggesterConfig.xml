@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <nameSugg>
+    <weight>1</weight>
+  </nameSugg>
+  <isoRankSugg>
+    <weight>1</weight>
+  </isoRankSugg>
+  <valueSugg>
+    <weight>1</weight>
+  </valueSugg>
+  <structSugg>
+    <weight>1</weight>
+  </structSugg>
+  <typeSugg>
+    <weight>1</weight>
+  </typeSugg>
+  <neighborSugg>
+    <weight>1</weight>
+  </neighborSugg>
+  <levDistNameSim>
+    <weight>1</weight>
+  </levDistNameSim>
+</Config>

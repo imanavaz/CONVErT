@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CONVErT.AbstractLattice" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQDADAAQACECAAAAASAEAIIQABAAAIAAAAAEAAA=</HashCode>
+      <FileName>Abstraction\AbstractTreeLattice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.VisualBase" Collapsed="true">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggAAgAAAABAAAQAogghAAAAgIAgAFABAAAAgAAABAA=</HashCode>
+      <FileName>Graphics\VisualBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="abstractTree" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.VisualFunction" Collapsed="true">
+    <Position X="5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAAACEgAAAABAhAAAkEAAAiAoAAAAgAUEBABE=</HashCode>
+      <FileName>Graphics\VisualFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.XSLTTemplate" Collapsed="true">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAQAQAAgAJIAAAAgAAAQAAAgAoIAAYAEBQCEBAAAM=</HashCode>
+      <FileName>TransformationEngine\XSLTTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.XSLTTemplateRepository" Collapsed="true">
+    <Position X="0.5" Y="2" Width="2" />
+    <AssociationLine Name="_templates" Type="CONVErT.XSLTTemplate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.12" Y="0.206" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransformationEngine\XSLTTemplateRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_templates" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CONVErT.AbstractTreeLatticeNode" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACQACAAAAAEAABBABAEAgWgAAAACAQCCQggAggEEAQ=</HashCode>
+      <FileName>Abstraction\AbstractTreeLatticeNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.VisualCondition" Collapsed="true">
+    <Position X="7.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgIAAACIAAAAABEgAACGGAAAIAAAAAAgAEEAABE=</HashCode>
+      <FileName>Graphics\VisualCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.VisualElement" Collapsed="true">
+    <Position X="9.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IghgBgAgBABAEAwkojwhAAICgJQwAFARAgAAWWCQgBQ=</HashCode>
+      <FileName>Graphics\VisualElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.Renderer" Collapsed="true">
+    <Position X="12" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACgACAAAAAQAAgAADAIACARAEAQAAAAQYAAQQCI=</HashCode>
+      <FileName>Graphics\Renderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.ReporterStatusBar" Collapsed="true">
+    <Position X="1.5" Y="5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACCAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Others\ReporterStatusBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.Suggester" Collapsed="true">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAQJcAgoAIIAAAAJhCqcEgCi4AoYAgUQwQCAAIEA=</HashCode>
+      <FileName>Suggester\Suggester.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.suggestionVector" Collapsed="true">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAQEAAQIAQAAAAAAAAAAIAEAAAAAAAA=</HashCode>
+      <FileName>Suggester\Suggester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.SuggesterConfig" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAEAAAAEAEAAAAAAAAAAAAABAAEAAAAAAAQBA=</HashCode>
+      <FileName>Suggester\SuggesterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.Suggestion" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACEAAEEAAAQAQEAgRIAQAAAAAAAAAAIAEAAAAAAAA=</HashCode>
+      <FileName>Suggester\Suggestion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.TypeSimSuggester" Collapsed="true">
+    <Position X="7.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAgAAAAAQAAAAAAAAAgIAAAAAA=</HashCode>
+      <FileName>Suggester\TypeSimSuggester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.IsoRankSuggester" Collapsed="true">
+    <Position X="7.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAgAIAAAAAAAgCSAAACQAAAAAAAIiIAAAAAA=</HashCode>
+      <FileName>Suggester\IsoRankSuggester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.NameSimSuggester" Collapsed="true">
+    <Position X="10" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAABAAgAABAAQAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Suggester\NameSimSuggester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.NeighborSimSuggester" Collapsed="true">
+    <Position X="10" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAQAAAAAAAAAgAABAAQAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Suggester\NeighborSimSuggester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.StructureSimSuggester" Collapsed="true">
+    <Position X="12.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAgAAAAAQAAAAAAAAAiAAAAAAA=</HashCode>
+      <FileName>Suggester\StructureSimSuggester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.SuggesterEvaluator" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAACEAABBIACIEAIAAAQAAwQQQQAAAGCAQGEFgA=</HashCode>
+      <FileName>Suggester\SuggesterEvaluator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.ValueSimSuggester" Collapsed="true">
+    <Position X="12.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAABAAAAgAAAAAQAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Suggester\ValueSimSuggester.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.Toolbox" Collapsed="true">
+    <Position X="1.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAEAAAAAgAAAAAAAAAQAAAA=</HashCode>
+      <FileName>ToolBox\Toolbox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.ToolboxItem" Collapsed="true">
+    <Position X="1.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQQQAAAAAIAAAABQEAAAAAAAAAAAAiAA=</HashCode>
+      <FileName>ToolBox\ToolBoxItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.CorrespondenceNode" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAgAAAAAAAAAAAAAAAAAACAACAAEAAAAA=</HashCode>
+      <FileName>TransformationEngine\CorrespondenceNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.CorrespondenceLink" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAgAAAAAQAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransformationEngine\CorrespondenceLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.Correspondence" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAABAAAABAABQAQAAAAAAAAAAACAAAAEACAAA=</HashCode>
+      <FileName>TransformationEngine\Correspondence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.Rule" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAQIAAAIAAAAgAAAAAAQAIAAAAA=</HashCode>
+      <FileName>TransformationEngine\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.RuleSide" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TransformationEngine\Rule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.MainWindow" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.Mapper" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFIKIAAJgCAACAACIAShJ4AIgEIAxIAAGAhgAUAEiAA=</HashCode>
+      <FileName>Mapper.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CONVErT.Skin" Collapsed="true">
+    <Position X="15.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAEAEAAAQAABAAADwAAAAUAAAAAAAACI=</HashCode>
+      <FileName>Skin.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CONVErT.Visualiser" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAiYIAAQwAABGKTIQQpDKCQgoJQRCkYAUAABIIsgQE=</HashCode>
+      <FileName>Visualiser.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CONVErT.ISuggester" Collapsed="true">
+    <Position X="5.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Suggester\ISuggester.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CONVErT.AbstractTreeNodeType" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAgAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Abstraction\AbstractTreeLatticeNode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CONVErT.ReportIcon" Collapsed="true">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAQAAAAAAABAAAAAAAAAAAAABAEAAAAA=</HashCode>
+      <FileName>Others\ReporterStatusBar.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

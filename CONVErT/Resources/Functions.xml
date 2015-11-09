@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Functions>
+  <Arithmetic>
+    <Function>
+      <name>Concat</name>
+      <image>merge.png</image>
+      <args>
+        <inputs>
+          <arg ID='1'>First Argument</arg>
+          <arg ID='2'>Second Argument</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>concat(concat( arg1 ," to "), arg2 )</output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>substring-before(arg1 , " to ")</output>
+          <output ID='2'>substring-after(arg1 , " to ")</output>
+        </outputs>
+      </argsR>functions under Arithmetic 
+    </Function>
+
+    <Function>
+      <name>Subtract and scale down</name>
+      <image>calculator.png</image>
+      <args>
+        <inputs>
+          <arg ID='1'>First Argument</arg>
+          <arg ID='2'>Second Argument</arg>
+          <arg ID='3'>Third Argument</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>( arg1 - arg2 ) div arg3 </output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>arg1 div 3</output>
+          <output ID='2'>arg1 div 3</output>
+          <output ID='3'>arg1 div 3</output>
+        </outputs>
+      </argsR>
+    </Function>
+
+    <!--Function>
+      <name>function name</name>
+      <image>image</image>
+      <args>
+        <inputs>
+          <arg ID='1'>First Argument</arg>
+          <arg ID='2'>Second Argument</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>calculations</output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>calculate back 1th arguemnt</output>
+          <output ID='2'>calculate back 2nd argument</output>
+        </outputs>
+      </argsR>
+    </Function-->
+    
+    <Function>
+      <name>Split</name>
+      <image>Split.png</image>
+      <args>
+        <inputs>
+          <arg ID='1'>Argument</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>substring-before(arg1 , ' ')</output>
+          <output ID='2'>substring-after(arg1 , ' ')</output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+          <arg ID='2'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>concat(concat(arg1 ,' '),arg2 )</output>
+        </outputs>
+      </argsR>
+    </Function>
+    <Function>
+      <name>Add</name>
+      <image>plus.png</image>
+      <args>
+        <inputs>
+          <arg ID='1'>First Argument</arg>
+          <arg ID='2'>Second Argument</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>arg1 + arg2 </output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>arg1 div 2</output>
+          <output ID='2'>arg1 div 2</output>
+        </outputs>
+      </argsR>
+    </Function>
+    <Function>
+      <name>Minus</name>
+      <image>minus.png</image>
+      <args>
+        <inputs>
+          <arg ID='1'>First Argument</arg>
+          <arg ID='2'>Second Argument</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>arg1 - arg2 </output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>arg1</output>
+          <output ID='2'>arg1</output>
+        </outputs>
+      </argsR>
+    </Function>
+    <Function>
+      <name>Mix</name>
+      <image>math.jpg</image>
+      <args>
+        <inputs>
+          <arg ID='1'>Argument 1</arg>
+          <arg ID='2'>Argument 1</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>concat(concat(arg1 ,' '),'Amount')</output>
+          <output ID='2'>arg2 </output>
+          <output ID='3'>concat(concat(arg1 ,' of '),arg2 )</output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+          <arg ID='2'></arg>
+          <arg ID='3'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>substring-before(arg1 , ' Amount')</output>
+          <output ID='2'>arg2 </output>
+        </outputs>
+      </argsR>
+    </Function>
+    <!--Function>
+      <name>Sum</name>
+      <image>Sum.png</image>
+      <args>
+        <inputs>
+          <arg ID='1'>Argument</arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>sum(//arg1)</output>
+        </outputs>
+      </args>
+      <argsR>
+        <inputs>
+          <arg ID='1'></arg>
+        </inputs>
+        <outputs>
+          <output ID='1'>arg1</output>
+        </outputs>
+      </argsR>
+    </Function-->    
+  </Arithmetic>
+
+  <Reference>
+    <Condition>
+      <name>Condition GreaterEqual</name>
+      <description>if arg1 >= arg2 </description>
+      <image>ifT.png</image>
+      <args>
+        <arg1>Argument </arg1>
+        <arg2>Argument </arg2>
+      </args>
+      <conditions>
+        <condition1>
+          <expression>arg1 >= arg2 </expression>
+          <operation></operation>
+        </condition1>
+        <otherwise>otherwise</otherwise>
+      </conditions>
+    </Condition>
+    <Condition>
+      <name>Condition Equality</name>
+      <description>if arg1 = arg2 </description>
+      <image>if.png</image>
+      <args>
+        <arg1>arg1 </arg1>
+        <arg2>arg2 </arg2>
+      </args>
+      <conditions>
+        <condition1>
+          <expression>arg1 = arg2 </expression>
+          <operation></operation>
+        </condition1>
+        <otherwise>otherwise</otherwise>
+      </conditions>
+    </Condition>
+    <Condition>
+      <name>Condition Multi</name>
+      <description>arg1 = arg2 </description>
+      <image>if2.png</image>
+      <args>
+        <arg1>arg1 </arg1>
+        <arg2>arg2 </arg2>
+      </args>
+      <conditions>
+        <condition1>
+          <expression>arg1 = arg2 </expression>
+          <operation></operation>
+        </condition1>
+        <condition2>
+          <expression>arg1 &gt; arg2 </expression>
+          <operation></operation>
+        </condition2>
+        <otherwise>otherwise</otherwise>
+      </conditions>
+    </Condition>
+	  <Condition>
+      <name>Condition Multi</name>
+      <description>arg1 > Numbers </description>
+      <image>if3.png</image>
+      <args>
+        <arg1>arg1 </arg1>
+      </args>
+      <conditions>
+        <condition1>
+          <expression>arg1 &gt;= 50 </expression>
+          <operation></operation>
+        </condition1>
+        <condition2>
+          <expression>arg1 &lt; 50 and arg1 &gt;= 20 </expression>
+          <operation></operation>
+        </condition2>
+        <otherwise>otherwise</otherwise>
+      </conditions>
+    </Condition>
+  </Reference>
+</Functions>

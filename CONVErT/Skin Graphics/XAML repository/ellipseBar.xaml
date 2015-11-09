@@ -1,0 +1,15 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <Label>
+        <Label.Background>White</Label.Background>
+        <Label.Content >50</Label.Content>
+    </Label>
+    <Ellipse>
+        <Ellipse.Fill>Green</Ellipse.Fill>
+        <Ellipse.Width>10</Ellipse.Width>
+        <Ellipse.Height>50</Ellipse.Height>
+    </Ellipse>
+    <Label>
+        <Label.Background>White</Label.Background>
+        <Label.Content >barName</Label.Content>
+    </Label>
+</StackPanel>

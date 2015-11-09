@@ -1,0 +1,213 @@
+<Root>
+  <Purpose>Visualisation Evaluation of CONVErT</Purpose>
+  <Data>
+    <Question>It is useful to have a drag and drop approach for visualisation</Question>
+	<BasedOn>Number of Users</BasedOn>
+	<Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>0</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>7</Count></Answer>
+  </Data>
+  <Data>
+    <Question>Visualisations help me better understand complex data</Question>
+	<BasedOn>Number of Users</BasedOn>
+	<Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>5</Count></Answer>
+  </Data>
+  <Data>
+    <Question>It is useful to be able to visualise data tailored to users</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>0</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>7</Count></Answer>
+  </Data>
+  <Data>
+    <Question>It is easy to see various parts of the tool such as drawings, functions, etc.</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>5</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>2</Count></Answer>
+  </Data>
+  <Data>
+    <Question>It is easy to make changes to visualisations</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>5</Count></Answer>
+  </Data>
+  <Data>
+    <Question>Some things do require a lot of thought</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>1</Count></Answer>
+    <Answer choice="Disagree"><Count>3</Count></Answer>
+    <Answer choice="Neutral"><Count>2</Count></Answer>
+    <Answer choice="Agree"><Count>1</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>0</Count></Answer>
+  </Data>
+  <Data>
+    <Question>It is easy to make errors or mistakes</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>3</Count></Answer>
+    <Answer choice="Disagree"><Count>1</Count></Answer>
+    <Answer choice="Neutral"><Count>3</Count></Answer>
+    <Answer choice="Agree"><Count>0</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>0</Count></Answer>
+  </Data>
+  <Data>
+    <Question>Couple of drawings were provided on the right side of the tool panel to assist you with your task. Did you find they were helpful?</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>1</Count></Answer>
+    <Answer choice="Agree"><Count>1</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>5</Count></Answer>
+  </Data>
+  <Data>
+    <Question>It was easy to recognise which element on the left hand side was related to which visualisation element on the right hand side</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>3</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>4</Count></Answer>
+  </Data>
+  <Data>
+    <Question>Provided Logs of your previous actions was useful</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>1</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>6</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I can work in any order I like when working with the tool</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>2</Count></Answer>
+    <Answer choice="Neutral"><Count>1</Count></Answer>
+    <Answer choice="Agree"><Count>3</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>1</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I found it easy to visualise the given data as a Barchart</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>0</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>7</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I found it easy to modify the visualisations</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>3</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>4</Count></Answer>
+  </Data>
+  <Data>
+    <Question>In general I found the tool to be easy to use for visualisation activities</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>5</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I learned to use the tool quickly</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>1</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>6</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I would like to have received further instruction to be able to understand the procedure and perform the task</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>2</Count></Answer>
+    <Answer choice="Disagree"><Count>2</Count></Answer>
+    <Answer choice="Neutral"><Count>1</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>0</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I had to redo some parts to be able to understand the procedure</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>4</Count></Answer>
+    <Answer choice="Disagree"><Count>1</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>0</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I easily remember how to use the tool</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>1</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>4</Count></Answer>
+  </Data>
+  <Data>
+    <Question>It is likely that I use the tool for visualisation in my future projects</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>5</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I had fun using the tool</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>2</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>5</Count></Answer>
+  </Data>
+  <Data>
+    <Question>I would recommend it to a friend</Question>
+	<BasedOn>Number of Users</BasedOn>
+  <Categories>Likert Scale</Categories>
+    <Answer choice="StronglyDisagree"><Count>0</Count></Answer>
+    <Answer choice="Disagree"><Count>0</Count></Answer>
+    <Answer choice="Neutral"><Count>0</Count></Answer>
+    <Answer choice="Agree"><Count>1</Count></Answer>
+    <Answer choice="StronglyAgree"><Count>6</Count></Answer>
+  </Data>
+</Root>

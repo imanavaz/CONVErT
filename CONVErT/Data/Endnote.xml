@@ -1,0 +1,237 @@
+<xml>
+  <records>
+    <record>
+      <database name="Endnote.enl" path="Endnote.enl">Endnote.enl</database>
+      <ref-type name="Conference Proceedings">3</ref-type>
+      <contributors>
+        <authors>
+          <author>Bossung, S.</author>
+          <author>Stoeckle, H.</author>
+          <author>Grundy, J.</author>
+          <author>Amor, R.</author>
+          <author>Hosking, J.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Automated data mapping specification via schema heuristics and user interaction</title>
+        <secondary-title>Proceedings. 19th International Conference on Automated Software Engineering, 2004.</secondary-title>
+      </titles>
+      <periodical>
+        <full-title>Proceedings. 19th International Conference on Automated Software Engineering, 2004.</full-title>
+      </periodical>
+      <pages>208-217</pages>
+      <issue>c</issue>
+      <keywords />
+      <dates>
+        <year>2004</year>
+      </dates>
+      <pub-location>Linz, Austria</pub-location>
+      <publisher>Published by the IEEE Computer Society</publisher>
+      <isbn>0-7695-2131-2</isbn>
+      <electronic-resource-num>10.1109/ASE.2004.1342738</electronic-resource-num>
+      <urls>
+        <pdf-urls>
+          <url>internal-pdf://SBossung 04 S G A H.pdf</url>
+        </pdf-urls>
+        <web-urls>
+          <url>http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1342738</url>
+          <url>http://www.computer.org/portal/web/csdl/doi/10.1109/ASE.2004.10035</url>
+        </web-urls>
+      </urls>
+      <label>example;mapping;transformation;xml;xslt</label>
+    </record>
+    <record>
+      <database name="Endnote.enl" path="Endnote.enl">Endnote.enl</database>
+      <ref-type name="Conference Proceedings">3</ref-type>
+      <contributors>
+        <authors>
+          <author>Lafi, Lamine</author>
+          <author>Hammoudi, Slimane</author>
+          <author>Feki, Jamel</author>
+        </authors>
+        <secondary-authors>
+          <author>Bellatreche, Ladje;</author>
+          <author>Mota Pinto, Filipe;</author>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Metamodel matching techniques in MDA: challenge, issues and comparison</title>
+        <secondary-title>Model and Data Engineering</secondary-title>
+      </titles>
+      <periodical>
+        <full-title>Model and Data Engineering</full-title>
+      </periodical>
+      <pages>278-286</pages>
+      <keywords>
+        <keyword>comparison and evaluation</keyword>
+        <keyword>metamodel matching</keyword>
+        <keyword>model transformation</keyword>
+        <keyword>semi-automatic</keyword>
+        <keyword>transformation process</keyword>
+      </keywords>
+      <dates>
+        <year>2011</year>
+      </dates>
+      <pub-location>Óbidos, Portugal</pub-location>
+      <publisher>Springer-Verlag Berlin / Heidelberg</publisher>
+      <urls>
+        <pdf-urls>
+          <url>internal-pdf://LLafi 11 H F.pdf</url>
+        </pdf-urls>
+        <web-urls>
+          <url>http://www.springerlink.com/index/Q83067U36686432T.pdf</url>
+        </web-urls>
+      </urls>
+    </record>
+    <record>
+      <database name="Endnote.enl" path="Endnote.enl">Endnote.enl</database>
+      <ref-type name="Journal Article">0</ref-type>
+      <contributors>
+        <authors>
+          <author>Li, Dan</author>
+          <author>Li, Xiaoshan</author>
+          <author>Stolz, Volker</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>QVT-based model transformation using XSLT</title>
+        <secondary-title>ACM SIGSOFT Software Engineering Notes</secondary-title>
+      </titles>
+      <periodical>
+        <full-title>ACM SIGSOFT Software Engineering Notes</full-title>
+      </periodical>
+      <pages>1-8</pages>
+      <volume>36</volume>
+      <issue>1</issue>
+      <keywords>
+        <keyword>graphical notation</keyword>
+        <keyword>model transformations</keyword>
+        <keyword>qvt relations</keyword>
+      </keywords>
+      <dates>
+        <year>2011</year>
+      </dates>
+      <electronic-resource-num>10.1145/1921532.1921563</electronic-resource-num>
+      <urls>
+        <pdf-urls>
+          <url>internal-pdf://DLi 11 L S.pdf</url>
+        </pdf-urls>
+        <web-urls>
+          <url>http://portal.acm.org/citation.cfm?doid=1921532.1921563</url>
+        </web-urls>
+      </urls>
+      <label>QVT;model to model;relations;transformation;xml representation of models;xslt</label>
+    </record>
+    <record>
+      <database name="Endnote.enl" path="Endnote.enl">Endnote.enl</database>
+      <ref-type name="Journal Article">0</ref-type>
+      <contributors>
+        <authors>
+          <author>Stoeckle, H</author>
+          <author>Grundy, J</author>
+          <author>Hosking, J</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>A framework for visual notation exchange</title>
+        <secondary-title>Journal of Visual Languages &amp; Computing</secondary-title>
+      </titles>
+      <periodical>
+        <full-title>Journal of Visual Languages &amp; Computing</full-title>
+      </periodical>
+      <pages>187-212</pages>
+      <volume>16</volume>
+      <issue>3</issue>
+      <keywords>
+        <keyword>notation converters</keyword>
+        <keyword>tool integration</keyword>
+        <keyword>visual language representation</keyword>
+        <keyword>visual notation exchange</keyword>
+      </keywords>
+      <dates>
+        <year>2005</year>
+      </dates>
+      <electronic-resource-num>10.1016/j.jvlc.2004.08.002</electronic-resource-num>
+      <urls>
+        <pdf-urls>
+          <url>internal-pdf://HStoeckle 05 G H.pdf</url>
+        </pdf-urls>
+        <web-urls>
+          <url>http://linkinghub.elsevier.com/retrieve/pii/S1045926X04000412</url>
+        </web-urls>
+      </urls>
+      <label>UNM</label>
+    </record>
+    <record>
+      <database name="Endnote.enl" path="Endnote.enl">Endnote.enl</database>
+      <ref-type name="Conference Proceedings">3</ref-type>
+      <contributors>
+        <authors>
+          <author>Varró, D.</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Model transformation by example</title>
+        <secondary-title>Model Driven Engineering Languages and Systems</secondary-title>
+      </titles>
+      <periodical>
+        <full-title>Model Driven Engineering Languages and Systems</full-title>
+      </periodical>
+      <pages>410-424</pages>
+      <keywords>
+        <keyword>model transformation</keyword>
+        <keyword>transformation rule derivation</keyword>
+      </keywords>
+      <dates>
+        <year>2006</year>
+      </dates>
+      <publisher>Springer</publisher>
+      <urls>
+        <pdf-urls>
+          <url>internal-pdf://DVarro 06.pdf</url>
+        </pdf-urls>
+        <web-urls>
+          <url>http://www.springerlink.com/index/a34jhvh4j01l7514.pdf</url>
+        </web-urls>
+      </urls>
+    </record>
+    <record>
+      <database name="Endnote.enl" path="Endnote.enl">Endnote.enl</database>
+      <ref-type name="Journal Article">0</ref-type>
+      <contributors>
+        <authors>
+          <author>Varró, Dániel</author>
+          <author>Balogh, Zoltán</author>
+        </authors>
+      </contributors>
+      <titles>
+        <title>Automating model transformation by example using inductive logic programming</title>
+        <secondary-title>Proceedings of the 2007 ACM symposium on Applied computing - SAC '07</secondary-title>
+      </titles>
+      <periodical>
+        <full-title>Proceedings of the 2007 ACM symposium on Applied computing - SAC '07</full-title>
+      </periodical>
+      <pages>978</pages>
+      <keywords>
+        <keyword>by-example synthesis</keyword>
+        <keyword>inductive logic</keyword>
+        <keyword>model transformation</keyword>
+      </keywords>
+      <dates>
+        <year>2007</year>
+      </dates>
+      <pub-location>New York, New York, USA</pub-location>
+      <publisher>ACM Press</publisher>
+      <isbn>1595934804</isbn>
+      <electronic-resource-num>10.1145/1244002.1244217</electronic-resource-num>
+      <urls>
+        <pdf-urls>
+          <url>internal-pdf://DVarro07.pdf</url>
+        </pdf-urls>
+        <web-urls>
+          <url>http://portal.acm.org/citation.cfm?doid=1244002.1244217</url>
+        </web-urls>
+      </urls>
+    </record>
+  </records>
+</xml>

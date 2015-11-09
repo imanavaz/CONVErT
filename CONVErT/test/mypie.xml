@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?><NPCData><ChartName>My Company Records</ChartName><Pieces>
+    <NPPData><Value>40</Value><Name>Europe</Name><Color>Black</Color></NPPData>
+    <NPPData><Value>50</Value><Name>Australia</Name><Color>Black</Color></NPPData>
+    <NPPData><Value>50</Value><Name>Asia</Name><Color>Black</Color></NPPData>
+    <NPPData><Value>90</Value><Name>America</Name><Color>Black</Color></NPPData>
+  </Pieces></NPCData>

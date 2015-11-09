@@ -1,0 +1,23 @@
+<!--DockPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <TextBlock DockPanel.Dock="Top" TextAlignment="Center" Background="White"> 
+        <TextBlock.Text>ChartName</TextBlock.Text>
+    </TextBlock>
+	<local:PieChart  Height="320" Width="300" >
+	</local:PieChart>
+</DockPanel>
+
+
+<DockPanel xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <TextBlock DockPanel.Dock="Top" TextAlignment="Center" Background="White"> 
+        <TextBlock.Text linkto="Name">ChartName</TextBlock.Text>
+    </TextBlock>
+	<local:PieChart  Height="320" Width="300" callfor="PiePieces">
+	</local:PieChart>
+</DockPanel>
+
+
+
+<PieChartData>
+<Name>ChartName</Name>
+<PiePieces>PiePices</PiePieces>
+</PieChartData-->

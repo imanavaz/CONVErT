@@ -1,0 +1,26 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Horizontal" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT"> 
+ <Label>
+  <Label.Content>FieldLabel</Label.Content>
+ </Label>
+ <Label Content=" : " />
+ <TextBox Background="White"  MinWidth="50">
+  <TextBox.Text>Text1</TextBox.Text>
+ </TextBox>
+</StackPanel>
+
+<!--FormFieldData>
+<FieldLabel>Label</FieldLabel>
+<FieldText>FieldText</FieldText>
+</FormFieldData>
+
+<StackPanel Orientation="Horizontal"> 
+ <Label>
+  <Label.Content linkto="FieldLabel">FieldLabel</Label.Content>
+ </Label>
+ <Label Content=" : " />
+ <TextBox Background="White"  MinWidth="50">
+  <TextBox.Text linkto="FieldText">Text1</TextBox.Text>
+ </TextBox>
+</StackPanel-->
+
+

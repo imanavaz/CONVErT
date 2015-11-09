@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CDiagram name="XYZ Airline">
+  <CDClass name="Flight">
+    <access>public</access>
+    <CDAttribute name="FlightNo">
+      <type>Int</type>
+      <access>public</access>
+    </CDAttribute>
+    <CDOperation name="delayFlight">
+      <access>public</access>
+      <returntype>Void</returntype>
+	  <CDOPParams>
+        <CDParameter name="delay">
+          <type>Minutes</type>
+        </CDParameter>
+      </CDOPParams>
+    </CDOperation>
+	<link label="Passengers">
+		<toClass>FrequentFlyer</toClass>
+		<Multiplicity>*</Multiplicity>
+	</link>
+  </CDClass>
+</CDiagram>

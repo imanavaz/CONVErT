@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CDiagram name="XYZ Airline">
+  <CDClass name="Flight">
+    <access>public</access>
+    <CDAttribute name="FlightNo">
+      <type>int</type>
+      <access>public</access>
+    </CDAttribute>
+	<CDAttribute name="DepartTime">
+      <type>date</type>
+      <access>public</access>
+    </CDAttribute>
+	<CDAttribute name="Duration">
+      <type>Minutes</type>
+      <access>public</access>
+    </CDAttribute>
+    <CDOperation name="delayFlight">
+      <access>public</access>
+      <returntype>void</returntype>
+	  <CDOPParams>
+        <CDParameter name="delay">
+          <type>minutes</type>
+        </CDParameter>
+      </CDOPParams>
+    </CDOperation>
+	<CDOperation name="getArrivalTime">
+      <access>public</access>
+      <returntype>time</returntype>
+	  <CDOPParams>
+      </CDOPParams>
+    </CDOperation>
+	<link label="Passengers">
+		<toClass>FrequentFlyer</toClass>
+		<Multiplicity>*</Multiplicity>
+	</link>
+	<link label="AssignedPlane">
+		<toClass>Plane</toClass>
+		<Multiplicity>1</Multiplicity>
+	</link>
+  </CDClass>
+  <CDClass name="Plane">
+    <access>public</access>
+    <CDAttribute name="planeType">
+      <type>string</type>
+      <access>public</access>
+    </CDAttribute>
+	<CDAttribute name="tailID">
+      <type>string</type>
+      <access>public</access>
+    </CDAttribute>
+  </CDClass>
+  <CDClass name="FrequentFlyer">
+    <access>public</access>
+    <CDAttribute name="firstName">
+      <type>string</type>
+      <access>public</access>
+    </CDAttribute>
+	<CDAttribute name="lastName">
+      <type>string</type>
+      <access>public</access>
+    </CDAttribute>
+	<CDAttribute name="No">
+      <type>int</type>
+      <access>public</access>
+    </CDAttribute>
+    <CDOperation name="getMileage">
+      <access>public</access>
+      <returntype>int</returntype>
+	  <CDOPParams>
+      </CDOPParams>
+    </CDOperation>
+  </CDClass>
+</CDiagram>

@@ -1,0 +1,60 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Horizontal" Background="White">
+  <Border BorderBrush="Black" BorderThickness="0,0,2,0">
+    <TextBlock Width="50" Margin="0,0,3,0" Height="20" TextAlignment="Right">
+      <TextBlock.Background>White</TextBlock.Background>
+      <TextBlock.Text>Name</TextBlock.Text>
+    </TextBlock>
+  </Border>
+  <Rectangle>
+    <Rectangle.Fill>Green</Rectangle.Fill>
+    <Rectangle.Width>50</Rectangle.Width>
+    <Rectangle.Height>15</Rectangle.Height>
+  </Rectangle>
+  <TextBlock Height="20" TextAlignment="Left">
+    <TextBlock.Background>White</TextBlock.Background>
+    <TextBlock.Text> 50</TextBlock.Text>
+  </TextBlock>
+</StackPanel>
+
+<!--HorizontalBar>
+<Value>50</Value>
+<Name>name</Name>
+<Colour>Yellow</Colour>
+</HorizontalBar-->
+
+<!--StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Horizontal" Background="White">
+  <Border BorderBrush="Black" BorderThickness="0,0,2,0">
+    <TextBlock Width="50" Margin="0,0,3,0" Height="20" TextAlignment="Right">
+      <TextBlock.Background>White</TextBlock.Background>
+      <TextBlock.Text linkto="Name">Name</TextBlock.Text>
+    </TextBlock>
+  </Border>
+  <Rectangle>
+    <Rectangle.Fill linkto="Colour">Green</Rectangle.Fill>
+    <Rectangle.Width linkto="Value">50</Rectangle.Width>
+    <Rectangle.Height>15</Rectangle.Height>
+  </Rectangle>
+  <TextBlock Height="20" TextAlignment="Left">
+    <TextBlock.Background>White</TextBlock.Background>
+    <TextBlock.Text> 50</TextBlock.Text>
+  </TextBlock>
+</StackPanel-->
+
+<!--OldOne-->
+<!--StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Horizontal" Background="White">
+<Border BorderBrush="Black" BorderThickness="0,0,2,0">
+<Label Width="50" Margin="0,0,3,0" Height="25" HorizontalContentAlignment="Right" VerticalContentAlignment="Center">
+    <Label.Background>White</Label.Background>
+    <Label.Content linkto="Name">Name</Label.Content>
+  </Label>
+  </Border>
+  <Rectangle>
+    <Rectangle.Fill linkto="Colour">Green</Rectangle.Fill>
+    <Rectangle.Width linkto="Value">50</Rectangle.Width>
+    <Rectangle.Height>15</Rectangle.Height>
+  </Rectangle>
+  <Label Height="25" HorizontalContentAlignment="Left">
+    <Label.Background>White</Label.Background>
+    <Label.Content linkto="Value"> 50</Label.Content>
+  </Label>
+</StackPanel-->

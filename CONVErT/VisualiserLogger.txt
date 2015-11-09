@@ -1,0 +1,963 @@
+
+*************** New logging session ***************
+23/05/2014 3:03:13 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+
+*************** New logging session ***************
+23/05/2014 5:34:59 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:37:13 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:38:59 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:39:31 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:41:49 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:42:50 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:44:40 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:47:31 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:51:20 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:53:29 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:55:21 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:57:05 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:57:51 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:58:23 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:59:05 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:59:26 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 5:59:53 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+
+*************** New logging session ***************
+23/05/2014 6:03:14 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+
+*************** New logging session ***************
+23/05/2014 6:36:01 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 6:38:13 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 6:54:43 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:04:18 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+23/05/2014 7:04:25 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:08:46 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 7:09:02 PM -> Model file "LGATripsMapChart" opened.
+
+*************** New logging session ***************
+23/05/2014 7:15:56 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:16:58 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:26:34 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:28:03 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:28:25 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:30:39 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:32:01 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:36:12 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 7:39:33 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:41:55 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:44:09 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 7:44:26 PM -> Model file "LGATripsMapChart" opened.
+
+*************** New logging session ***************
+23/05/2014 7:49:14 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:52:03 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:52:57 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:54:13 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:55:41 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 7:57:50 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 8:00:22 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 8:02:28 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:03:12 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 8:26:23 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:27:14 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:27:45 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:28:06 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:30:11 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:30:42 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:31:36 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+23/05/2014 8:32:06 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+23/05/2014 8:34:41 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+26/05/2014 10:37:29 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapTroopPoints.xml".
+
+*************** New logging session ***************
+28/05/2014 12:31:55 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+28/05/2014 12:32:14 PM -> Model file "LGATripsMapChart" opened.
+
+*************** New logging session ***************
+10/06/2014 4:33:15 PM -> Model file "TrafficData" opened.
+10/06/2014 4:33:26 PM -> Visual Element "NPCMap" droppped on Visualisation canvas.
+10/06/2014 4:33:33 PM -> Visual Element "3DBar" droppped on Visualisation canvas.
+10/06/2014 4:33:43 PM -> Visual Element "3DBar" droppped on Visualisation canvas.
+10/06/2014 4:33:45 PM -> Visual Element "Map3D" droppped on Visualisation canvas.
+10/06/2014 4:34:35 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\3DTest.xml".
+
+*************** New logging session ***************
+17/06/2014 3:43:45 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard2.xml".
+
+*************** New logging session ***************
+18/06/2014 11:21:22 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\3DTest.xml".
+
+*************** New logging session ***************
+26/06/2014 5:49:12 PM -> Model file "Data" opened.
+
+*************** New logging session ***************
+26/06/2014 5:55:12 PM -> Model file "Data" opened.
+26/06/2014 5:55:34 PM -> Model file "Data" opened.
+26/06/2014 5:57:18 PM -> Model file "Data" opened.
+
+*************** New logging session ***************
+9/07/2014 1:23:37 PM -> Model file "test" opened.
+9/07/2014 1:23:44 PM -> Visual Element "BarTest" droppped on Visualisation canvas.
+9/07/2014 1:23:59 PM -> "local:VisualElement/StackPanel" was dropped on "BarTest"
+
+*************** New logging session ***************
+10/07/2014 12:11:44 PM -> Model file "salesfile" opened.
+10/07/2014 12:11:50 PM -> Visual Element "TestBarchart" droppped on Visualisation canvas.
+10/07/2014 12:12:37 PM -> Model file "salesfile2" opened.
+10/07/2014 12:12:41 PM -> "Spreadsheet" was dropped on "TestBarchart"
+10/07/2014 12:12:46 PM -> "SpreadSheetName" was dropped on "TestBarchartData/Name" attribute of Visual Element "TestBarchart".
+10/07/2014 12:12:52 PM -> "ElementsPresented" was dropped on "TestBarchartData/ScaleName" attribute of Visual Element "TestBarchart".
+10/07/2014 12:13:04 PM -> Visual Element "TestBarchart" created.
+10/07/2014 12:14:03 PM -> Visual Element "TestBar" droppped on Visualisation canvas.
+10/07/2014 12:14:07 PM -> "Spreadsheet/sales" was dropped on "TestBar"
+10/07/2014 12:14:12 PM -> "@Region" was dropped on "TestBarData/BarName" attribute of Visual Element "TestBar".
+10/07/2014 12:14:19 PM -> Visual Finction droppped on Visualisation canvas.
+10/07/2014 12:14:33 PM -> Function element "args/outputs/output37" was dropped on "Value" of Visual Element "TestBar".
+10/07/2014 12:14:36 PM -> Visual Element "TestBar" created.
+10/07/2014 12:14:46 PM -> Visual Element "TestBarchart" droppped on Scheduling canvas.
+10/07/2014 12:14:48 PM -> Visual Element "TestBar" droppped on Scheduling canvas.
+10/07/2014 12:14:52 PM -> "TestBar" is set to be placed in "Bars" of Visual Element "TestBarchart".
+10/07/2014 12:14:57 PM -> "TestBarchart" is set to be placed in "Start" of Visual Element "/".
+10/07/2014 12:15:19 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforward.xsl" created.
+10/07/2014 12:15:19 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforwardR.xsl" created.
+10/07/2014 12:17:12 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforward.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\horbarchart.xml" is created.
+10/07/2014 12:17:12 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforwardR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\horbarchart.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfile2R.xml" is created.
+10/07/2014 12:17:12 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\horbarchart.xml".
+10/07/2014 12:18:36 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\horbarchart.xml".
+10/07/2014 12:25:34 PM -> Model file "test" opened.
+10/07/2014 12:27:18 PM -> Visual Element "TestBarchart" droppped on Visualisation canvas.
+10/07/2014 12:29:14 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml".
+
+*************** New logging session ***************
+10/07/2014 12:36:11 PM -> Model file "salesfile2" opened.
+10/07/2014 12:36:25 PM -> Visual Element "HHHBarchart" droppped on Visualisation canvas.
+10/07/2014 12:36:27 PM -> "Spreadsheet" was dropped on "HHHBarchart"
+10/07/2014 12:36:35 PM -> "SpreadSheetName" was dropped on "HHHBarchartData/ChartName" attribute of Visual Element "HHHBarchart".
+10/07/2014 12:36:39 PM -> "ElementsPresented" was dropped on "HHHBarchartData/ScaleName" attribute of Visual Element "HHHBarchart".
+10/07/2014 12:36:41 PM -> Visual Element "HHHBarchart" created.
+10/07/2014 12:36:50 PM -> Visual Element "HHHBarchart" droppped on Scheduling canvas.
+10/07/2014 12:36:52 PM -> "HHHBarchart" is set to be placed in "Start" of Visual Element "/".
+10/07/2014 12:36:55 PM -> Visual Element "TestBar" droppped on Scheduling canvas.
+10/07/2014 12:36:57 PM -> "TestBar" is set to be placed in "Bars" of Visual Element "HHHBarchart".
+10/07/2014 12:37:46 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforward.xsl" created.
+10/07/2014 12:37:46 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforwardR.xsl" created.
+10/07/2014 12:37:50 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforward.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml" is created.
+10/07/2014 12:37:50 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testforwardR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfile2R.xml" is created.
+10/07/2014 12:37:50 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml".
+10/07/2014 12:38:24 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml".
+10/07/2014 12:38:37 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml".
+10/07/2014 12:38:45 PM -> Model file "test" opened.
+
+*************** New logging session ***************
+10/07/2014 12:40:35 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml".
+
+*************** New logging session ***************
+28/07/2014 11:14:10 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard2.xml".
+
+*************** New logging session ***************
+28/07/2014 11:15:31 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+
+*************** New logging session ***************
+28/07/2014 11:16:53 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+28/07/2014 11:17:08 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+28/07/2014 11:17:18 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapTroopPoints.xml".
+28/07/2014 11:17:29 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsTest.xml".
+
+*************** New logging session ***************
+28/07/2014 11:18:25 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+28/07/2014 11:41:15 AM -> Model file "salesfile" opened.
+28/07/2014 11:41:20 AM -> Visual Element "HHHBarchart" droppped on Scheduling canvas.
+28/07/2014 11:41:25 AM -> "HHHBarchart" is set to be placed in "Start" of Visual Element "/".
+28/07/2014 11:41:29 AM -> Visual Element "TestBar" droppped on Scheduling canvas.
+28/07/2014 11:47:15 AM -> "TestBar" is set to be placed in "Bars" of Visual Element "HHHBarchart".
+
+*************** New logging session ***************
+4/08/2014 9:59:53 AM -> Model file "ClassDiagramExample" opened.
+4/08/2014 9:59:55 AM -> Visual Element "UMLClassDiagram" droppped on Visualisation canvas.
+4/08/2014 9:59:58 AM -> "CDiagram/CDClass" was dropped on "UMLClassDiagram"
+
+*************** New logging session ***************
+11/08/2014 10:35:39 AM -> Model file "salesfile" opened.
+11/08/2014 10:35:58 AM -> Visual Element "NewBarChart" droppped on Visualisation canvas.
+11/08/2014 10:36:00 AM -> "Spreadsheet" was dropped on "NewBarChart"
+11/08/2014 10:36:11 AM -> "name" was dropped on "ChartData/YAxisLabel" attribute of Visual Element "NewBarChart".
+11/08/2014 10:36:15 AM -> Visual Element "NewBarChart" created.
+11/08/2014 10:36:16 AM -> Visual Element "Bar" droppped on Visualisation canvas.
+11/08/2014 10:36:19 AM -> "Spreadsheet/sales" was dropped on "Bar"
+11/08/2014 10:36:35 AM -> "@Region" was dropped on "BarNode/Name" attribute of Visual Element "Bar".
+11/08/2014 10:36:37 AM -> Visual Element "Bar" created.
+11/08/2014 10:36:46 AM -> Visual Element "NewBarChart" droppped on Scheduling canvas.
+11/08/2014 10:36:48 AM -> "NewBarChart" is set to be placed in "Start" of Visual Element "/".
+11/08/2014 10:36:52 AM -> Visual Element "Bar" droppped on Scheduling canvas.
+11/08/2014 10:36:55 AM -> "Bar" is set to be placed in "Bars" of Visual Element "NewBarChart".
+11/08/2014 10:37:19 AM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\salesfiletovis.xsl" created.
+11/08/2014 10:37:19 AM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\salesfiletovisR.xsl" created.
+11/08/2014 10:37:34 AM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\salesfiletovis.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart.xml" is created.
+11/08/2014 10:37:34 AM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\salesfiletovisR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+11/08/2014 10:37:35 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart.xml".
+
+*************** New logging session ***************
+11/08/2014 10:39:05 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart.xml".
+
+*************** New logging session ***************
+11/08/2014 10:42:39 AM -> Model file "salesfile" opened.
+11/08/2014 10:42:46 AM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+11/08/2014 10:42:48 AM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+11/08/2014 10:42:52 AM -> "name" was dropped on "HorizontalBarchart/Name" attribute of Visual Element "HorizontalBarChart".
+11/08/2014 10:42:56 AM -> "name" was dropped on "HorizontalBarchart/ScaleName" attribute of Visual Element "HorizontalBarChart".
+11/08/2014 10:42:58 AM -> Visual Element "HorizontalBarChart" created.
+11/08/2014 10:43:02 AM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+11/08/2014 10:43:05 AM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+11/08/2014 10:43:13 AM -> Visual Element "HorizontalBar" created.
+11/08/2014 10:43:16 AM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+11/08/2014 10:43:18 AM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+11/08/2014 10:43:22 AM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+11/08/2014 10:43:25 AM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+11/08/2014 10:43:36 AM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchart.xsl" created.
+11/08/2014 10:43:36 AM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchartR.xsl" created.
+11/08/2014 10:43:51 AM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchart.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml" is created.
+11/08/2014 10:43:51 AM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchartR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+11/08/2014 10:43:51 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml".
+11/08/2014 10:44:11 AM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+11/08/2014 10:44:13 AM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+11/08/2014 10:44:24 AM -> Visual Element "HorizontalBar" created.
+11/08/2014 10:44:27 AM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+11/08/2014 10:44:30 AM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+11/08/2014 10:44:32 AM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+11/08/2014 10:44:36 AM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+11/08/2014 10:45:01 AM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchart.xsl" created.
+11/08/2014 10:45:01 AM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchartR.xsl" created.
+11/08/2014 10:45:21 AM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchart.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml" is created.
+11/08/2014 10:45:21 AM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testbarchartR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+11/08/2014 10:45:21 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml".
+
+*************** New logging session ***************
+11/08/2014 11:04:34 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\VisualEditor\bin\Debug\transResults.xml".
+
+*************** New logging session ***************
+22/08/2014 11:46:34 AM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\NICTAPieChart.xml".
+
+*************** New logging session ***************
+22/08/2014 12:21:17 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart.xml".
+22/08/2014 12:21:24 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Barchart.xml".
+22/08/2014 12:21:32 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\BuildingTree.xml".
+22/08/2014 12:24:03 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml".
+22/08/2014 12:24:09 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\NamedPieChart.xml".
+22/08/2014 12:24:17 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\ASEJavaVis.xml".
+22/08/2014 12:26:05 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml".
+22/08/2014 12:26:09 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\report.xml".
+22/08/2014 12:26:13 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart.xml".
+22/08/2014 12:26:42 PM -> Model file "BarChartNoColor" opened.
+22/08/2014 12:27:19 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\mytest\BarChartNoColor.xml".
+22/08/2014 12:27:37 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\mytest\chartNewE.xml".
+22/08/2014 12:28:10 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\mytest\BarChartNoColor.xml".
+22/08/2014 12:33:52 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CADVisualisation.xml".
+
+*************** New logging session ***************
+3/09/2014 4:25:45 PM -> Model file "LGATripsMapTroopPoints" opened.
+
+*************** New logging session ***************
+3/09/2014 4:29:07 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+3/09/2014 4:29:18 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+3/09/2014 4:29:24 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+3/09/2014 4:29:37 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapTroopPoints.xml".
+3/09/2014 4:29:43 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+
+*************** New logging session ***************
+4/09/2014 11:16:10 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard.xml".
+
+*************** New logging session ***************
+4/09/2014 11:17:45 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard.xml".
+
+*************** New logging session ***************
+22/09/2014 4:15:01 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:16:40 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:18:39 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:19:56 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:20:29 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:21:22 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:24:29 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:25:10 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+22/09/2014 4:25:33 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+22/09/2014 4:28:30 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+23/09/2014 11:01:16 AM -> Model file "Colors" opened.
+23/09/2014 11:01:21 AM -> Visual Element "CompetencyBar" droppped on Visualisation canvas.
+23/09/2014 11:01:36 AM -> Visual Element "CompetencyChart" droppped on Visualisation canvas.
+23/09/2014 11:02:02 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+24/09/2014 2:12:56 PM -> Model file "salesfile2" opened.
+24/09/2014 2:13:11 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+24/09/2014 2:13:19 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+24/09/2014 2:13:21 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+24/09/2014 2:13:25 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+24/09/2014 2:13:38 PM -> Visual Finction droppped on Visualisation canvas.
+24/09/2014 2:13:50 PM -> Visual Finction droppped on Visualisation canvas.
+24/09/2014 2:13:52 PM -> Visual Condition droppped on Visualisation canvas.
+
+*************** New logging session ***************
+29/09/2014 12:50:50 PM -> Model file "ASEJavaVis" opened.
+29/09/2014 12:52:18 PM -> Model file "ASEClassDiagramComplete" opened.
+
+*************** New logging session ***************
+2/10/2014 11:32:05 AM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml".
+2/10/2014 11:32:44 AM -> Model file "HorBarchart" opened.
+
+*************** New logging session ***************
+8/10/2014 4:58:36 PM -> Model file "vista_hts_data" opened.
+8/10/2014 4:58:39 PM -> Visual Element "LGAMap" droppped on Visualisation canvas.
+8/10/2014 4:58:42 PM -> "Root" was dropped on "LGAMap"
+8/10/2014 4:58:45 PM -> Visual Element "LGAMap" created.
+8/10/2014 4:58:49 PM -> Visual Element "NPP" droppped on Visualisation canvas.
+8/10/2014 4:58:51 PM -> "Root/Data/AreaCode" was dropped on "NPP"
+8/10/2014 4:58:53 PM -> Visual Element "NPP" created.
+8/10/2014 4:58:56 PM -> Visual Element "NPC" droppped on Visualisation canvas.
+8/10/2014 4:59:00 PM -> "Root/Data/Area" was dropped on "NPC"
+8/10/2014 4:59:02 PM -> Visual Element "NPC" created.
+8/10/2014 4:59:12 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 4:59:16 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 4:59:24 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 4:59:29 PM -> "LGAMap" is set to be placed in "Start" of Visual Element "/".
+8/10/2014 4:59:45 PM -> Visual Element "NPC" droppped on Scheduling canvas.
+8/10/2014 4:59:49 PM -> "NPC" is set to be placed in "Movements" of Visual Element "LGAMap".
+8/10/2014 4:59:54 PM -> Visual Element "NPP" droppped on Scheduling canvas.
+8/10/2014 5:00:02 PM -> Visual Element "NPP" droppped on Scheduling canvas.
+8/10/2014 5:00:05 PM -> Visual Element "NPP" droppped on Scheduling canvas.
+8/10/2014 5:00:09 PM -> "NPP" is set to be placed in "Pieces" of Visual Element "NPC".
+8/10/2014 5:01:26 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 5:01:29 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+
+*************** New logging session ***************
+8/10/2014 5:01:57 PM -> Model file "vista_hts_data" opened.
+8/10/2014 5:02:05 PM -> Visual Element "MapPoint" droppped on Visualisation canvas.
+8/10/2014 5:02:08 PM -> "Root/Data" was dropped on "MapPoint"
+8/10/2014 5:02:10 PM -> Visual Element "MapPoint" created.
+8/10/2014 5:02:14 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 5:02:22 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 5:02:26 PM -> "LGAMap" is set to be placed in "Start" of Visual Element "/".
+8/10/2014 5:02:44 PM -> Visual Element "MapPoint" droppped on Scheduling canvas.
+8/10/2014 5:02:52 PM -> "MapPoint" is set to be placed in "Movements" of Visual Element "LGAMap".
+8/10/2014 5:03:03 PM -> "MapPoint" is set to be placed in "Movements" of Visual Element "LGAMap".
+8/10/2014 5:03:12 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 5:03:21 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+8/10/2014 5:03:25 PM -> "LGAMap" is set to be placed in "Start" of Visual Element "/".
+8/10/2014 5:03:29 PM -> Visual Element "MapPoint" droppped on Scheduling canvas.
+8/10/2014 5:03:34 PM -> "MapPoint" is set to be placed in "Movements" of Visual Element "LGAMap".
+8/10/2014 5:03:53 PM -> Visual Element "MapPoint" droppped on Scheduling canvas.
+8/10/2014 5:04:01 PM -> "MapPoint" is set to be placed in "Movements" of Visual Element "LGAMap".
+
+*************** New logging session ***************
+9/10/2014 9:47:39 AM -> Model file "vista_hts_data" opened.
+9/10/2014 9:47:51 AM -> Visual Element "LGAMap" droppped on Visualisation canvas.
+9/10/2014 9:50:55 AM -> Model file "lga_2007_2011" opened.
+9/10/2014 9:54:24 AM -> Model file "test_for_convert" opened.
+9/10/2014 9:56:05 AM -> Visual Element "NPP" droppped on Visualisation canvas.
+9/10/2014 9:56:56 AM -> Visual Element "NPC" droppped on Visualisation canvas.
+9/10/2014 9:57:58 AM -> Visual Element "MapPoint" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+17/10/2014 10:01:49 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+17/10/2014 10:02:12 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+17/10/2014 10:04:41 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+24/10/2014 10:35:39 AM -> Model file "test" opened.
+24/10/2014 10:35:46 AM -> Visual Element "MapChart" droppped on Visualisation canvas.
+24/10/2014 10:35:53 AM -> Visual Element "LGAMap" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+28/10/2014 2:15:26 PM -> Tried rendering "C:\Users\iavazpour\Desktop\Text.xml".
+28/10/2014 3:02:59 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CompetencyVis.xml".
+
+*************** New logging session ***************
+7/11/2014 10:02:13 AM -> Model file "salesfile2" opened.
+7/11/2014 10:02:26 AM -> Model file "salesfile" opened.
+7/11/2014 12:14:12 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+7/11/2014 12:16:49 PM -> Model file "salesfile" opened.
+7/11/2014 12:17:22 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+7/11/2014 12:17:42 PM -> Model file "salesfile" opened.
+7/11/2014 12:17:45 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+7/11/2014 1:36:56 PM -> Model file "salesfile" opened.
+7/11/2014 1:37:00 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+7/11/2014 1:37:03 PM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+7/11/2014 1:37:05 PM -> Visual Element "HorizontalBarChart" created.
+7/11/2014 1:37:07 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+7/11/2014 1:37:10 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+7/11/2014 1:37:12 PM -> Visual Element "HorizontalBar" created.
+7/11/2014 1:37:17 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+7/11/2014 1:37:22 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+7/11/2014 1:37:33 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+7/11/2014 1:37:37 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+7/11/2014 1:37:40 PM -> "HorizontalBar" is set to be placed in "Bars" of Visual Element "HorizontalBarChart".
+7/11/2014 1:37:43 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+7/11/2014 1:38:57 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+7/11/2014 1:39:07 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+7/11/2014 1:39:11 PM -> "HorizontalBar" is set to be placed in "Bars" of Visual Element "HorizontalBarChart".
+7/11/2014 1:39:13 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+7/11/2014 4:36:47 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard.xml".
+7/11/2014 4:52:03 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapTroopPoints.xml".
+7/11/2014 4:56:04 PM -> Model file "TrafficData" opened.
+
+*************** New logging session ***************
+10/11/2014 12:12:16 PM -> Model file "TrafficData" opened.
+10/11/2014 1:29:05 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMap.xml".
+10/11/2014 1:29:13 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapTroopPoints.xml".
+10/11/2014 1:35:35 PM -> Model file "TrafficSurvey" opened.
+10/11/2014 1:36:05 PM -> Model file "Colors" opened.
+10/11/2014 1:36:10 PM -> Visual Element "troopsMovement" droppped on Visualisation canvas.
+10/11/2014 1:36:29 PM -> "SurveyData/Record" was dropped on "troopsMovement"
+10/11/2014 1:36:35 PM -> Visual Condition droppped on Visualisation canvas.
+10/11/2014 1:36:38 PM -> Visual Condition droppped on Visualisation canvas.
+10/11/2014 1:36:53 PM -> Visual Condition droppped on Visualisation canvas.
+10/11/2014 1:38:26 PM -> Visual Condition droppped on Visualisation canvas.
+10/11/2014 2:07:57 PM -> Visual Element "troopsMovement" droppped on Visualisation canvas.
+10/11/2014 2:08:02 PM -> "SurveyData/Record" was dropped on "troopsMovement"
+10/11/2014 2:08:09 PM -> Visual Element "troopsMovement" created.
+10/11/2014 2:08:13 PM -> Visual Element "LGAMap" droppped on Visualisation canvas.
+10/11/2014 2:08:20 PM -> "SurveyData" was dropped on "LGAMap"
+10/11/2014 2:08:27 PM -> Visual Element "LGAMap" created.
+10/11/2014 2:08:36 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+10/11/2014 2:08:41 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+10/11/2014 2:08:45 PM -> Visual Element "troopsMovement" droppped on Scheduling canvas.
+10/11/2014 2:08:52 PM -> "troopsMovement" is set to be placed in "Trips" of Visual Element "LGAMap".
+10/11/2014 2:08:56 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+10/11/2014 2:09:07 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+10/11/2014 2:09:14 PM -> Visual Element "LGAMap" droppped on Scheduling canvas.
+10/11/2014 2:09:19 PM -> "LGAMap" is set to be placed in "Start" of Visual Element "/".
+10/11/2014 2:09:30 PM -> Visual Element "troopsMovement" droppped on Scheduling canvas.
+10/11/2014 2:09:33 PM -> "troopsMovement" is set to be placed in "Trips" of Visual Element "LGAMap".
+10/11/2014 2:10:05 PM -> Visual Element "Minard2" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+18/11/2014 10:12:39 AM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+20/11/2014 3:49:55 PM -> Model file "salesfile" opened.
+20/11/2014 3:58:46 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+20/11/2014 3:58:49 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+20/11/2014 3:58:56 PM -> Visual Element "HorizontalBar" created.
+20/11/2014 3:59:11 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+20/11/2014 3:59:14 PM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+20/11/2014 3:59:17 PM -> "name" was dropped on "HorizontalBarchart/Name" attribute of Visual Element "HorizontalBarChart".
+20/11/2014 3:59:19 PM -> Visual Element "HorizontalBarChart" created.
+20/11/2014 3:59:23 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+20/11/2014 3:59:26 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+20/11/2014 3:59:34 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+20/11/2014 3:59:36 PM -> "HorizontalBar" is set to be placed in "Bars" of Visual Element "HorizontalBarChart".
+20/11/2014 4:00:18 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\test.xsl" created.
+20/11/2014 4:00:18 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\testR.xsl" created.
+20/11/2014 4:00:22 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\test.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\r2.xml" is created.
+20/11/2014 4:00:22 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\working\testR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\r2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\salesfileR.xml" is created.
+20/11/2014 4:00:22 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\r2.xml".
+20/11/2014 4:01:13 PM -> Visual Element "CADMap" droppped on Visualisation canvas.
+20/11/2014 4:01:16 PM -> Visual Element "UMLClass" droppped on Visualisation canvas.
+20/11/2014 4:01:21 PM -> Visual Element "TestHBar" droppped on Visualisation canvas.
+20/11/2014 4:01:24 PM -> Visual Element "NewJavaMethod" droppped on Visualisation canvas.
+20/11/2014 4:03:38 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\Minard.xml".
+20/11/2014 4:04:23 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapTroopPoints.xml".
+20/11/2014 4:06:46 PM -> Visual Element "troopsMovement" droppped on Visualisation canvas.
+20/11/2014 4:10:17 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\LGATripsMapChart.xml".
+
+*************** New logging session ***************
+1/12/2014 12:28:08 PM -> Model file "svgbarchart" opened.
+
+*************** New logging session ***************
+1/12/2014 2:01:13 PM -> Model file "svgbarchart" opened.
+
+*************** New logging session ***************
+1/12/2014 3:17:36 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\NICTAPieChart.xml".
+1/12/2014 3:17:42 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\NICTAPieChart.xml".
+1/12/2014 3:17:50 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\report.xml".
+1/12/2014 3:17:57 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\report.xml".
+
+*************** New logging session ***************
+1/12/2014 4:21:01 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\report.xml".
+
+*************** New logging session ***************
+1/12/2014 4:21:52 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\ASEClassDiagramComplete.xml".
+1/12/2014 4:21:59 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\hbarchart.xml".
+1/12/2014 4:22:16 PM -> Render visualisation error -> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1025
+
+*************** New logging session ***************
+1/12/2014 4:38:23 PM -> Render visualisation error -> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1025
+
+*************** New logging session ***************
+1/12/2014 4:40:53 PM -> Render visualisation error -> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1024
+
+*************** New logging session ***************
+1/12/2014 4:45:24 PM -> Render visualisation error -> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1024
+
+*************** New logging session ***************
+1/12/2014 4:48:29 PM -> Render visualisation error -> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1024
+1/12/2014 4:48:42 PM -> Render visualisation error -> System.NullReferenceException: Object reference not set to an instance of an object.
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1024
+
+*************** New logging session ***************
+1/12/2014 5:00:28 PM -> Render visualisation error -> System.ArgumentException: Relative URIs are not allowed.
+Parameter name: source
+   at System.Windows.Controls.WebBrowser.DoNavigate(Uri source, Object& targetFrameName, Object& postData, Object& headers, Boolean ignoreEscaping)
+   at System.Windows.Controls.WebBrowser.Navigate(Uri source)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1031
+1/12/2014 5:00:52 PM -> Render visualisation error -> System.ArgumentException: Relative URIs are not allowed.
+Parameter name: source
+   at System.Windows.Controls.WebBrowser.DoNavigate(Uri source, Object& targetFrameName, Object& postData, Object& headers, Boolean ignoreEscaping)
+   at System.Windows.Controls.WebBrowser.Navigate(Uri source)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1031
+
+*************** New logging session ***************
+1/12/2014 5:03:19 PM -> Render visualisation error -> System.ArgumentException: Relative URIs are not allowed.
+Parameter name: source
+   at System.Windows.Controls.WebBrowser.DoNavigate(Uri source, Object& targetFrameName, Object& postData, Object& headers, Boolean ignoreEscaping)
+   at System.Windows.Controls.WebBrowser.Navigate(Uri source)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1032
+
+*************** New logging session ***************
+1/12/2014 5:08:48 PM -> Render visualisation error -> System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1032
+
+*************** New logging session ***************
+1/12/2014 5:10:48 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\svgbarchart.xml".
+
+*************** New logging session ***************
+5/12/2014 3:42:57 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\svgbarchart.xml".
+
+*************** New logging session ***************
+5/12/2014 3:46:27 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\svgbarchart.xml".
+
+*************** New logging session ***************
+5/12/2014 4:04:29 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\svgbarchart.xml".
+
+*************** New logging session ***************
+5/12/2014 4:36:56 PM -> Model file "salesfileR" opened.
+5/12/2014 4:37:16 PM -> Model file "salesfile" opened.
+5/12/2014 4:37:22 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+5/12/2014 4:37:24 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+5/12/2014 4:37:33 PM -> Visual Element "HorizontalBar" created.
+5/12/2014 4:37:35 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+5/12/2014 4:37:38 PM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+5/12/2014 4:37:45 PM -> Visual Element "HorizontalBarChart" created.
+5/12/2014 4:37:50 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+5/12/2014 4:37:52 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+5/12/2014 4:37:56 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+5/12/2014 4:38:00 PM -> "HorizontalBar" is set to be placed in "Bars" of Visual Element "HorizontalBarChart".
+5/12/2014 4:38:27 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forward.xsl" created.
+5/12/2014 4:38:27 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forwardR.xsl" created.
+5/12/2014 4:38:32 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forward.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml" is created.
+5/12/2014 4:38:32 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forwardR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+5/12/2014 4:38:32 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml".
+5/12/2014 4:43:50 PM -> Render visualisation error -> System.ArgumentNullException: Value cannot be null.
+Parameter name: Children of 'System.Windows.Controls.UIElementCollection' cannot be null. Object derived from UIElement expected.
+   at System.Windows.Controls.UIElementCollection.ValidateElement(UIElement element)
+   at System.Windows.Controls.UIElementCollection.AddInternal(UIElement element)
+   at System.Windows.Controls.UIElementCollection.Add(UIElement element)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1014
+5/12/2014 4:44:12 PM -> Render visualisation error -> System.ArgumentNullException: Value cannot be null.
+Parameter name: Children of 'System.Windows.Controls.UIElementCollection' cannot be null. Object derived from UIElement expected.
+   at System.Windows.Controls.UIElementCollection.ValidateElement(UIElement element)
+   at System.Windows.Controls.UIElementCollection.AddInternal(UIElement element)
+   at System.Windows.Controls.UIElementCollection.Add(UIElement element)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1014
+5/12/2014 4:47:24 PM -> Render visualisation error -> System.ArgumentNullException: Value cannot be null.
+Parameter name: Children of 'System.Windows.Controls.UIElementCollection' cannot be null. Object derived from UIElement expected.
+   at System.Windows.Controls.UIElementCollection.ValidateElement(UIElement element)
+   at System.Windows.Controls.UIElementCollection.AddInternal(UIElement element)
+   at System.Windows.Controls.UIElementCollection.Add(UIElement element)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1014
+5/12/2014 4:47:37 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\JavaVis.xml".
+5/12/2014 4:47:44 PM -> Render visualisation error -> System.ArgumentNullException: Value cannot be null.
+Parameter name: Children of 'System.Windows.Controls.UIElementCollection' cannot be null. Object derived from UIElement expected.
+   at System.Windows.Controls.UIElementCollection.ValidateElement(UIElement element)
+   at System.Windows.Controls.UIElementCollection.AddInternal(UIElement element)
+   at System.Windows.Controls.UIElementCollection.Add(UIElement element)
+   at CONVErT.Visualiser.renderVisualisation(String visualisationFile) in c:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Visualiser.xaml.cs:line 1014
+5/12/2014 4:47:47 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml".
+
+*************** New logging session ***************
+5/12/2014 4:48:33 PM -> Model file "salesfile" opened.
+5/12/2014 4:48:38 PM -> Visual Element "NewBarChart" droppped on Visualisation canvas.
+5/12/2014 4:48:40 PM -> "Spreadsheet" was dropped on "NewBarChart"
+5/12/2014 4:48:44 PM -> "name" was dropped on "ChartData/Name" attribute of Visual Element "NewBarChart".
+5/12/2014 4:48:46 PM -> Visual Element "NewBarChart" created.
+5/12/2014 4:48:49 PM -> Visual Element "Bar" droppped on Visualisation canvas.
+5/12/2014 4:48:52 PM -> "Spreadsheet/sales" was dropped on "Bar"
+5/12/2014 4:49:02 PM -> "@Region" was dropped on "BarNode/Name" attribute of Visual Element "Bar".
+5/12/2014 4:49:06 PM -> Visual Element "Bar" created.
+5/12/2014 4:49:10 PM -> Visual Element "NewBarChart" droppped on Scheduling canvas.
+5/12/2014 4:49:12 PM -> Visual Element "Bar" droppped on Scheduling canvas.
+5/12/2014 4:49:16 PM -> "NewBarChart" is set to be placed in "Start" of Visual Element "/".
+5/12/2014 4:49:20 PM -> "Bar" is set to be placed in "Bars" of Visual Element "NewBarChart".
+5/12/2014 4:49:22 PM -> Tried saving visual element that is not existing!
+5/12/2014 4:49:42 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forward.xsl" created.
+5/12/2014 4:49:42 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forwardR.xsl" created.
+5/12/2014 4:49:46 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forward.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test2.xml" is created.
+5/12/2014 4:49:46 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\forwardR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+5/12/2014 4:49:46 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test2.xml".
+5/12/2014 4:50:22 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml".
+5/12/2014 4:50:53 PM -> Model file "test2" opened.
+5/12/2014 4:51:06 PM -> Model file "test" opened.
+5/12/2014 4:54:38 PM -> Model file "ttttt" opened.
+
+*************** New logging session ***************
+16/12/2014 1:46:58 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\NamedPieChart.xml".
+16/12/2014 1:47:05 PM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\result.xml".
+16/12/2014 1:47:17 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\result.xml".
+16/12/2014 1:47:25 PM -> Tried rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\CADVisualisation.xml".
+
+*************** New logging session ***************
+16/12/2014 2:28:17 PM -> Model file "resultR" opened.
+16/12/2014 2:28:21 PM -> Visual Element "CADMap" droppped on Visualisation canvas.
+16/12/2014 2:28:24 PM -> Visual Element "UMLClassDiagram" droppped on Visualisation canvas.
+16/12/2014 2:28:26 PM -> Visual Element "UMLAssociation" droppped on Visualisation canvas.
+16/12/2014 2:28:28 PM -> Visual Element "BuildingTree" droppped on Visualisation canvas.
+16/12/2014 2:28:31 PM -> Visual Element "ClassDeclaration" droppped on Visualisation canvas.
+16/12/2014 2:28:33 PM -> Visual Element "JavaSource" droppped on Visualisation canvas.
+16/12/2014 2:28:35 PM -> Visual Element "UMLClass" droppped on Visualisation canvas.
+16/12/2014 2:28:37 PM -> Visual Element "CADMap" droppped on Visualisation canvas.
+16/12/2014 2:28:39 PM -> Visual Element "Minard2" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+18/12/2014 10:48:53 AM -> Model file "salesfile" opened.
+18/12/2014 10:49:01 AM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+18/12/2014 10:49:03 AM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+18/12/2014 10:49:08 AM -> "name" was dropped on "HorizontalBarchart/Name" attribute of Visual Element "HorizontalBarChart".
+18/12/2014 10:49:13 AM -> Visual Element "HorizontalBarChart" created.
+18/12/2014 10:49:15 AM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+18/12/2014 10:49:18 AM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+18/12/2014 10:49:23 AM -> "@Region" was dropped on "HorizontalBar/BName" attribute of Visual Element "HorizontalBar".
+18/12/2014 10:49:26 AM -> "Amount" was dropped on "HorizontalBar/Value" attribute of Visual Element "HorizontalBar".
+18/12/2014 10:49:28 AM -> Visual Element "HorizontalBar" created.
+18/12/2014 10:49:34 AM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+18/12/2014 10:49:38 AM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+18/12/2014 10:49:42 AM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+18/12/2014 10:49:44 AM -> "HorizontalBar" is set to be placed in "Bars" of Visual Element "HorizontalBarChart".
+18/12/2014 10:50:06 AM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transform.xsl" created.
+18/12/2014 10:50:06 AM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transformR.xsl" created.
+18/12/2014 10:50:11 AM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transform.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml" is created.
+18/12/2014 10:50:11 AM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transformR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+18/12/2014 10:50:11 AM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml".
+18/12/2014 10:50:23 AM -> Model file "target" opened.
+18/12/2014 10:50:37 AM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml" failed.
+18/12/2014 10:50:41 AM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml".
+18/12/2014 10:51:14 AM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml" failed.
+18/12/2014 10:51:20 AM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml".
+18/12/2014 10:53:54 AM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml" failed.
+
+*************** New logging session ***************
+18/12/2014 10:59:46 AM -> Model file "salesfile" opened.
+18/12/2014 10:59:51 AM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+18/12/2014 10:59:55 AM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+18/12/2014 11:00:01 AM -> "@Region" was dropped on "HorizontalBar/BName" attribute of Visual Element "HorizontalBar".
+18/12/2014 11:00:04 AM -> "Amount" was dropped on "HorizontalBar/Value" attribute of Visual Element "HorizontalBar".
+18/12/2014 11:00:07 AM -> Visual Element "HorizontalBar" created.
+18/12/2014 11:00:13 AM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+18/12/2014 11:00:17 AM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+18/12/2014 11:00:20 AM -> "name" was dropped on "HorizontalBarchart/Name" attribute of Visual Element "HorizontalBarChart".
+18/12/2014 11:00:30 AM -> Visual Element "HorizontalBarChart" created.
+18/12/2014 11:00:33 AM -> Visual Element "TestHBarchart2" droppped on Visualisation canvas.
+18/12/2014 11:00:41 AM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+18/12/2014 11:00:45 AM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+18/12/2014 11:00:49 AM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+18/12/2014 11:00:51 AM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+18/12/2014 11:01:03 AM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transform.xsl" created.
+18/12/2014 11:01:03 AM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transformR.xsl" created.
+18/12/2014 11:01:07 AM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transform.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml" is created.
+18/12/2014 11:01:07 AM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\transformR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+18/12/2014 11:01:08 AM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\target.xml".
+
+*************** New logging session ***************
+18/12/2014 11:05:35 AM -> Model file "salesfile" opened.
+18/12/2014 11:06:09 AM -> Model file "test" opened.
+
+*************** New logging session ***************
+18/12/2014 11:09:04 AM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml".
+18/12/2014 11:09:11 AM -> Tried rendering still visualisation "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\Working\HorBarchart.xml".
+
+*************** New logging session ***************
+18/12/2014 5:02:21 PM -> Model file "javatest" opened.
+18/12/2014 5:02:27 PM -> Visual Element "CompetencyBar" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+19/12/2014 11:18:57 AM -> Model file "ASEjavavis2" opened.
+19/12/2014 11:19:06 AM -> Model file "javatest" opened.
+
+*************** New logging session ***************
+19/12/2014 1:30:00 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\ASEClassDiagramComplete.xml".
+
+*************** New logging session ***************
+19/12/2014 1:46:42 PM -> Model file "LGATripsMapChart" opened.
+
+*************** New logging session ***************
+19/12/2014 1:48:28 PM -> Model file "hbarchart" opened.
+
+*************** New logging session ***************
+19/12/2014 1:58:25 PM -> Model file "cadInTree" opened.
+
+*************** New logging session ***************
+19/12/2014 1:59:56 PM -> Model file "javatest" opened.
+
+*************** New logging session ***************
+19/12/2014 2:03:18 PM -> Model file "ClassDiagram2" opened.
+19/12/2014 2:03:25 PM -> Model file "cadInTree" opened.
+19/12/2014 2:03:29 PM -> Model file "mypie" opened.
+
+*************** New logging session ***************
+19/12/2014 2:04:57 PM -> Model file "ASEjavavis2" opened.
+
+*************** New logging session ***************
+19/12/2014 2:06:15 PM -> Model file "ClassDiagram" opened.
+19/12/2014 2:06:23 PM -> Model file "barchart" opened.
+19/12/2014 2:06:26 PM -> Model file "javatest" opened.
+
+*************** New logging session ***************
+15/01/2015 10:19:12 AM -> Model file "salesfile2" opened.
+15/01/2015 10:19:36 AM -> Model file "salesfile" opened.
+15/01/2015 10:30:48 AM -> Model file "salesfile2" opened.
+15/01/2015 10:33:50 AM -> Model file "salesfile" opened.
+15/01/2015 10:34:05 AM -> Model file "salesfile" opened.
+15/01/2015 10:34:12 AM -> Model file "salesfile2" opened.
+15/01/2015 11:13:26 AM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+15/01/2015 11:38:28 AM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+15/01/2015 12:30:06 PM -> "SpreadSheetName" was dropped on "HorizontalBarchart/Name" attribute of Visual Element "HorizontalBarChart".
+15/01/2015 12:30:10 PM -> "Categories" was dropped on "HorizontalBarchart/ScaleName" attribute of Visual Element "HorizontalBarChart".
+15/01/2015 12:37:05 PM -> Visual Element "HorizontalBarChart" created.
+15/01/2015 12:43:55 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+15/01/2015 12:45:22 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+15/01/2015 1:23:09 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+15/01/2015 1:23:15 PM -> "@Region" was dropped on "HorizontalBar/BName" attribute of Visual Element "HorizontalBar".
+15/01/2015 1:23:25 PM -> Visual Finction droppped on Visualisation canvas.
+15/01/2015 1:23:39 PM -> Function element "args/outputs/output37" was dropped on "Value" of Visual Element "HorizontalBar".
+15/01/2015 1:32:46 PM -> Visual Condition droppped on Visualisation canvas.
+15/01/2015 1:43:50 PM -> Model file "Colors" opened.
+15/01/2015 1:44:32 PM -> Condition "" was dropped on "Colour" of Visual Element "HorizontalBar".
+15/01/2015 1:57:00 PM -> Visual Element "HorizontalBar" created.
+15/01/2015 1:57:34 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+15/01/2015 1:57:39 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+15/01/2015 1:57:45 PM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+15/01/2015 1:57:53 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+15/01/2015 1:57:58 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+15/01/2015 1:58:04 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+15/01/2015 1:58:09 PM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+15/01/2015 2:22:40 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testmanual.xsl" created.
+15/01/2015 2:22:40 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testmanualR.xsl" created.
+15/01/2015 2:22:45 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testmanual.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\manualvis.xml" is created.
+15/01/2015 2:22:45 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testmanualR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\manualvis.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfile2R.xml" is created.
+15/01/2015 2:22:46 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\manualvis.xml".
+
+*************** New logging session ***************
+15/01/2015 4:26:44 PM -> Model file "salesfile2" opened.
+15/01/2015 4:26:49 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+15/01/2015 4:26:56 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+15/01/2015 4:27:01 PM -> "@Region" was dropped on "HorizontalBar/BName" attribute of Visual Element "HorizontalBar".
+15/01/2015 4:27:09 PM -> Visual Finction droppped on Visualisation canvas.
+15/01/2015 4:27:16 PM -> Function element "args/outputs/output37" was dropped on "Value" of Visual Element "HorizontalBar".
+15/01/2015 4:27:19 PM -> Visual Element "HorizontalBar" created.
+15/01/2015 4:27:25 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+15/01/2015 4:27:30 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+15/01/2015 4:27:32 PM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+15/01/2015 4:27:36 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+15/01/2015 4:27:52 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\transformforward.xsl" created.
+15/01/2015 4:27:52 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\transformforwardR.xsl" created.
+15/01/2015 4:27:55 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\transformforward.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\target.xml" is created.
+15/01/2015 4:27:55 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\transformforwardR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\target.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile2R.xml" is created.
+15/01/2015 4:27:55 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\target.xml".
+
+*************** New logging session ***************
+16/01/2015 1:49:01 PM -> Model file "Minard" opened.
+16/01/2015 1:49:24 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml".
+16/01/2015 1:50:43 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\test.xml" failed.
+
+*************** New logging session ***************
+16/01/2015 1:56:29 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\results.xml".
+
+*************** New logging session ***************
+16/01/2015 1:57:33 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\results.xml".
+
+*************** New logging session ***************
+16/01/2015 1:58:32 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\results.xml".
+
+*************** New logging session ***************
+16/01/2015 2:05:21 PM -> Model file "results" opened.
+16/01/2015 2:05:23 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+16/01/2015 2:05:28 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+16/01/2015 3:15:09 PM -> "HorizontalBarchart/HBars" was dropped on "HorizontalBar"
+16/01/2015 3:15:19 PM -> Visual Finction droppped on Visualisation canvas.
+
+*************** New logging session ***************
+19/01/2015 3:24:31 PM -> Model file "ASEjavavis2" opened.
+
+*************** New logging session ***************
+20/01/2015 11:51:36 AM -> Model file "TransformationDef" opened.
+
+*************** New logging session ***************
+4/02/2015 2:08:59 PM -> Model file "ASEjavavis2" opened.
+4/02/2015 2:09:08 PM -> Visual Element "UMLClassDiagram" droppped on Visualisation canvas.
+4/02/2015 2:09:11 PM -> Visual Element "BuildingTree" droppped on Visualisation canvas.
+4/02/2015 2:09:15 PM -> Visual Element "troopsMovement" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+5/02/2015 4:03:16 PM -> Model file "TransformationDef" opened.
+
+*************** New logging session ***************
+5/02/2015 5:24:57 PM -> Model file "salesfile" opened.
+5/02/2015 5:25:07 PM -> Visual Element "NewBarChart" droppped on Visualisation canvas.
+5/02/2015 5:25:18 PM -> "Spreadsheet" was dropped on "NewBarChart"
+5/02/2015 5:25:25 PM -> "name" was dropped on "ChartData/Name" attribute of Visual Element "NewBarChart".
+5/02/2015 5:25:27 PM -> Visual Element "NewBarChart" created.
+5/02/2015 5:25:31 PM -> Visual Element "Bar" droppped on Visualisation canvas.
+5/02/2015 5:25:35 PM -> "Spreadsheet/sales" was dropped on "Bar"
+5/02/2015 5:25:41 PM -> "@Region" was dropped on "BarNode/Name" attribute of Visual Element "Bar".
+5/02/2015 5:25:44 PM -> "Amount" was dropped on "BarNode/Value" attribute of Visual Element "Bar".
+5/02/2015 5:25:47 PM -> Visual Element "Bar" created.
+5/02/2015 5:25:52 PM -> Visual Element "NewBarChart" droppped on Scheduling canvas.
+5/02/2015 5:25:55 PM -> Visual Element "Bar" droppped on Scheduling canvas.
+5/02/2015 5:26:00 PM -> "NewBarChart" is set to be placed in "Start" of Visual Element "/".
+5/02/2015 5:26:05 PM -> "Bar" is set to be placed in "Bars" of Visual Element "NewBarChart".
+5/02/2015 5:26:27 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\test.xsl" created.
+5/02/2015 5:26:27 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testR.xsl" created.
+5/02/2015 5:26:32 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\test.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart2.xml" is created.
+5/02/2015 5:26:32 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\test\testR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\salesfileR.xml" is created.
+5/02/2015 5:26:33 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\test\barchart2.xml".
+
+*************** New logging session ***************
+10/03/2015 5:00:33 PM -> Model file "salesfile2" opened.
+10/03/2015 5:00:36 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+10/03/2015 5:00:39 PM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+10/03/2015 5:02:12 PM -> Visual Finction droppped on Visualisation canvas.
+
+*************** New logging session ***************
+10/03/2015 5:03:15 PM -> Model file "salesfile2" opened.
+10/03/2015 5:03:18 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+10/03/2015 5:03:30 PM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+10/03/2015 5:03:41 PM -> Visual Finction droppped on Visualisation canvas.
+10/03/2015 5:08:50 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+10/03/2015 5:08:57 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+10/03/2015 5:09:12 PM -> Visual Finction droppped on Visualisation canvas.
+10/03/2015 5:09:21 PM -> Function element "args/outputs/output48" was dropped on "Value" of Visual Element "HorizontalBar".
+10/03/2015 5:09:52 PM -> Visual Condition droppped on Visualisation canvas.
+10/03/2015 5:10:59 PM -> Model file "Colors" opened.
+10/03/2015 5:11:44 PM -> Condition "" was dropped on "Colour" of Visual Element "HorizontalBar".
+10/03/2015 5:12:52 PM -> "@Region" was dropped on "HorizontalBar/BName" attribute of Visual Element "HorizontalBar".
+10/03/2015 5:12:59 PM -> Visual Element "HorizontalBar" created.
+10/03/2015 5:13:51 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+10/03/2015 5:13:54 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+10/03/2015 5:14:08 PM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+10/03/2015 5:14:26 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+10/03/2015 5:14:43 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\markus.xsl" created.
+10/03/2015 5:14:43 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\markusR.xsl" created.
+10/03/2015 5:15:07 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\markus.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile2.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\markustarget.xml" is created.
+10/03/2015 5:15:07 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\markusR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\markustarget.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile2R.xml" is created.
+10/03/2015 5:15:07 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\markustarget.xml".
+
+*************** New logging session ***************
+5/05/2015 4:28:40 PM -> Model file "ASEClassDiagramExample" opened.
+5/05/2015 4:29:06 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+29/06/2015 2:56:25 PM -> Model file "salesfile" opened.
+29/06/2015 2:56:33 PM -> Visual Element "HorizontalBar" droppped on Visualisation canvas.
+29/06/2015 2:56:38 PM -> "Spreadsheet/sales" was dropped on "HorizontalBar"
+29/06/2015 2:56:46 PM -> "Amount" was dropped on "HorizontalBar/Value" attribute of Visual Element "HorizontalBar".
+29/06/2015 2:56:51 PM -> "@Region" was dropped on "HorizontalBar/BName" attribute of Visual Element "HorizontalBar".
+29/06/2015 2:56:58 PM -> Visual Element "HorizontalBar" created.
+29/06/2015 2:57:10 PM -> Visual Element "HorizontalBarChart" droppped on Visualisation canvas.
+29/06/2015 2:57:12 PM -> "Spreadsheet" was dropped on "HorizontalBarChart"
+29/06/2015 2:57:16 PM -> "name" was dropped on "HorizontalBarchart/Name" attribute of Visual Element "HorizontalBarChart".
+29/06/2015 2:57:18 PM -> Visual Element "HorizontalBarChart" created.
+29/06/2015 2:57:23 PM -> Visual Element "HorizontalBarChart" droppped on Scheduling canvas.
+29/06/2015 2:57:26 PM -> "HorizontalBarChart" is set to be placed in "Start" of Visual Element "/".
+29/06/2015 2:57:29 PM -> Visual Element "HorizontalBar" droppped on Scheduling canvas.
+29/06/2015 2:57:32 PM -> "HorizontalBar" is set to be placed in "HBars" of Visual Element "HorizontalBarChart".
+29/06/2015 2:57:44 PM -> Transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testnicole.xsl" created.
+29/06/2015 2:57:44 PM -> Reverse transformation file "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testnicoleR.xsl" created.
+29/06/2015 2:57:49 PM -> Transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testnicole.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfile.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\testN.xml" is created.
+29/06/2015 2:57:49 PM -> Reverse transformation "c:\users\iavazpour\documents\svn_ia\convert\convert\data\testnicoleR.xsl" applied on "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\testN.xml" and output "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\salesfileR.xml" is created.
+29/06/2015 2:57:49 PM -> Rendering "C:\Users\iavazpour\Documents\SVN_IA\CONVErT\CONVErT\Data\testN.xml".
+
+*************** New logging session ***************
+13/07/2015 12:30:07 PM -> Model file "BuildingTreeData" opened.
+13/07/2015 12:30:10 PM -> Visual Element "CADRoom" droppped on Visualisation canvas.
+
+*************** New logging session ***************
+09-Nov-15 3:45:25 PM -> Model file "salesfile3" opened.
+09-Nov-15 3:45:29 PM -> Visual Element "Bar" droppped on Visualisation canvas.
+09-Nov-15 3:45:31 PM -> "Spreadsheet/SalesRecords/sales" was dropped on "Bar"

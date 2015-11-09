@@ -1,0 +1,36 @@
+<HorizontalBarchart>
+  <Name>My chart</Name>
+  <ScaleName>Series</ScaleName>
+  <HBars>
+  <HorizontalBar>
+      <Value>30</Value>
+      <Name>Bar1</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+		
+    <HorizontalBar>
+      <Value>20</Value>
+      <Name>Bar2</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+	
+	<!--HorizontalBar>
+      <Value>20</Value>
+      <Name>3</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+	
+	<HorizontalBar>
+      <Value>60</Value>
+      <Name>4</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar>
+	
+    <HorizontalBar>
+      <Value>50</Value>
+      <Name>5</Name>
+      <Colour>Red</Colour>
+    </HorizontalBar-->
+	
+  </HBars>
+</HorizontalBarchart>

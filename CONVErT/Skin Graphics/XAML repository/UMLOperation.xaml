@@ -1,0 +1,24 @@
+<local:UMLOperation Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<local:UMLOperation.OperationName>OperationName</local:UMLOperation.OperationName>
+	<local:UMLOperation.Access>public</local:UMLOperation.Access>
+ 	<local:UMLOperation.ReturnType>int</local:UMLOperation.ReturnType>
+</local:UMLOperation>
+
+
+<!--
+
+<UMLOperation>
+	<Name>name</Name>
+	<Access>public</Access>
+	<ReturnType>int</ReturnType>
+	<OPParameters>params</OPParameters>
+</UMLOperation>
+
+<local:UMLOperation Background="White"  xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<local:UMLOperation.OperationName linkto="Name">OperationName</local:UMLOperation.OperationName>
+	<local:UMLOperation.Access linkto="Access">public</local:UMLOperation.Access>
+ 	<local:UMLOperation.ReturnType linkto="ReturnType">int</local:UMLOperation.ReturnType>
+	<StackPanel Orientation="Horizontal" callfor="OPParameters" />
+</local:UMLOperation>
+
+-->

@@ -1,0 +1,50 @@
+<local:JavaField Background="White" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+<local:JavaField.FieldName>myfield</local:JavaField.FieldName>
+<local:JavaField.FieldAccess>private</local:JavaField.FieldAccess>
+<local:JavaField.FieldType>string</local:JavaField.FieldType>
+<local:JavaField.Multiplicity>*</local:JavaField.Multiplicity>
+</local:JavaField>
+
+
+
+<!--
+
+
+<Field>
+  <Access>public</Access>
+  <Name>field</Name>
+  <Type>int</Type>
+  <Multiplicity>1</Multiplicity>
+</Field>
+
+
+<local:JavaField Background="White">
+	<local:JavaField.FieldName linkto="Name" >myfield</local:JavaField.FieldName>
+	<local:JavaField.FieldAccess linkto="Access" >private</local:JavaField.FieldAccess>
+	<local:JavaField.FieldType linkto="Type" >string</local:JavaField.FieldType>
+	<local:JavaField.Multiplicity linkto="Multiplicity" >1</local:JavaField.Multiplicity>
+</local:JavaField>
+
+
+-->
+
+
+<!-- TEST
+<StackPanel Orientation="Horizontal" Background="White" xmlns:x="http://schemas.microsof.com/winfx/2006/xaml" xmlns:local="clr-namespace:CONVErT;assembly=CONVErT" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <Label Foreground="Navy">
+      <Label.Content>public</Label.Content>
+  </Label>
+  <Label Foreground="Navy">
+      <Label.Content>string</Label.Content>
+  </Label>
+  <Label Foreground="Navy">
+      <Label.Content>[]</Label.Content>
+      <Label.Visibility>Visible</Label.Visibility>
+  </Label>
+  <Label >
+      <Label.Content>FieldName</Label.Content>
+  </Label>
+  <Label Content=";"></Label>
+</StackPanel>
+-->
+
