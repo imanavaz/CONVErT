@@ -961,3 +961,6 @@ Parameter name: Children of 'System.Windows.Controls.UIElementCollection' cannot
 09-Nov-15 3:45:25 PM -> Model file "salesfile3" opened.
 09-Nov-15 3:45:29 PM -> Visual Element "Bar" droppped on Visualisation canvas.
 09-Nov-15 3:45:31 PM -> "Spreadsheet/SalesRecords/sales" was dropped on "Bar"
+
+*************** New logging session ***************
+09-Nov-15 8:26:32 PM -> Rendering "C:\Users\Iman\Source\Repos\CONVErT\CONVErT\test\Working\Barchart.xml".

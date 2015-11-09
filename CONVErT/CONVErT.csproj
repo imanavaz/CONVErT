@@ -79,26 +79,28 @@
   <ItemGroup>
     <Reference Include="GeneralMatrix, Version=1.0.4409.30135, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\GeneralMatrix.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\CONVErT\CONVErT\bin\Debug\GeneralMatrix.dll</HintPath>
     </Reference>
     <Reference Include="LumenWorks.Framework.IO, Version=3.8.0.0, Culture=neutral, PublicKeyToken=5ad3ea2f85776344, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\LumenWorks.Framework.IO.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\CONVErT\CONVErT\bin\Debug\LumenWorks.Framework.IO.dll</HintPath>
     </Reference>
     <Reference Include="MatrixLibrary, Version=1.0.4392.19572, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>bin\Debug\MatrixLibrary.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\CONVErT\CONVErT\bin\Debug\MatrixLibrary.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.Maps.MapControl.WPF">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Bing Maps WPF Control\V1\Libraries\Microsoft.Maps.MapControl.WPF.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Documents\CONVErT\CONVErT\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\..\Desktop\Bin\Net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\CONVErT\CONVErT\bin\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="QuickGraph">
-      <HintPath>bin\Debug\QuickGraph.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\CONVErT\CONVErT\bin\Debug\QuickGraph.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -111,15 +113,12 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="weka">
-      <HintPath>..\..\..\..\..\ikvm-7.0.4335.0\bin\weka.dll</HintPath>
-    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="XPathReader, Version=1.0.1584.27715, Culture=neutral">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Desktop\Evaluation\CONVErT ASE Evaluation\CONVErT\bin\Debug\XPathReader.dll</HintPath>
+      <HintPath>..\..\..\..\Documents\CONVErT\CONVErT\bin\Debug\XPathReader.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
